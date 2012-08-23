@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/text.css" />
         <link rel="stylesheet" href="css/960.css" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Didact+Gothic" />
         <link rel="stylesheet" href="css/styles.css" />
         <script src="js/scripts.js"></script> 
     </head>
@@ -26,15 +27,21 @@
                     <img src="test.jpg" alt="" />
                 </div> <!-- / banner -->
 
-                <div class="menu">
+            <!--[if lt IE 9]>
+                <div class="menu-ie">
+            <![endif]-->
+
+            <!--[if !IE]><!-->
+                <div class="menu">        
+            <!--<![endif]-->
                     <ul>
-                        <li><a href="#">Primotech 21</a></li>
-                        <li><a href="#">Fabricantes</a></li>
-                        <li><a href="#">Onde comprar</a></li>
-                        <li><a href="#">Aplicações</a></li>
-                        <li><a href="#">Primonews</a></li>
-                        <li><a href="#">Amostras</a></li>
-                        <li><a href="#">Fale conosco</a></li>
+                        <li class="primotech-21"><a href="#">Primotech 21</a></li>
+                        <li class="fabricantes"><a href="#">Fabricantes</a></li>
+                        <li class="onde-comprar"><a href="#">Onde comprar</a></li>
+                        <li class="aplicacoes"><a href="#">Aplicações</a></li>
+                        <li class="primonews"><a href="#">Primonews</a></li>
+                        <li class="amostras"><a href="#">Amostras</a></li>
+                        <li class="fale-conosco" style="margin-right:0;"><a href="#">Fale conosco</a></li>
                     </ul>
                 </div> <!-- / menu -->
 
@@ -66,7 +73,7 @@
 
             </div> <!-- / fabricantes-lateral --> 
 
-            <div id="conteudo-central" class="grid_6">
+            <div id="conteudo-central" class="grid_8">
 
                 <div id="banner-topo-central">
                     <img src="test.jpg" alt="" />
@@ -118,7 +125,7 @@
 
             </div> <!-- / conteudo-central -->
 
-            <div id="comunicacao-lateral" class="grid_4">
+            <div id="comunicacao-lateral" class="grid_2">
                 
                 <div class="ultimas-noticias">
                     
