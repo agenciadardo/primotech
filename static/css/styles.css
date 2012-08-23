@@ -19,7 +19,7 @@
     .menu li{
         background-color:transparent;
         text-align:center;
-        margin:0 15px 0 0;
+        margin:0 5px 0 0;
         padding:5px;
         height:90px;
     }
@@ -28,127 +28,119 @@
         background-color:rgb(0,153,153);
     }
 
+    .menu li:hover a{
+        color:rgb(255,255,255);
+        text-shadow:0 0 10px rgb(0,0,0);
+    }
+
+    .menu ul li a,
+    .menu-rodape ul li a{
+        text-decoration:none;
+    }
+
+    .menu a{
+        letter-spacing:1px;
+        line-height:155px;
+        color:rgb(133,133,131);
+        -webkit-transition: color .2s linear;
+        -moz-transition: color .2s linear;
+        -o-transition: color .2s linear;
+        transition: color .2s linear;
+        font-family:'Didact Gothic',sans-serif;
+        font-size:19px;
+        font-weight:normal;
+        color:rgb(133,133,131);
+    }
+
+    .menu a:hover{
+        color:rgb(255,255,255);
+    }
+
     /* sprite */
 
     .menu li.primotech-21{
-        background-image:url('../imagens/sprite-menu.png');
-        background-repeat:no-repeat;
+        background:url('../imagens/sprite-menu.png') no-repeat -1254px 10px;
         background-size:1348px 49px;
-        background-position:-1254px 10px;
     }
 
     .menu li.primotech-21:hover{
-        background-image:url('../imagens/sprite-menu.png'), url('../imagens/bg-menu-hover.jpg');
-        background-repeat:no-repeat, repeat-x;
+        background:
+            url('../imagens/sprite-menu.png') no-repeat -1148px 10px, 
+            url('../imagens/bg-menu-hover.jpg') repeat-x left top;
         background-size:1348px 49px, 1px 120px;
-        background-position:-1148px 10px, left top;
     }
 
     .menu li.fabricantes{
-        background-image:url('../imagens/sprite-menu.png');
-        background-repeat:no-repeat;
+        background:url('../imagens/sprite-menu.png') no-repeat -500px 10px;
         background-size:1348px 49px;
-        background-position:-500px 10px;
     }
 
     .menu li.fabricantes:hover{
-        background-image:url('../imagens/sprite-menu.png'), url('../imagens/bg-menu-hover.jpg');
-        background-repeat:no-repeat, repeat-x;
+        background:
+            url('../imagens/sprite-menu.png') no-repeat -400px 10px,
+            url('../imagens/bg-menu-hover.jpg') repeat-x left top;
         background-size:1348px 49px, 1px 120px;
-        background-position:-400px 10px, left top;
     }
 
     .menu li.onde-comprar{
-        background-image:url('../imagens/sprite-menu.png');
-        background-repeat:no-repeat;
+        background:url('../imagens/sprite-menu.png') no-repeat -858px 10px;
         background-size:1348px 49px;
-        background-position:-858px 10px;
     }
 
     .menu li.onde-comprar:hover{
-        background-image:url('../imagens/sprite-menu.png'), url('../imagens/bg-menu-hover.jpg');
-        background-repeat:no-repeat, repeat-x;
+        background:
+            url('../imagens/sprite-menu.png') no-repeat -758px 10px,
+            url('../imagens/bg-menu-hover.jpg') repeat-x left top;
         background-size:1348px 49px, 1px 120px;
-        background-position:-758px 10px, left top;
     }
 
     .menu li.aplicacoes{
-        background-image:url('../imagens/sprite-menu.png');
-        background-repeat:no-repeat;
+        background:url('../imagens/sprite-menu.png') no-repeat -301px 10px;
         background-size:1348px 49px;
-        background-position:-301px 10px;
     }
 
     .menu li.aplicacoes:hover{
-        background-image:url('../imagens/sprite-menu.png'), url('../imagens/bg-menu-hover.jpg');
-        background-repeat:no-repeat, repeat-x;
+        background:
+            url('../imagens/sprite-menu.png') no-repeat -194px 10px,
+            url('../imagens/bg-menu-hover.jpg') repeat-x left top;
         background-size:1348px 49px, 1px 120px;
-        background-position:-194px 10px, left top;
     }
 
     .menu li.primonews{
-        background-image:url('../imagens/sprite-menu.png');
-        background-repeat:no-repeat;
+        background:url('../imagens/sprite-menu.png') no-repeat -1057px 10px;
         background-size:1348px 49px;
-        background-position:-1254px 10px;
     }
 
     .menu li.primonews:hover{
-        background-image:url('../imagens/sprite-menu.png'), url('../imagens/bg-menu-hover.jpg');
-        background-repeat:no-repeat, repeat-x;
+        background:
+            url('../imagens/sprite-menu.png') no-repeat -966px 10px,
+            url('../imagens/bg-menu-hover.jpg') repeat-x left top;
         background-size:1348px 49px, 1px 120px;
-        background-position:-1148px 10px, left top;
     }
 
     .menu li.amostras{
-        background-image:url('../imagens/sprite-menu.png');
-        background-repeat:no-repeat;
+        background:url('../imagens/sprite-menu.png') no-repeat -90px 10px;
         background-size:1348px 49px;
-        background-position:-1254px 10px;
     }
 
     .menu li.amostras:hover{
-        background-image:url('../imagens/sprite-menu.png'), url('../imagens/bg-menu-hover.jpg');
-        background-repeat:no-repeat, repeat-x;
+        background:
+            url('../imagens/sprite-menu.png') no-repeat 18px 10px,
+            url('../imagens/bg-menu-hover.jpg') repeat-x left top;
         background-size:1348px 49px, 1px 120px;
-        background-position:-1148px 10px, left top;
     }
 
     .menu li.fale-conosco{
-        background-image:url('../imagens/sprite-menu.png');
-        background-repeat:no-repeat;
+        background:url('../imagens/sprite-menu.png') no-repeat -672px 10px;
         background-size:1348px 49px;
-        background-position:-1254px 10px;
     }
 
     .menu li.fale-conosco:hover{
-        background-image:url('../imagens/sprite-menu.png'), url('../imagens/bg-menu-hover.jpg');
-        background-repeat:no-repeat, repeat-x;
+        background:
+            url('../imagens/sprite-menu.png') no-repeat -587px 10px,
+            url('../imagens/bg-menu-hover.jpg') repeat-x left top;
         background-size:1348px 49px, 1px 120px;
-        background-position:-1148px 10px, left top;
     }
 
 
     /* / sprite*/
-
-        .menu ul li a,
-        .menu-rodape ul li a{
-            text-decoration:none;
-        }
-
-        .menu a{
-            line-height:155px;
-            color:rgb(133,133,131);
-            -webkit-transition: color .2s linear;
-            -moz-transition: color .2s linear;
-            -o-transition: color .2s linear;
-            transition: color .2s linear;
-            font-family:'Didact Gothic',sans-serif;
-            font-size:21px;
-            font-weight:500;
-            color:rgb(133,133,131);
-        }
-
-        .menu a:hover{
-            color:rgb(255,255,255);
-        }
