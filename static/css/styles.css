@@ -1,8 +1,10 @@
+
 .menu{
     text-align:center;
     background:rgb(255,255,255) url('../imagens/bg-menu-normal.jpg') repeat-x;
     background-size:1px 120px;
     height:100px;
+    margin-bottom:30px;
 }
 
 .menu ul,
@@ -142,5 +144,70 @@
         background-size:1348px 49px, 1px 120px;
     }
 
-
     /* / sprite*/
+
+    .header-coluna{
+        padding-left:20px;
+        background:rgb(0,153,153) url('../imagens/bg-header-coluna.jpg') no-repeat right bottom;
+    }
+
+    .header-coluna:hover h1{
+        color:rgb(222,222,220);
+    }
+
+        .header-coluna h1{
+            letter-spacing:1px;
+            display:inline;
+            font-size:20px;
+            color:rgb(255,255,255);
+            border-bottom:1px dotted rgb(255,255,255);
+        }
+
+
+.box-noticias{
+    width:220px;
+    height:160px;
+    overflow:hidden;    
+}
+
+    .avancar,
+    .voltar{
+        text-align:center;
+        width:220px;
+        background:white;
+        position:absolute;
+    }
+
+    .voltar{
+        top:320px;
+    }
+
+    .noticia{
+        border-bottom:1px dotted rgb(0,0,0);
+    }
+
+        .noticia p{
+            line-height:18px;
+            font-size:15px;
+            color:rgb(133,133,131);
+            margin:0;
+            padding:5px 5px 20px 5px;
+        }
+
+        .noticia:hover{
+            background:rgb(250,250,250);
+        }
+
+        .noticia p:hover{
+            color:rgb(100,100,100);
+        }
+
+        .noticia a{
+            font-weight:bold;
+            text-decoration:none;
+            color:rgb(57,43,105);
+        }
+
+        .noticia a:hover{
+            text-decoration:underline;
+        }

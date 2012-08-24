@@ -47,7 +47,7 @@
 
             </div> <!-- / header -->
 
-            <div id="fabricantes-lateral" class="grid_2">
+            <div id="fabricantes-lateral" class="grid_3">
                 
                 <div class="header-coluna">
                     <h1>Fabricantes</h1>
@@ -73,7 +73,7 @@
 
             </div> <!-- / fabricantes-lateral --> 
 
-            <div id="conteudo-central" class="grid_8">
+            <div id="conteudo-central" class="grid_6">
 
                 <div id="banner-topo-central">
                     <img src="test.jpg" alt="" />
@@ -125,7 +125,7 @@
 
             </div> <!-- / conteudo-central -->
 
-            <div id="comunicacao-lateral" class="grid_2">
+            <div id="comunicacao-lateral" class="grid_3">
                 
                 <div class="ultimas-noticias">
                     
@@ -134,8 +134,69 @@
                     </div>
 
                     <div class="box-noticias">
+                        <div class="noticia">
+                            <p>
+                                Representamos indústrias da mais alta 
+                                tecnologia em componentes...
+
+                                <span>
+                                    <a href="#">
+                                        1 Leia mais
+                                    </a>
+                                </span>
+
+                            </p>
+                        </div>
+
+                        <div class="noticia">
+                            <p>
+                                Um outro texto qualquer para representar a
+                                inserção de uma notícia...
+
+                                <span>
+                                    <a href="#">
+                                        2 Leia mais
+                                    </a>
+                                </span>
+
+                            </p>
+                        </div>
+
+                        <div class="noticia">
+                            <p>
+                                Um outro texto qualquer para representar a
+                                inserção de uma notícia...
+
+                                <span>
+                                    <a href="#">
+                                        3 Leia mais
+                                    </a>
+                                </span>
+
+                            </p>
+                        </div>
+
+                        <div class="noticia">
+                            <p>
+                                Um outro texto qualquer para representar a
+                                inserção de uma notícia...
+
+                                <span>
+                                    <a href="#">
+                                        4 Leia mais
+                                    </a>
+                                </span>
+
+                            </p>
+                        </div>
+
 
                     </div> <!-- / box-noticias -->
+                    
+                    <script type="text/javascript">
+                            Noticias.scroll();
+                    </script>
+
 
                 </div> <!-- / ultimas-noticias -->
 
