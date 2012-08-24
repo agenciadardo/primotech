@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="css/960.css" />
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Didact+Gothic" />
         <link rel="stylesheet" href="css/styles.css" />
+        <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+        <script src="http://malsup.github.com/jquery.cycle.all.js"></script>
         <script src="js/scripts.js"></script> 
     </head>
     <body>  
@@ -24,7 +26,9 @@
                 </div> <!-- / logotipo -->
 
                 <div class="banner">
-                    <img src="test.jpg" alt="" />
+                    <img src="imagens/banner-rotate.jpg" alt="" />
+                    <img src="imagens/banner-rotate2.jpg" alt="" />
+                    <img src="imagens/banner-topo.jpg" alt="" />
                 </div> <!-- / banner -->
 
             <!--[if lt IE 9]>
@@ -76,7 +80,7 @@
             <div id="conteudo-central" class="grid_6">
 
                 <div id="banner-central">
-                    <img src="test.jpg" alt="" />
+                    <img src="imagens/banner-topo.jpg" alt="" />
                 </div> <!-- / banner-topo-central -->
 
                 <div class="destaques">
@@ -178,7 +182,7 @@
                 </div> <!-- / destaques -->
 
                 <div id="banner-central" class="banner-inferior">
-                    <img src="test.jpg" alt="" />
+                    <img src="imagens/banner-inferior.jpg" alt="" />
                 </div> <!-- / banner-inferior-central -->
 
             </div> <!-- / conteudo-central -->

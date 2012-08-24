@@ -52,3 +52,9 @@ Noticias = {
         executarScroll();
     }
 };
+
+$(document).ready(function() {
+    $('.banner').cycle({
+        fx:'fade'
+    });
+});
