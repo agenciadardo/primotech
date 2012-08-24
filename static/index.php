@@ -17,7 +17,7 @@
 
         <div id="container" class="container_12">
             
-            <div id="header" class="grid_12">  
+            <div id="header" class="alpha grid_12">  
                 
                 <div class="logotipo">
 
@@ -75,7 +75,7 @@
 
             <div id="conteudo-central" class="grid_6">
 
-                <div id="banner-topo-central">
+                <div id="banner-central">
                     <img src="test.jpg" alt="" />
                 </div> <!-- / banner-topo-central -->
 
@@ -177,7 +177,7 @@
 
                 </div> <!-- / destaques -->
 
-                <div id="banner-inferior-central">
+                <div id="banner-central" class="banner-inferior">
                     <img src="test.jpg" alt="" />
                 </div> <!-- / banner-inferior-central -->
 
@@ -288,16 +288,15 @@
 
             </div> <!-- / comunicacao-lateral -->
 
-            <div id="rodape" class="grid_12">
+            <div id="rodape" class="alpha grid_12">
 
                 <div class="menu-rodape">
                     <ul>
                         <li><a href="#">Primotech 21</a></li>
-                        <li><a href="#">Fabricantes</a></li>
-                        <li><a href="#">Onde comprar</a></li>
-                        <li><a href="#">Aplicações</a></li>
-                        <li><a href="#">Primonews</a></li>
-                        <li><a href="#">Amostras</a></li>
+                        <li><a href="#">Componentes eletrônicos</a></li>
+                        <li><a href="#">Equipamentos</a></li>
+                        <li><a href="#">Logística</a></li>
+                        <li><a href="#">Projetos design</a></li>
                     </ul>             
                 </div> <!-- / menu-rodape -->
 
@@ -309,7 +308,7 @@
                 </div> <!-- / links-destacados -->
 
                 <div class="copyright">
-                    <p>Todos os direitos reservados a Primotech</p>
+                    <p>Todos os direitos reservados a Primotech21 &#8212; 2012</p>
                 </div>
 
             </div> <!-- / rodape -->
