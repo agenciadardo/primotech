@@ -147,7 +147,7 @@
     /* / sprite*/
 
     .header-coluna{
-        padding-left:20px;
+        padding:0 0 5px 20px;
         background:rgb(0,153,153) url('../imagens/bg-header-coluna.jpg') no-repeat right bottom;
     }
 
@@ -156,34 +156,104 @@
     }
 
         .header-coluna h1{
+            padding-bottom:3px;
             letter-spacing:1px;
             display:inline;
-            font-size:20px;
+            font-size:18px;
             color:rgb(255,255,255);
             border-bottom:1px dotted rgb(255,255,255);
         }
 
+    #banner-topo-central{
+        margin-bottom:30px;
+    }
+
+    #banner-topo-central img{
+        border:3px solid rgb(222,222,220);
+        width:460px;
+        height:150px; 
+    }
+
+    #fabricantes-lateral .header-coluna,
+    .destaques .header-coluna{
+        margin-bottom:30px;    
+    }
+
+    .box-central{
+        cursor:pointer;
+        margin:0 4px 10px 6px;
+        float:left;
+        width:220px;
+        height:200px;
+    }
+
+        .box-central img{
+            width:220px;
+            height:200px;
+        }
+
+        .descricao{
+            width:220px;
+            height:60px;
+            margin-top:-60px;
+            position:absolute;
+            background:rgb(0,100,100);
+            background:rgba(0,100,100,0.9);
+            opacity:0.9;
+            filter:alpha(opacity=90);
+            overflow:hidden;
+        }
+
+        .descricao:hover{
+            border-top:1px solid rgb(0,50,50);
+            height:100px;
+            margin-top:-101px;
+            background:rgba(0, 100,100,1);
+            opacity:1;
+            filter:alpha(opacity=100);
+        }
+
+            .descricao p,
+            .descricao a{
+                font-weight:900;
+                padding:5px;
+                line-height:16px;
+                font-size:15px;
+                text-align:center;
+                color:rgb(255,255,255);
+            }
+
+            .descricao-hide{
+                visibility:hidden;
+            }
+
+            .descricao:hover .descricao-hide{
+                margin-top:-20px;
+                font-weight:300;
+                visibility:visible;
+            }
+
+            .descricao-hide a{
+                text-decoration:none;
+                font-weight:300;
+            }
+
+            .descricao-hide a:hover{
+                text-decoration:underline;
+            }
 
 .box-noticias{
     width:220px;
     height:160px;
-    overflow:hidden;    
+    overflow:hidden;
+    cursor:pointer;
 }
-
-    .avancar,
-    .voltar{
-        text-align:center;
-        width:220px;
-        background:white;
-        position:absolute;
-    }
-
-    .voltar{
-        top:320px;
-    }
-
     .noticia{
-        border-bottom:1px dotted rgb(0,0,0);
+        border-bottom:2px dotted rgb(0,153,153);
+    }
+
+    .noticia:hover{
+        background:rgb(250,250,250);
     }
 
         .noticia p{
@@ -194,20 +264,16 @@
             padding:5px 5px 20px 5px;
         }
 
-        .noticia:hover{
-            background:rgb(250,250,250);
-        }
-
         .noticia p:hover{
             color:rgb(100,100,100);
         }
 
-        .noticia a{
-            font-weight:bold;
-            text-decoration:none;
-            color:rgb(57,43,105);
-        }
+            .noticia a{
+                font-weight:bold;
+                text-decoration:none;
+                color:rgb(57,43,105);
+            }
 
-        .noticia a:hover{
-            text-decoration:underline;
-        }
+            .noticia a:hover{
+                text-decoration:underline;
+            }

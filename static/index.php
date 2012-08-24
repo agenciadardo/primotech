@@ -81,37 +81,95 @@
 
                 <div class="destaques">
 
-                    <div class="header-destaque">
+                    <div class="header-coluna">
                         <h1>Veja abaixo os produtos que são destaque:</h1>
                     </div> <!-- / header-destaque -->
 
                     <div class="boxes-central">
                         
                         <div class="box-central">
+                            
+                            <div class="imagem-box-central">
+                                <img src="imagens/box1.jpg" alt="" />
+                            </div>
 
                             <div class="descricao">
-                                <p>Broadcast &amp; Cable, produção e transmissão HD...</p>
+                                <p>
+                                    Broadcast &amp; Cable, produção e transmissão HD...
+                                </p>
+
+                                <p class="descricao-hide">
+                                    <a href="#">
+                                        Esta é uma descrição simples sobre 
+                                        algum produto que desejamos muito.
+                                    </a>
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="box-central">
+                            
+                            <div class="imagem-box-central">
+                                <img src="imagens/box2.jpg" alt="" />
+                            </div>
+
+                            <div class="descricao">
+                                
+                                <p>
+                                    Equipamentos para televisão digital e produção em HD...
+                                </p>
+                                
+                                <p class="descricao-hide">
+                                    <a href="#">
+                                        Olá, amigos e amigas<br />
+                                        Faça parte desse time de produtos.
+                                    </a>
+                                </p>
                             </div>
                         </div>
 
                         <div class="box-central">
 
+                            <div class="imagem-box-central">
+                                <img src="imagens/box3.jpg" alt="" />
+                            </div>
+
                             <div class="descricao">
-                                <p>Equipamentos para televisão digital e produção em HD...</p>
+                                <p>
+                                    Capacitor cerâmico multicamada - série "AMK"...
+                                </p>
+
+                                <p class="descricao-hide">
+                                    <a href="#">
+                                        São bons estes equipamentos que aqui temos.
+                                        Faça sua compra conosco.
+                                    </a>
+                                </p>
+
                             </div>
                         </div>
 
                         <div class="box-central">
 
-                            <div class="descricao">
-                                <p>Capacitor cerâmico multicamada - série "AMK"...</p>
+                            <div class="imagem-box-central">
+                                <img src="imagens/box4.jpg" alt="" />
                             </div>
-                        </div>
-
-                        <div class="box-central">
 
                             <div class="descricao">
-                                <p>Equipamentos para televisão digital e produção em HD...</p>
+                                
+                                <p>
+                                    Equipamentos para televisão digital e produção em HD...
+                                </p>
+
+                                <p class="descricao-hide">
+                                    <a href="#">
+                                        Uma capacitor pode ser medido com um capacímetro.<br />
+                                        Você sabia?
+                                    </a>
+                                </p>
+
                             </div>
                         </div>
 
