@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
     <head>
+        <script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>
         <meta charset="UTF-8" />
         <title>Primotech &#8212; Página inicial</title>
         <meta name="keywords" content="" />
@@ -11,11 +12,22 @@
         <link rel="stylesheet" href="css/960.css" />
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Didact+Gothic" />
         <link rel="stylesheet" href="css/styles.css" />
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="css/ie-styles.css" />
+        <![endif]-->
         <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
         <script src="http://malsup.github.com/jquery.cycle.all.js"></script>
         <script src="js/scripts.js"></script> 
     </head>
-    <body>  
+    <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
         <div id="container" class="container_12">
             
@@ -269,11 +281,42 @@
                     </div>
 
                     <div class="lista-icones">
+                        <div class="icone-social">
+                            <a href="#">
+                                <img class="icone-facebook" src="imagens/sprite-social.png" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="icone-social">
+                            <a href="#">
+                                <img class="icone-twitter" src="imagens/sprite-social.png" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="icone-social">
+                            <a href="#">
+                                <img class="icone-linkedin" src="imagens/sprite-social.png" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="icone-social">
+                            <a href="#">
+                                <img class="icone-email" src="imagens/sprite-social.png" alt="" />
+                            </a>
+                        </div>
 
                     </div> <!-- / lista-icones -->
 
                     <div class="box-facebook">
-
+                        <div class="fb-like-box" 
+                             data-href="http://www.facebook.com/facebook" 
+                             data-width="220" 
+                             data-height="260" 
+                             data-show-faces="true" 
+                             data-stream="false"
+                             data-border-color="rgb(0,153,153)" 
+                             data-header="false">
+                        </div>
                     </div> <!-- / box-facebook -->
 
                 </div> <!-- / redes-sociais -->

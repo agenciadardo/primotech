@@ -1,0 +1,126 @@
+.logotipo{
+    z-index:9999;
+    float:left;
+    position:absolute;
+    width:470px;
+    height:186px;
+    background:transparent;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+        src='./imagens/topo.png',
+        sizingMethod='scale');
+}
+
+        .menu-ie{
+            position:relative;
+            z-index:9999;
+            display:block;
+            text-align:center;
+            background:rgb(255,255,255) url('../imagens/bg-menu-normal.jpg') repeat-x 0 -25px;
+            background-size:1px 120px;
+            height:100px;
+            margin-bottom:30px;
+        }
+
+        .menu-ie ul,
+        .menu-ie-rodape ul,
+        .links-destacados ul{
+            list-style-type:none;
+            display:inline-block;
+        }
+
+            .menu-ie li,
+            .menu-ie-rodape li,
+            .links-destacados li{
+                float:left;
+            }
+
+            .menu-ie li{
+                background-color:transparent;
+                text-align:center;
+                margin:0 5px 0 0;
+                padding:5px;
+                height:90px;
+            }
+
+            .menu-ie li:hover{
+                background: rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x 0 -20px;
+            }
+
+            .menu-ie li:hover a{
+                color:rgb(255,255,255);
+                text-shadow:0 0 10px rgb(0,0,0);
+            }
+
+            .menu-ie ul li a,
+            .menu-ie-rodape ul li a,
+            .links-destacados ul li a{
+                text-decoration:none;
+            }
+
+            .menu-ie a{
+                height:90px;
+                display:block;
+                letter-spacing:1px;
+                line-height:155px;
+                color:rgb(133,133,131);
+                font-family:'Didact Gothic',sans-serif;
+                font-size:19px;
+                font-weight:normal;
+                color:rgb(133,133,131);
+            }
+
+            .menu-ie a:hover{
+                color:rgb(255,255,255);
+            }
+
+            /* sprite */
+
+            .primotech-21 a{
+                background:url('../imagens/sprite-menu2.png') no-repeat -924px 15px;
+            }
+            .primotech-21 a:hover{
+                background:url('../imagens/sprite-menu2.png') no-repeat -845px 15px;
+            }
+
+            .fabricantes a{
+                background:url('../imagens/sprite-menu2.png') no-repeat -362px 15px;
+            }
+            .fabricantes a:hover{
+                background:url('../imagens/sprite-menu2.png') no-repeat -287px 15px;
+            }
+
+            .onde-comprar a{
+                background:url('../imagens/sprite-menu2.png') no-repeat -620px 15px;
+            }
+            .onde-comprar a:hover{
+                background:url('../imagens/sprite-menu2.png') no-repeat -545px 15px;
+            }
+
+            .aplicacoes a{
+                background:url('../imagens/sprite-menu2.png') no-repeat -307px 10px;
+            }
+            .aplicacoes a:hover{
+                background:url('../imagens/sprite-menu2.png') no-repeat -201px 10px;
+            }
+
+            .primonews a{
+                background:url('../imagens/sprite-menu2.png') no-repeat -1063px 10px;
+            }
+            .primonews a:hover{
+                background:url('../imagens/sprite-menu2.png') no-repeat -972px 10px;
+            }
+
+            .amostras a{
+                background:url('../imagens/sprite-menu2.png') no-repeat -96px 10px;
+            }
+            .amostras a:hover{
+                background:url('../imagens/sprite-menu2.png') no-repeat 12px 10px;
+            }
+
+            .fale-conosco a{
+                background:url('../imagens/sprite-menu.png') no-repeat -678px 10px;
+            }
+            .fale-conosco a:hover{
+                background:url('../imagens/sprite-menu.png') no-repeat -592px 10px;
+            }
+            /* / sprite*/
