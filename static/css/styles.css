@@ -253,7 +253,7 @@ body{
                         font-weight:900;
                         padding:5px;
                         line-height:16px;
-                        font-size:15px;
+                        font-size:14px;
                         text-align:center;
                         color:rgb(255,255,255);
                     }
@@ -352,14 +352,49 @@ body{
                 margin:50px 0 10px 0;
             }
 
+            .box-cotacao{
+                padding:5px;
+                background:rgb(234,248,255);
+                margin-top:10px;
+            }
+
+                .header-box-cotacao{
+                    text-align:center;
+                    background:rgb(0,170,221);
+                }
+
+                    .header-box-cotacao h1{
+                        color:rgb(255,255,255);
+                        font-size:12px;
+                    }
+
+                .cotacoes-dolar{
+                    color:rgb(0,187,239);
+                    font-size:15px;
+                    line-height:0;
+                }
+
+                    .dolar-venda,
+                    .dolar-compra{
+                        margin-left:75px;
+                        font-size:10px;
+                        font-weight:900;
+                        color:rgb(0,0,0);
+                    }
+
+                        .dolar-venda span,
+                        .dolar-compra span{
+                            font-size:15px;
+                            font-weight:300;
+                        }
+
             #rodape{
                 border-top:5px solid rgb(0,153,153);
                 background:rgb(11,85,78) url('../imagens/bg-rodape.jpg') repeat-x;
             }
 
                 .menu-rodape{
-                    float:left;
-                    margin-left:10px;
+                    text-align:center;
                 }
 
                     .menu-rodape li{

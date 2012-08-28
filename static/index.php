@@ -17,6 +17,7 @@
         <![endif]-->
         <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
         <script src="http://malsup.github.com/jquery.cycle.all.js"></script>
+        <script src="http://cotacao.republicavirtual.com.br/web_cotacao.php?formato=javascript"></script>
         <script src="js/scripts.js"></script> 
     </head>
     <body>
@@ -215,7 +216,7 @@
 
                                 <span>
                                     <a href="#">
-                                        1 Leia mais
+                                        Leia mais
                                     </a>
                                 </span>
 
@@ -229,7 +230,7 @@
 
                                 <span>
                                     <a href="#">
-                                        2 Leia mais
+                                        Leia mais
                                     </a>
                                 </span>
 
@@ -243,7 +244,7 @@
 
                                 <span>
                                     <a href="#">
-                                        3 Leia mais
+                                        Leia mais
                                     </a>
                                 </span>
 
@@ -257,7 +258,7 @@
 
                                 <span>
                                     <a href="#">
-                                        4 Leia mais
+                                        Leia mais
                                     </a>
                                 </span>
 
@@ -328,7 +329,51 @@
                     </div>
 
                     <div class="box-cotacao">
+                        <div class="header-box-cotacao">
+                            <h1>Dólar</h1>
+                        </div>
 
+                        <div class="cotacoes-dolar">
+                            
+                            <div class="dolar-comercial">
+                                <p>Comercial</p>
+                                <p class="dolar-venda">Venda:
+                                    <span class="dolar-comercial-venda-preco">
+                                        <script type="text/javascript">
+                                            document.write('U$ ' + Cotacao.obterDolarComercial()["venda"]);
+                                        </script>
+                                    </span>
+                                </p>
+
+                                <p class="dolar-compra">Compra:
+                                    <span class="dolar-comercial-compra-preco">
+                                        <script type="text/javascript">
+                                            document.write('U$ ' + Cotacao.obterDolarComercial()["compra"]);
+                                        </script>
+                                    </span>
+                                </p>
+                            </div>
+
+                            <div class="dolar-paralelo">
+                                <p>Paralelo</p>
+                                <p class="dolar-venda">Venda:
+                                    <span class="dolar-paralelo-venda-preco">
+                                        <script type="text/javascript">
+                                            document.write('U$ ' + Cotacao.obterDolarParalelo()["venda"]);
+                                        </script>
+                                    </span>
+                                </p>
+
+                                <p class="dolar-compra">Compra:
+                                    <span class="dolar-paralelo-compra-preco">
+                                        <script type="text/javascript">
+                                            document.write('U$ ' + Cotacao.obterDolarParalelo()["compra"]);
+                                        </script>
+                                    </span>
+                                </p>
+                            </div>
+
+                        </div>
                     </div> <!-- / box-cotacao -->
 
                 </div> <!-- / cotacao -->
@@ -340,19 +385,14 @@
                 <div class="menu-rodape">
                     <ul>
                         <li><a href="#">Primotech 21</a></li>
-                        <li><a href="#">Componentes eletrônicos</a></li>
-                        <li><a href="#">Equipamentos</a></li>
-                        <li><a href="#">Logística</a></li>
-                        <li><a href="#">Projetos design</a></li>
+                        <li><a href="#">Fabricantes</a></li>
+                        <li><a href="#">Onde comprar</a></li>
+                        <li><a href="#">Aplicações</a></li>
+                        <li><a href="#">Primonews</a></li>
+                        <li><a href="#">Amostras</a></li>
+                        <li><a href="#">Fale conosco</a></li>
                     </ul>             
                 </div> <!-- / menu-rodape -->
-
-                <div class="links-destacados">
-                    <ul>
-                        <li><a href="#">Onde comprar</a></li>
-                        <li><a href="#">Fale conosco</a></li>
-                    </ul>
-                </div> <!-- / links-destacados -->
 
                 <div class="copyright">
                     <p>Todos os direitos reservados a Primotech21 &#8212; 2012</p>
