@@ -88,21 +88,49 @@
                 </div>
 
                 <div class="marcas">
-                    <div class="box-marca">
-                        <img src="test.jpg" alt="" />
+ 
+                    <div class="box-marca-1">
+                        <a href="#">
+                            <img src="imagens/sprite-fabricantes.png" alt="" />
+                        </a>
                     </div>
 
-                    <div class="box-marca">
-                        <img src="test.jpg" alt="" />
+                    <div class="box-marca-2">
+                        <a href="#">
+                            <img src="imagens/sprite-fabricantes.png" alt="" />
+                        </a>
                     </div>
 
-                    <div class="box-marca">
-                        <img src="test.jpg" alt="" />
+                    <div class="box-marca-3">
+                        <a href="#">
+                            <img src="imagens/sprite-fabricantes.png" alt="" />
+                        </a>
                     </div>
 
-                    <div class="box-marca">
-                        <img src="test.jpg" alt="" />
+                    <div class="box-marca-4">
+                        <a href="#">
+                            <img src="imagens/sprite-fabricantes.png" alt="" />
+                        </a>
                     </div>
+
+                    <div class="box-marca-5">
+                        <a href="#">
+                            <img src="imagens/sprite-fabricantes.png" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="box-marca-6">
+                        <a href="#">
+                            <img src="imagens/sprite-fabricantes.png" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="box-marca-7">
+                        <a href="#">
+                            <img src="imagens/sprite-fabricantes.png" alt="" />
+                        </a>
+                    </div>
+
                 </div> <!-- / marcas -->
 
             </div> <!-- / fabricantes-lateral --> 

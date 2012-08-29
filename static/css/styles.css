@@ -203,6 +203,43 @@ body{
 
             /* / sprite*/
 
+            .box-marca-1,
+            .box-marca-2,
+            .box-marca-3,
+            .box-marca-4,
+            .box-marca-5,
+            .box-marca-6,
+            .box-marca-7{
+                height:95px;
+                width:220px;
+                margin-bottom:15px;
+                overflow:hidden;
+            }
+            
+                .box-marca-2 img{
+                    margin-top:-110px;
+                }
+
+                .box-marca-3 img{
+                    margin-top:-220px;
+                }
+
+                .box-marca-4 img{
+                    margin-top:-332px;
+                }
+
+                .box-marca-5 img{
+                    margin-top:-443px;
+                }
+
+                .box-marca-6 img{
+                    margin-top:-560px;
+                }
+
+                .box-marca-7 img{
+                    margin-top:-675px;
+                }
+
             .header-coluna{
                 padding:0 0 5px 20px;
                 background:rgb(0,153,153) url('../imagens/bg-header-coluna.jpg') no-repeat right bottom;
