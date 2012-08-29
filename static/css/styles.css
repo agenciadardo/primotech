@@ -288,6 +288,7 @@ body{
             height:160px;
             overflow:hidden;
             cursor:pointer;
+            border-bottom:5px solid rgb(0,153,153);
         }
             .noticia{
                 border-bottom:2px dotted rgb(0,153,153);

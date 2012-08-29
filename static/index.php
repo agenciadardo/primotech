@@ -275,6 +275,21 @@
 
                 </div> <!-- / ultimas-noticias -->
 
+                <div class="videos">
+                    <object width="220" height="250">
+                        <param name="movie" value="https://www.youtube.com/v/videoseries?listType=playlist&list=ALYL4kY05133ohSYUqR_phVX8cJdxXbe5_&autoplay=1&modestbranding=1&version=3"></param>
+                        <param name="allowFullScreen" value="true"></param>
+                        <param name="allowScriptAccess" value="always"></param>
+                        <embed src="https://www.youtube.com/v/videoseries?listType=playlist&list=ALYL4kY05133ohSYUqR_phVX8cJdxXbe5_&autoplay=1&modestbranding=1&version=3" 
+                               type="application/x-shockwave-flash" 
+                               allowfullscreen="true" 
+                               allowScriptAccess="always" 
+                               width="220" 
+                               height="250">
+                        </embed>
+                    </object>    
+                </div>
+
                 <div class="redes-sociais">
 
                     <div class="header-coluna">
