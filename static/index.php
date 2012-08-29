@@ -340,7 +340,7 @@
                                 <p class="dolar-venda">Venda:
                                     <span class="dolar-comercial-venda-preco">
                                         <script type="text/javascript">
-                                            document.write('U$ ' + Cotacao.obterDolarComercial()["venda"]);
+                                            document.write('R$ ' + Cotacao.obterDolarComercial()["venda"]);
                                         </script>
                                     </span>
                                 </p>
@@ -348,7 +348,7 @@
                                 <p class="dolar-compra">Compra:
                                     <span class="dolar-comercial-compra-preco">
                                         <script type="text/javascript">
-                                            document.write('U$ ' + Cotacao.obterDolarComercial()["compra"]);
+                                            document.write('R$ ' + Cotacao.obterDolarComercial()["compra"]);
                                         </script>
                                     </span>
                                 </p>
@@ -359,7 +359,7 @@
                                 <p class="dolar-venda">Venda:
                                     <span class="dolar-paralelo-venda-preco">
                                         <script type="text/javascript">
-                                            document.write('U$ ' + Cotacao.obterDolarParalelo()["venda"]);
+                                            document.write('R$ ' + Cotacao.obterDolarParalelo()["venda"]);
                                         </script>
                                     </span>
                                 </p>
@@ -367,7 +367,7 @@
                                 <p class="dolar-compra">Compra:
                                     <span class="dolar-paralelo-compra-preco">
                                         <script type="text/javascript">
-                                            document.write('U$ ' + Cotacao.obterDolarParalelo()["compra"]);
+                                            document.write('R$ ' + Cotacao.obterDolarParalelo()["compra"]);
                                         </script>
                                     </span>
                                 </p>

@@ -1,8 +1,11 @@
 body{
-    background:rgb(222,222,220);
+    background:url('../imagens/bg-body.png');
 }
 
     #container{
+        border-left:1px solid rgb(255,255,255);
+        border-right:1px solid rgb(255,255,255);
+        box-shadow:0 0 10px rgb(102,102,102);
         background:rgb(255,255,255);
     }
 
@@ -91,88 +94,91 @@ body{
 
             /* sprite */
 
+            .primotech-21,
+            .fabricantes,
+            .comprar,
+            .aplicacoes,
+            .primonews,
+            .amostras,
+            .fale-conosco{
+                background-size:1700px 49px;
+            }
+
             .menu li.primotech-21{
-                background:url('../imagens/sprite-menu.png') no-repeat -1254px 10px;
-                background-size:1348px 49px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1615px 20px;
             }
 
             .menu li.primotech-21:hover{
                 background:
-                    url('../imagens/sprite-menu.png') no-repeat -1148px 10px, 
-                    url('../imagens/bg-menu-hover.jpg') repeat-x left top;
-                background-size:1348px 49px, 1px 120px;
+                    url('../imagens/sprite-menu.png') no-repeat -1507px 20px, 
+                    rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x left top;
+                background-size:1700px 36px, 1px 120px;
             }
 
             .menu li.fabricantes{
-                background:url('../imagens/sprite-menu.png') no-repeat -500px 10px;
-                background-size:1348px 49px;
+                background:url('../imagens/sprite-menu.png') no-repeat -545px 20px;
             }
 
             .menu li.fabricantes:hover{
                 background:
-                    url('../imagens/sprite-menu.png') no-repeat -400px 10px,
-                    url('../imagens/bg-menu-hover.jpg') repeat-x left top;
-                background-size:1348px 49px, 1px 120px;
+                    url('../imagens/sprite-menu.png') no-repeat -430px 20px,
+                    rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x left top;
+                background-size:1700px 36px, 1px 120px;
             }
 
             .menu li.onde-comprar{
-                background:url('../imagens/sprite-menu.png') no-repeat -858px 10px;
-                background-size:1348px 49px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1069px 20px;
             }
 
             .menu li.onde-comprar:hover{
                 background:
-                    url('../imagens/sprite-menu.png') no-repeat -758px 10px,
-                    url('../imagens/bg-menu-hover.jpg') repeat-x left top;
-                background-size:1348px 49px, 1px 120px;
+                    url('../imagens/sprite-menu.png') no-repeat -938px 20px,
+                    rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x left top;
+                background-size:1700px 36px, 1px 120px;
             }
 
             .menu li.aplicacoes{
-                background:url('../imagens/sprite-menu.png') no-repeat -301px 10px;
-                background-size:1348px 49px;
+                background:url('../imagens/sprite-menu.png') no-repeat -312px 20px;
             }
 
             .menu li.aplicacoes:hover{
                 background:
-                    url('../imagens/sprite-menu.png') no-repeat -194px 10px,
-                    url('../imagens/bg-menu-hover.jpg') repeat-x left top;
-                background-size:1348px 49px, 1px 120px;
+                    url('../imagens/sprite-menu.png') no-repeat -187px 20px,
+                    rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x left top;
+                background-size:1700px 36px, 1px 120px;
             }
 
             .menu li.primonews{
-                background:url('../imagens/sprite-menu.png') no-repeat -1057px 10px;
-                background-size:1348px 49px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1372px 20px;
             }
 
             .menu li.primonews:hover{
                 background:
-                    url('../imagens/sprite-menu.png') no-repeat -966px 10px,
-                    url('../imagens/bg-menu-hover.jpg') repeat-x left top;
-                background-size:1348px 49px, 1px 120px;
+                    url('../imagens/sprite-menu.png') no-repeat -1241px 20px,
+                    rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x left top;
+                background-size:1700px 36px, 1px 120px;
             }
 
             .menu li.amostras{
-                background:url('../imagens/sprite-menu.png') no-repeat -90px 10px;
-                background-size:1348px 49px;
+                background:url('../imagens/sprite-menu.png') no-repeat -90px 20px;
             }
 
             .menu li.amostras:hover{
                 background:
-                    url('../imagens/sprite-menu.png') no-repeat 18px 10px,
-                    url('../imagens/bg-menu-hover.jpg') repeat-x left top;
-                background-size:1348px 49px, 1px 120px;
+                    url('../imagens/sprite-menu.png') no-repeat 18px 20px,
+                    rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x left top;
+                background-size:1700px 36px, 1px 120px;
             }
 
             .menu li.fale-conosco{
-                background:url('../imagens/sprite-menu.png') no-repeat -672px 10px;
-                background-size:1348px 49px;
+                background:url('../imagens/sprite-menu.png') no-repeat -815px 20px;
             }
 
             .menu li.fale-conosco:hover{
                 background:
-                    url('../imagens/sprite-menu.png') no-repeat -587px 10px,
-                    url('../imagens/bg-menu-hover.jpg') repeat-x left top;
-                background-size:1348px 49px, 1px 120px;
+                    url('../imagens/sprite-menu.png') no-repeat -675px 20px,
+                    rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x left top;
+                background-size:1700px 36px, 1px 120px;
             }
 
             /* / sprite*/

@@ -76,51 +76,51 @@
             /* sprite */
 
             .primotech-21 a{
-                background:url('../imagens/sprite-menu2.png') no-repeat -924px 15px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1620px 20px;
             }
             .primotech-21 a:hover{
-                background:url('../imagens/sprite-menu2.png') no-repeat -845px 15px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1512px 20px;
             }
 
             .fabricantes a{
-                background:url('../imagens/sprite-menu2.png') no-repeat -362px 15px;
+                background:url('../imagens/sprite-menu.png') no-repeat -552px 20px;
             }
             .fabricantes a:hover{
-                background:url('../imagens/sprite-menu2.png') no-repeat -287px 15px;
+                background:url('../imagens/sprite-menu.png') no-repeat -435px 20px;
             }
 
             .onde-comprar a{
-                background:url('../imagens/sprite-menu2.png') no-repeat -620px 15px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1074px 20px;
             }
             .onde-comprar a:hover{
-                background:url('../imagens/sprite-menu2.png') no-repeat -545px 15px;
+                background:url('../imagens/sprite-menu.png') no-repeat -943px 20px;
             }
 
             .aplicacoes a{
-                background:url('../imagens/sprite-menu2.png') no-repeat -307px 10px;
+                background:url('../imagens/sprite-menu.png') no-repeat -317px 20px;
             }
             .aplicacoes a:hover{
-                background:url('../imagens/sprite-menu2.png') no-repeat -201px 10px;
+                background:url('../imagens/sprite-menu.png') no-repeat -192px 20px;
             }
 
             .primonews a{
-                background:url('../imagens/sprite-menu2.png') no-repeat -1063px 10px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1372px 20px;
             }
             .primonews a:hover{
-                background:url('../imagens/sprite-menu2.png') no-repeat -972px 10px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1241px 20px;
             }
 
             .amostras a{
-                background:url('../imagens/sprite-menu2.png') no-repeat -96px 10px;
+                background:url('../imagens/sprite-menu.png') no-repeat -88px 20px;
             }
             .amostras a:hover{
-                background:url('../imagens/sprite-menu2.png') no-repeat 12px 10px;
+                background:url('../imagens/sprite-menu.png') no-repeat 22px 20px;
             }
 
             .fale-conosco a{
-                background:url('../imagens/sprite-menu.png') no-repeat -678px 10px;
+                background:url('../imagens/sprite-menu.png') no-repeat -820px 20px;
             }
             .fale-conosco a:hover{
-                background:url('../imagens/sprite-menu.png') no-repeat -592px 10px;
+                background:url('../imagens/sprite-menu.png') no-repeat -680px 20px;
             }
             /* / sprite*/
