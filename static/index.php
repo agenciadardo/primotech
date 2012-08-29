@@ -35,8 +35,25 @@
             <div id="header" class="alpha grid_12">  
                 
                 <div class="logotipo">
-
                 </div> <!-- / logotipo -->
+
+                <div class="idiomas">
+                    <div class="bandeiras">
+                        
+                        <div class="pt-br">
+                            <a href="#">
+                                <img src="imagens/pt-br.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="en-us">
+                            <a href="#">
+                                <img src="imagens/en-us.jpg" alt="" />
+                            </a>
+                        </div>
+
+                    </div>
+                </div> <!-- / idiomas -->
 
                 <div class="banner">
                     <img src="imagens/banner-rotate.jpg" alt="" />
