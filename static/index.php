@@ -239,7 +239,7 @@
 
                 </div> <!-- / destaques -->
 
-                <div id="banner-central" class="banner-inferior">
+                <div class="banner-inferior">
                     <img src="imagens/banner-inferior.jpg" alt="" />
                 </div> <!-- / banner-inferior-central -->
 
