@@ -15,9 +15,9 @@
             z-index:9999;
             display:block;
             text-align:center;
-            background:rgb(255,255,255) url('../imagens/bg-menu-normal.jpg') repeat-x 0 -25px;
-            background-size:1px 120px;
-            height:100px;
+            background:rgb(255,255,255) url('../imagens/bg-menu-normal.jpg') repeat-x 0 -49px;
+            background-size:1px 75px;
+            height:70px;
             margin-bottom:30px;
         }
 
@@ -39,11 +39,11 @@
                 text-align:center;
                 margin:0 5px 0 0;
                 padding:5px;
-                height:90px;
+                height:60px;
             }
 
             .menu-ie li:hover{
-                background: rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x 0 -20px;
+                background: rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x 0 -44px;
             }
 
             .menu-ie li:hover a{
@@ -58,10 +58,10 @@
             }
 
             .menu-ie a{
-                height:90px;
+                height:60px;
                 display:block;
                 letter-spacing:1px;
-                line-height:155px;
+                line-height:101px;
                 color:rgb(133,133,131);
                 font-family:'Didact Gothic',sans-serif;
                 font-size:19px;
@@ -76,51 +76,51 @@
             /* sprite */
 
             .primotech-21 a{
-                background:url('../imagens/sprite-menu.png') no-repeat -1620px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1620px 0;
             }
             .primotech-21 a:hover{
-                background:url('../imagens/sprite-menu.png') no-repeat -1512px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1512px 0;
             }
 
             .fabricantes a{
-                background:url('../imagens/sprite-menu.png') no-repeat -552px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -552px 0;
             }
             .fabricantes a:hover{
-                background:url('../imagens/sprite-menu.png') no-repeat -435px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -435px 0;
             }
 
             .onde-comprar a{
-                background:url('../imagens/sprite-menu.png') no-repeat -1074px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1074px 0;
             }
             .onde-comprar a:hover{
-                background:url('../imagens/sprite-menu.png') no-repeat -943px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -943px 0;
             }
 
             .aplicacoes a{
-                background:url('../imagens/sprite-menu.png') no-repeat -317px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -317px 0;
             }
             .aplicacoes a:hover{
-                background:url('../imagens/sprite-menu.png') no-repeat -192px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -192px 0;
             }
 
             .primonews a{
-                background:url('../imagens/sprite-menu.png') no-repeat -1372px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1372px 0;
             }
             .primonews a:hover{
-                background:url('../imagens/sprite-menu.png') no-repeat -1241px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1241px 0;
             }
 
             .amostras a{
-                background:url('../imagens/sprite-menu.png') no-repeat -88px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -88px 0;
             }
             .amostras a:hover{
-                background:url('../imagens/sprite-menu.png') no-repeat 22px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat 22px 0;
             }
 
             .fale-conosco a{
-                background:url('../imagens/sprite-menu.png') no-repeat -820px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -820px 0;
             }
             .fale-conosco a:hover{
-                background:url('../imagens/sprite-menu.png') no-repeat -680px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -680px 0;
             }
             /* / sprite*/

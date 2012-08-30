@@ -119,12 +119,6 @@
                         </a>
                     </div>
 
-                    <div class="box-marca-6">
-                        <a href="#">
-                            <img src="imagens/sprite-fabricantes.png" alt="" />
-                        </a>
-                    </div>
-
                     <div class="box-marca-7">
                         <a href="#">
                             <img src="imagens/sprite-fabricantes.png" alt="" />
@@ -137,7 +131,7 @@
 
             <div id="conteudo-central" class="grid_6">
 
-                <div id="banner-central">
+                <div class="banner-central">
                     <img src="imagens/banner-topo.jpg" alt="" />
                 </div> <!-- / banner-topo-central -->
 
@@ -239,7 +233,7 @@
 
                 </div> <!-- / destaques -->
 
-                <div class="banner-inferior">
+                <div class="banner-central banner-inferior">
                     <img src="imagens/banner-inferior.jpg" alt="" />
                 </div> <!-- / banner-inferior-central -->
 
@@ -321,7 +315,7 @@
                 </div> <!-- / ultimas-noticias -->
 
                 <div class="videos">
-                    <object width="220" height="250">
+                    <object width="220" height="220">
                         <param name="movie" value="https://www.youtube.com/v/videoseries?listType=playlist&list=ALYL4kY05133ohSYUqR_phVX8cJdxXbe5_&autoplay=1&modestbranding=1&version=3"></param>
                         <param name="allowFullScreen" value="true"></param>
                         <param name="allowScriptAccess" value="always"></param>
@@ -330,7 +324,7 @@
                                allowfullscreen="true" 
                                allowScriptAccess="always" 
                                width="220" 
-                               height="250">
+                               height="220">
                         </embed>
                     </object>    
                 </div>

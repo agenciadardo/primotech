@@ -53,8 +53,8 @@ body{
         .menu{
             text-align:center;
             background:rgb(255,255,255) url('../imagens/bg-menu-normal.jpg') repeat-x;
-            background-size:1px 120px;
-            height:100px;
+            background-size:1px 75px;
+            height:70px;
             margin-bottom:30px;
         }
 
@@ -76,7 +76,7 @@ body{
                 text-align:center;
                 margin:0 5px 0 0;
                 padding:5px;
-                height:90px;
+                height:60px;
             }
 
             .menu li:hover{
@@ -96,7 +96,7 @@ body{
 
             .menu a{
                 letter-spacing:1px;
-                line-height:155px;
+                line-height:101px;
                 color:rgb(133,133,131);
                 -webkit-transition: color .2s linear;
                 -moz-transition: color .2s linear;
@@ -125,80 +125,80 @@ body{
             }
 
             .menu li.primotech-21{
-                background:url('../imagens/sprite-menu.png') no-repeat -1615px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1615px 4px;
             }
 
             .menu li.primotech-21:hover{
                 background:
-                    url('../imagens/sprite-menu.png') no-repeat -1507px 20px, 
+                    url('../imagens/sprite-menu.png') no-repeat -1507px 4px, 
                     rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x left top;
-                background-size:1700px 36px, 1px 120px;
+                background-size:1700px 36px, 1px 75px;
             }
 
             .menu li.fabricantes{
-                background:url('../imagens/sprite-menu.png') no-repeat -545px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -545px 4px;
             }
 
             .menu li.fabricantes:hover{
                 background:
-                    url('../imagens/sprite-menu.png') no-repeat -430px 20px,
+                    url('../imagens/sprite-menu.png') no-repeat -430px 4px,
                     rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x left top;
-                background-size:1700px 36px, 1px 120px;
+                background-size:1700px 36px, 1px 75px;
             }
 
             .menu li.onde-comprar{
-                background:url('../imagens/sprite-menu.png') no-repeat -1069px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1069px 4px;
             }
 
             .menu li.onde-comprar:hover{
                 background:
-                    url('../imagens/sprite-menu.png') no-repeat -938px 20px,
+                    url('../imagens/sprite-menu.png') no-repeat -938px 4px,
                     rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x left top;
-                background-size:1700px 36px, 1px 120px;
+                background-size:1700px 36px, 1px 75px;
             }
 
             .menu li.aplicacoes{
-                background:url('../imagens/sprite-menu.png') no-repeat -312px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -312px 4px;
             }
 
             .menu li.aplicacoes:hover{
                 background:
-                    url('../imagens/sprite-menu.png') no-repeat -187px 20px,
+                    url('../imagens/sprite-menu.png') no-repeat -187px 4px,
                     rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x left top;
-                background-size:1700px 36px, 1px 120px;
+                background-size:1700px 36px, 1px 75px;
             }
 
             .menu li.primonews{
-                background:url('../imagens/sprite-menu.png') no-repeat -1372px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -1372px 4px;
             }
 
             .menu li.primonews:hover{
                 background:
-                    url('../imagens/sprite-menu.png') no-repeat -1241px 20px,
+                    url('../imagens/sprite-menu.png') no-repeat -1241px 4px,
                     rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x left top;
-                background-size:1700px 36px, 1px 120px;
+                background-size:1700px 36px, 1px 75px;
             }
 
             .menu li.amostras{
-                background:url('../imagens/sprite-menu.png') no-repeat -90px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -90px 4px;
             }
 
             .menu li.amostras:hover{
                 background:
-                    url('../imagens/sprite-menu.png') no-repeat 18px 20px,
+                    url('../imagens/sprite-menu.png') no-repeat 18px 4px,
                     rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x left top;
-                background-size:1700px 36px, 1px 120px;
+                background-size:1700px 36px, 1px 75px;
             }
 
             .menu li.fale-conosco{
-                background:url('../imagens/sprite-menu.png') no-repeat -815px 20px;
+                background:url('../imagens/sprite-menu.png') no-repeat -815px 4px;
             }
 
             .menu li.fale-conosco:hover{
                 background:
-                    url('../imagens/sprite-menu.png') no-repeat -675px 20px,
+                    url('../imagens/sprite-menu.png') no-repeat -675px 4px,
                     rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x left top;
-                background-size:1700px 36px, 1px 120px;
+                background-size:1700px 36px, 1px 75px;
             }
 
             /* / sprite*/
@@ -212,7 +212,7 @@ body{
             .box-marca-7{
                 height:95px;
                 width:220px;
-                margin-bottom:15px;
+                margin-bottom:58px;
                 overflow:hidden;
             }
             
@@ -258,18 +258,18 @@ body{
                     border-bottom:1px dotted rgb(255,255,255);
                 }
 
-            #banner-central{
-                margin-bottom:30px;
+            .banner-central{
+                margin-bottom:55px;
             }
 
-            #banner-central img{
+            .banner-central img{
                 border:3px solid rgb(222,222,220);
                 width:460px;
                 height:150px; 
             }
 
             .banner-inferior img{
-                margin-top:20px;
+                margin-top:67px;
             }
 
             #fabricantes-lateral .header-coluna,
@@ -346,7 +346,7 @@ body{
 
         .box-noticias{
             width:220px;
-            height:160px;
+            height:135px;
             overflow:hidden;
             cursor:pointer;
             border-bottom:5px solid rgb(0,153,153);
@@ -360,8 +360,8 @@ body{
             }
 
                 .noticia p{
-                    line-height:18px;
-                    font-size:15px;
+                    line-height:15px;
+                    font-size:12px;
                     color:rgb(133,133,131);
                     margin:0;
                     padding:5px 5px 20px 5px;
@@ -421,7 +421,7 @@ body{
             }
 
             .box-cotacao{
-                padding:5px;
+                padding:3px;
                 background:rgb(234,248,255);
                 margin-top:10px;
             }
@@ -434,17 +434,23 @@ body{
                     .header-box-cotacao h1{
                         color:rgb(255,255,255);
                         font-size:12px;
+                        margin-bottom:10px;
                     }
 
                 .cotacoes-dolar{
                     color:rgb(0,187,239);
-                    font-size:15px;
+                    font-size:12px;
                     line-height:0;
                 }
 
+                    .dolar-comercial p,
+                    .dolar-paralelo p{
+                        margin-bottom:14px; 
+                    }
+
                     .dolar-venda,
                     .dolar-compra{
-                        margin-left:75px;
+                        margin-left:60px;
                         font-size:10px;
                         font-weight:900;
                         color:rgb(0,0,0);
