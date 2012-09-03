@@ -124,3 +124,24 @@
                 background:url('../imagens/sprite-menu.png') no-repeat -680px 0;
             }
             /* / sprite*/
+
+
+            .fabricantes ul,
+            .onde-comprar ul, 
+            .amostras ul{
+                display:none;
+                margin-top:5px;
+            }
+
+            .fabricantes ul li a,
+            .onde-comprar ul li a,
+            .amostras ul li a{
+                background:none;
+            }            
+
+            .fabricantes ul li a:hover,
+            .onde-comprar ul li a:hover,
+            .amostras ul li a:hover{
+                display:block;
+                background:none;
+            }

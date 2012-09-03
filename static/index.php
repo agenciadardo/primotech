@@ -69,13 +69,102 @@
                 <div class="menu">        
             <!--<![endif]-->
                     <ul>
-                        <li class="primotech-21"><a href="#">Primotech 21</a></li>
-                        <li class="fabricantes"><a href="#">Fabricantes</a></li>
-                        <li class="onde-comprar"><a href="#">Onde comprar</a></li>
-                        <li class="aplicacoes"><a href="#">Aplicações</a></li>
-                        <li class="primonews"><a href="#">Primonews</a></li>
-                        <li class="amostras"><a href="#">Amostras</a></li>
-                        <li class="fale-conosco" style="margin-right:0;"><a href="#">Fale conosco</a></li>
+                        <li class="primotech-21">
+                            <a href="#">Primotech 21</a>
+                        </li>
+                        
+                        <li class="fabricantes">
+                            <a href="#">Fabricantes</a>
+                            
+                            <ul>
+                                <li>
+                                    <a href="#">Item 1</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Item 2</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Item 3</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Item 4</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Item 5</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        
+                        <li class="onde-comprar">
+                            <a href="#">Onde comprar</a>
+
+                            <ul>
+                                <li>
+                                    <a href="#">Item 1</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Item 2</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Item 3</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Item 4</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Item 5</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        
+                        <li class="aplicacoes">
+                            <a href="#">Aplicações</a>
+                        </li>
+                        
+                        <li class="primonews">
+                            <a href="#">Primonews</a>
+                        </li>
+                        
+                        <li class="amostras">
+                            <a href="#">Amostras</a>
+
+                            <ul>
+                                <li>
+                                    <a href="#">Item 1</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Item 2</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Item 3</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Item 4</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Item 5</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        
+                        <li class="fale-conosco" style="margin-right:0;">
+                            <a href="#">Fale conosco</a>
+                        </li>
                     </ul>
                 </div> <!-- / menu -->
 
@@ -315,7 +404,7 @@
                 </div> <!-- / ultimas-noticias -->
 
                 <div class="videos">
-                    <object width="220" height="220">
+<!--                     <object width="220" height="220">
                         <param name="movie" value="https://www.youtube.com/v/videoseries?listType=playlist&list=ALYL4kY05133ohSYUqR_phVX8cJdxXbe5_&autoplay=1&modestbranding=1&version=3"></param>
                         <param name="allowFullScreen" value="true"></param>
                         <param name="allowScriptAccess" value="always"></param>
@@ -326,7 +415,7 @@
                                width="220" 
                                height="220">
                         </embed>
-                    </object>    
+                    </object>   -->  
                 </div>
 
                 <div class="redes-sociais">
