@@ -35,9 +35,11 @@
             
             <div id="header" class="alpha grid_12">  
                 
-                <div class="logotipo">
-                </div> <!-- / logotipo -->
-
+                <a href="<?php bloginfo('url'); ?>">
+                    <div class="logotipo">
+                    </div> <!-- / logotipo -->
+                </a>
+                
                 <div class="idiomas">
                     <div class="bandeiras">
                         

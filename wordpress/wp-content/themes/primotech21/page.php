@@ -1,76 +1,102 @@
 <?php get_header(); ?>
 
-    <div id="conteudo_pagina" class="grid_12 omega"><!-- Conteúdo -->
-
-            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?><!-- Listar os posts -->
-                
-                <!-- Página Contato -->
-                <?php if (is_page('contato')) { ?>
-                <div class="conteudo_pagina">
-                    <h1><?php the_title(); ?></h1>
-                    <?php the_content(); ?>
-
-                    <div id="formulario-contato">
-
-                        <?php if (empty($_GET['enviado'])) { ?>
-
-                            <form action="<?php bloginfo('template_url'); ?>\enviar-email.php" method="post">
-                                <span class="nome"></span>
-                                <input type="text" value="Nome" id="formulario_contato_nome" name="textbox_nome" />
-                                <br />
-                                
-                                <span class="email"></span>
-                                <input type="text" value="E-mail" id="formulario_contato_email" name="textbox_email" />
-                                <br />
-
-                                <span class="telefone"></span>
-                                <input type="text" value="Telefone" id="formulario_contato_telefone" name="textbox_telefone" />
-                                <br />
-                                
-                                <textarea id="formulario_contato_mensagem" name="textarea_mensagem">Mensagem</textarea><br />
-                                <p>
-                                    <a href="#">
-                                        Pol&iacute;ticas de privacidade
-                                    </a>
-                                    <input type="submit" value="Enviar" id="formulario_contato_submit" />
-                                </p>
-                            </form>
-                        
-                        <?php 
-                        }
-                        else { ?>
-                        
-                            <h3>
-                                Mensagem enviada com sucesso.<br />
-                                Obrigado!
-                            <h3>
-                        
-                        <?php } ?>
-
-                    </div>
-
-                </div>
-                <?php }
-                     else { ?>
-                        <?php if ( is_front_page() ) { ?>
-                            <div class="conteudo_pagina">
-                                <h1><?php the_title(); ?></h1>
-                        <?php } 
-                              else { ?>
-                            <div class="conteudo_pagina">
-                                <h1><?php the_title(); ?></h1>
-                        <?php } ?>
-                             <?php the_content(); ?>
-                         </div>
-                    <?php } ?>
-            <?php endwhile; else: ?>
-                <div class="post_conteudo grid_9"><!-- Post -->
-                    <p><?php _e('Desculpe, não existem postagens sobre esse assunto.'); ?></p>
-                </div><!-- endOf Post -->
-             <?php endif; ?><!-- endOf Listar os posts -->
+<div id="fabricantes-lateral" class="grid_3">
     
-        </div><!-- endOf Conteúdo -->
+    <div class="header-coluna">
+        <h1>Fabricantes</h1>
+    </div>
 
-    </div><!-- endOf Container -->
+    <div class="marcas">
+
+        <div class="box-marca-1">
+            <a href="<?php bloginfo('url'); ?>/fabricantes/alps">
+                <img src="<?php bloginfo('template_url'); ?>/imagens/sprite-fabricantes.png" alt="" />
+            </a>
+        </div>
+
+        <div class="box-marca-2">
+            <a href="<?php bloginfo('url'); ?>/fabricantes/nichicon">
+                <img src="<?php bloginfo('template_url'); ?>/imagens/sprite-fabricantes.png" alt="" />
+            </a>
+        </div>
+
+        <div class="box-marca-3">
+            <a href="<?php bloginfo('url'); ?>/fabricantes/torex">
+                <img src="<?php bloginfo('template_url'); ?>/imagens/sprite-fabricantes.png" alt="" />
+            </a>
+        </div>
+
+        <div class="box-marca-4">
+            <a href="<?php bloginfo('url'); ?>/fabricantes/astro">
+                <img src="<?php bloginfo('template_url'); ?>/imagens/sprite-fabricantes.png" alt="" />
+            </a>
+        </div>
+
+        <div class="box-marca-5">
+            <a href="<?php bloginfo('url'); ?>/fabricantes/eiden">
+                <img src="<?php bloginfo('template_url'); ?>/imagens/sprite-fabricantes.png" alt="" />
+            </a>
+        </div>
+
+        <div class="box-marca-7">
+            <a href="<?php bloginfo('url'); ?>/fabricantes/aven">
+                <img src="<?php bloginfo('template_url'); ?>/imagens/sprite-fabricantes.png" alt="" />
+            </a>
+        </div>
+
+    </div> <!-- / marcas -->
+
+</div> <!-- / fabricantes-lateral --> 
+
+<div id="conteudo-central" class="grid_9">
+
+
+
+    <div class="header-paginas">
+
+        <?php if(is_page('fabricantes')) { ?>
+        <div class="icone-fabricantes">
+            
+        </div>
+        <?php } ?>
+
+        <?php if(is_page('onde-comprar')) { ?>
+        <div class="icone-onde-comprar">
+
+        </div>
+        <?php } ?>
+        
+        <?php if(is_page('aplicacoes')) { ?>
+        <div class="icone-aplicacoes">
+
+        </div>
+        <?php } ?>
+        
+        <?php if(is_page('primonews')) { ?>
+        <div class="icone-primonews">
+
+        </div>
+        <?php } ?>
+        
+        <?php if(is_page('amostras')) { ?>
+        <div class="icone-amostras">
+
+        </div>
+        <?php } ?>
+
+        <?php if(is_page('fale-conosco')) { ?>
+        <div class="icone-fale-conosco">
+            
+        </div>
+        <?php } ?>
+
+        <h1><?php the_title(); ?></h1>
+    </div>
+
+    <div class="conteudo-pagina">
+        <?php the_content(); ?>
+    </div>
+
+</div> <!-- / conteudo-central -->
 
 <?php get_footer(); ?>
