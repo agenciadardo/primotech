@@ -62,25 +62,25 @@
                     <div class="lista-icones">
                         <div class="icone-social">
                             <a href="#">
-                                <img class="icone-facebook" src="imagens/sprite-social.png" alt="" />
+                                <img class="icone-facebook" src="<?php bloginfo('template_url'); ?>/imagens/sprite-social.png" alt="" />
                             </a>
                         </div>
 
                         <div class="icone-social">
                             <a href="#">
-                                <img class="icone-twitter" src="imagens/sprite-social.png" alt="" />
+                                <img class="icone-twitter" src="<?php bloginfo('template_url'); ?>/imagens/sprite-social.png" alt="" />
                             </a>
                         </div>
 
                         <div class="icone-social">
                             <a href="#">
-                                <img class="icone-linkedin" src="imagens/sprite-social.png" alt="" />
+                                <img class="icone-linkedin" src="<?php bloginfo('template_url'); ?>/imagens/sprite-social.png" alt="" />
                             </a>
                         </div>
 
                         <div class="icone-social">
                             <a href="#">
-                                <img class="icone-email" src="imagens/sprite-social.png" alt="" />
+                                <img class="icone-email" src="<?php bloginfo('template_url'); ?>/imagens/sprite-social.png" alt="" />
                             </a>
                         </div>
 

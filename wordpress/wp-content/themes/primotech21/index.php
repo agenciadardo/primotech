@@ -85,7 +85,7 @@
                     </p>
 
                     <p class="descricao-hide">
-                        <a href="#">
+                        <a href="<?php the_permalink(); ?>">
                             <?php echo substr(get_the_content(), 0, 70), " (...)"; ?>
                         </a>
                     </p>
