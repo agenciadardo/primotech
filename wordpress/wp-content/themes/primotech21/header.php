@@ -19,7 +19,7 @@
         <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
         <script src="http://malsup.github.com/jquery.cycle.all.js"></script>
         <script src="http://cotacao.republicavirtual.com.br/web_cotacao.php?formato=javascript"></script>
-        <script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script> 
+        <script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
     </head>
     <body>
         <div id="fb-root"></div>
@@ -43,13 +43,13 @@
                         
                         <div class="pt-br">
                             <a href="#">
-                                <img src="<?php bloginfo('template_url') ?>/imagens/pt-br.jpg" alt="" />
+                                <img src="<?php bloginfo('template_url'); ?>/imagens/pt-br.jpg" alt="" />
                             </a>
                         </div>
 
                         <div class="en-us">
                             <a href="#">
-                                <img src="<?php bloginfo('template_url') ?>/imagens/en-us.jpg" alt="" />
+                                <img src="<?php bloginfo('template_url'); ?>/imagens/en-us.jpg" alt="" />
                             </a>
                         </div>
 
@@ -57,9 +57,9 @@
                 </div> <!-- / idiomas -->
 
                 <div class="banner">
-                    <img src="<?php bloginfo('template_url') ?>/imagens/banner-rotate.jpg" alt="" />
-                    <img src="<?php bloginfo('template_url') ?>/imagens/banner-rotate2.jpg" alt="" />
-                    <img src="<?php bloginfo('template_url') ?>/imagens/banner-topo.jpg" alt="" />
+                    <img src="<?php bloginfo('template_url'); ?>/imagens/banner-rotate.jpg" alt="" />
+                    <img src="<?php bloginfo('template_url'); ?>/imagens/banner-rotate2.jpg" alt="" />
+                    <img src="<?php bloginfo('template_url'); ?>/imagens/banner-topo.jpg" alt="" />
                 </div> <!-- / banner -->
 
             <!--[if lt IE 9]>
@@ -71,7 +71,7 @@
             <!--<![endif]-->
                     <ul>
                         <li class="primotech-21">
-                            <a href="#">Primotech 21</a>
+                            <a href="<?php bloginfo('url'); ?>">Primotech 21</a>
                         </li>
                         
                         <li class="fabricantes">

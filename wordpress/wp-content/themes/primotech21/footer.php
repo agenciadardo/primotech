@@ -2,7 +2,7 @@
 
                 <div class="menu-rodape">
                     <ul>
-                        <li><a href="#">Primotech 21</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>">Primotech 21</a></li>
                         <li><a href="#">Fabricantes</a></li>
                         <li><a href="#">Onde comprar</a></li>
                         <li><a href="#">Aplicações</a></li>
