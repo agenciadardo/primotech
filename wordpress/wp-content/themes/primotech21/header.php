@@ -42,13 +42,13 @@
                     <div class="bandeiras">
                         
                         <div class="pt-br">
-                            <a href="#">
+                            <a href="<?php bloginfo('url'); ?>/pt-br">
                                 <img src="<?php bloginfo('template_url'); ?>/imagens/pt-br.jpg" alt="" />
                             </a>
                         </div>
 
                         <div class="en-us">
-                            <a href="#">
+                            <a href="<?php bloginfo('url'); ?>/en-us">
                                 <img src="<?php bloginfo('template_url'); ?>/imagens/en-us.jpg" alt="" />
                             </a>
                         </div>
@@ -75,100 +75,100 @@
                         </li>
                         
                         <li class="fabricantes">
-                            <a href="#">Fabricantes</a>
+                            <a href="<?php bloginfo('url'); ?>/fabricantes">Fabricantes</a>
                             
                             <ul>
                                 <li>
-                                    <a href="#">Alps</a>
+                                    <a href="<?php bloginfo('url'); ?>/fabricantes/alps">Alps</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Nichicon</a>
+                                    <a href="<?php bloginfo('url'); ?>/fabricantes/nichicon">Nichicon</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Torex</a>
+                                    <a href="<?php bloginfo('url'); ?>/fabricantes/torex">Torex</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Astro</a>
+                                    <a href="<?php bloginfo('url'); ?>/fabricantes/astro">Astro</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Eiden</a>
+                                    <a href="<?php bloginfo('url'); ?>/fabricantes/eiden">Eiden</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Aven</a>
+                                    <a href="<?php bloginfo('url'); ?>/fabricantes/aven">Aven</a>
                                 </li>
                             </ul>
 
                         </li>
                         
                         <li class="onde-comprar">
-                            <a href="#">Onde comprar</a>
+                            <a href="<?php bloginfo('url'); ?>/onde-comprar">Onde comprar</a>
 
                             <ul>
                                 <li>
-                                    <a href="#">Item 1</a>
+                                    <a href="<?php bloginfo('url'); ?>/onde-comprar/">Item 1</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Item 2</a>
+                                    <a href="<?php bloginfo('url'); ?>/onde-comprar/">Item 2</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Item 3</a>
+                                    <a href="<?php bloginfo('url'); ?>/onde-comprar/">Item 3</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Item 4</a>
+                                    <a href="<?php bloginfo('url'); ?>/onde-comprar/">Item 4</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Item 5</a>
+                                    <a href="<?php bloginfo('url'); ?>/onde-comprar/">Item 5</a>
                                 </li>
                             </ul>
 
                         </li>
                         
                         <li class="aplicacoes">
-                            <a href="#">Aplicações</a>
+                            <a href="<?php bloginfo('url'); ?>/aplicacoes">Aplicações</a>
                         </li>
                         
                         <li class="primonews">
-                            <a href="#">Primonews</a>
+                            <a href="<?php bloginfo('url'); ?>/primonews">Primonews</a>
                         </li>
                         
                         <li class="amostras">
-                            <a href="#">Amostras</a>
+                            <a href="<?php bloginfo('url'); ?>/amostras">Amostras</a>
 
                             <ul>
                                 <li>
-                                    <a href="#">Item 1</a>
+                                    <a href="<?php bloginfo('url'); ?>/amostras/">Item 1</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Item 2</a>
+                                    <a href="<?php bloginfo('url'); ?>/amostras/">Item 2</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Item 3</a>
+                                    <a href="<?php bloginfo('url'); ?>/amostras/">Item 3</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Item 4</a>
+                                    <a href="<?php bloginfo('url'); ?>/amostras/">Item 4</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Item 5</a>
+                                    <a href="<?php bloginfo('url'); ?>/amostras/">Item 5</a>
                                 </li>
                             </ul>
 
                         </li>
                         
                         <li class="fale-conosco" style="margin-right:0;">
-                            <a href="#">Fale conosco</a>
+                            <a href="<?php bloginfo('url'); ?>/fale-conosco">Fale conosco</a>
                         </li>
                     </ul>
                 </div> <!-- / menu -->
