@@ -9,37 +9,37 @@
     <div class="marcas">
 
         <div class="box-marca-1">
-            <a href="#">
+            <a href="<?php bloginfo('url'); ?>/fabricantes/alps">
                 <img src="<?php bloginfo('template_url'); ?>/imagens/sprite-fabricantes.png" alt="" />
             </a>
         </div>
 
         <div class="box-marca-2">
-            <a href="#">
+            <a href="<?php bloginfo('url'); ?>/fabricantes/nichicon">
                 <img src="<?php bloginfo('template_url'); ?>/imagens/sprite-fabricantes.png" alt="" />
             </a>
         </div>
 
         <div class="box-marca-3">
-            <a href="#">
+            <a href="<?php bloginfo('url'); ?>/fabricantes/torex">
                 <img src="<?php bloginfo('template_url'); ?>/imagens/sprite-fabricantes.png" alt="" />
             </a>
         </div>
 
         <div class="box-marca-4">
-            <a href="#">
+            <a href="<?php bloginfo('url'); ?>/fabricantes/astro">
                 <img src="<?php bloginfo('template_url'); ?>/imagens/sprite-fabricantes.png" alt="" />
             </a>
         </div>
 
         <div class="box-marca-5">
-            <a href="#">
+            <a href="<?php bloginfo('url'); ?>/fabricantes/eiden">
                 <img src="<?php bloginfo('template_url'); ?>/imagens/sprite-fabricantes.png" alt="" />
             </a>
         </div>
 
         <div class="box-marca-7">
-            <a href="#">
+            <a href="<?php bloginfo('url'); ?>/fabricantes/aven">
                 <img src="<?php bloginfo('template_url'); ?>/imagens/sprite-fabricantes.png" alt="" />
             </a>
         </div>
