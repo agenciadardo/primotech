@@ -1,0 +1,147 @@
+.logotipo{
+    z-index:9999;
+    float:left;
+    position:absolute;
+    width:470px;
+    height:186px;
+    background:transparent;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+        src='./imagens/topo.png',
+        sizingMethod='scale');
+}
+
+        .menu-ie{
+            position:relative;
+            z-index:9999;
+            display:block;
+            text-align:center;
+            background:rgb(255,255,255) url('../imagens/bg-menu-normal.jpg') repeat-x 0 -49px;
+            background-size:1px 75px;
+            height:70px;
+            margin-bottom:30px;
+        }
+
+        .menu-ie ul,
+        .menu-ie-rodape ul,
+        .links-destacados ul{
+            list-style-type:none;
+            display:inline-block;
+        }
+
+            .menu-ie li,
+            .menu-ie-rodape li,
+            .links-destacados li{
+                float:left;
+            }
+
+            .menu-ie li{
+                background-color:transparent;
+                text-align:center;
+                margin:0 5px 0 0;
+                padding:5px;
+                height:60px;
+            }
+
+            .menu-ie li:hover{
+                background: rgb(0,153,153) url('../imagens/bg-menu-hover.jpg') repeat-x 0 -44px;
+            }
+
+            .menu-ie li:hover a{
+                color:rgb(255,255,255);
+                text-shadow:0 0 10px rgb(0,0,0);
+            }
+
+            .menu-ie ul li a,
+            .menu-ie-rodape ul li a,
+            .links-destacados ul li a{
+                text-decoration:none;
+            }
+
+            .menu-ie a{
+                height:60px;
+                display:block;
+                letter-spacing:1px;
+                line-height:101px;
+                color:rgb(133,133,131);
+                font-family:'Didact Gothic',sans-serif;
+                font-size:19px;
+                font-weight:normal;
+                color:rgb(133,133,131);
+            }
+
+            .menu-ie a:hover{
+                color:rgb(255,255,255);
+            }
+
+            /* sprite */
+
+            .primotech-21 a{
+                background:url('../imagens/sprite-menu.png') no-repeat -1620px 0;
+            }
+            .primotech-21 a:hover{
+                background:url('../imagens/sprite-menu.png') no-repeat -1512px 0;
+            }
+
+            .fabricantes a{
+                background:url('../imagens/sprite-menu.png') no-repeat -552px 0;
+            }
+            .fabricantes a:hover{
+                background:url('../imagens/sprite-menu.png') no-repeat -435px 0;
+            }
+
+            .onde-comprar a{
+                background:url('../imagens/sprite-menu.png') no-repeat -1074px 0;
+            }
+            .onde-comprar a:hover{
+                background:url('../imagens/sprite-menu.png') no-repeat -943px 0;
+            }
+
+            .aplicacoes a{
+                background:url('../imagens/sprite-menu.png') no-repeat -317px 0;
+            }
+            .aplicacoes a:hover{
+                background:url('../imagens/sprite-menu.png') no-repeat -192px 0;
+            }
+
+            .primonews a{
+                background:url('../imagens/sprite-menu.png') no-repeat -1372px 0;
+            }
+            .primonews a:hover{
+                background:url('../imagens/sprite-menu.png') no-repeat -1241px 0;
+            }
+
+            .amostras a{
+                background:url('../imagens/sprite-menu.png') no-repeat -88px 0;
+            }
+            .amostras a:hover{
+                background:url('../imagens/sprite-menu.png') no-repeat 22px 0;
+            }
+
+            .fale-conosco a{
+                background:url('../imagens/sprite-menu.png') no-repeat -820px 0;
+            }
+            .fale-conosco a:hover{
+                background:url('../imagens/sprite-menu.png') no-repeat -680px 0;
+            }
+            /* / sprite*/
+
+
+            .fabricantes ul,
+            .onde-comprar ul, 
+            .amostras ul{
+                display:none;
+                margin-top:5px;
+            }
+
+            .fabricantes ul li a,
+            .onde-comprar ul li a,
+            .amostras ul li a{
+                background:none;
+            }            
+
+            .fabricantes ul li a:hover,
+            .onde-comprar ul li a:hover,
+            .amostras ul li a:hover{
+                display:block;
+                background:none;
+            }
