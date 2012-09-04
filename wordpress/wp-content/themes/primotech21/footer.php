@@ -3,12 +3,12 @@
                 <div class="menu-rodape">
                     <ul>
                         <li><a href="<?php bloginfo('url'); ?>">Primotech 21</a></li>
-                        <li><a href="#">Fabricantes</a></li>
-                        <li><a href="#">Onde comprar</a></li>
-                        <li><a href="#">Aplicações</a></li>
-                        <li><a href="#">Primonews</a></li>
-                        <li><a href="#">Amostras</a></li>
-                        <li><a href="#">Fale conosco</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/fabricantes">Fabricantes</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/onde-comprar">Onde comprar</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/aplicacoes">Aplicações</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/primonews">Primonews</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/amostras">Amostras</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/fale-conosco">Fale conosco</a></li>
                     </ul>             
                 </div> <!-- / menu-rodape -->
 
