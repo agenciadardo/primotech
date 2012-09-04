@@ -54,39 +54,39 @@
 
     <div class="header-paginas">
 
-        <?php if(is_page('fabricantes')) { ?>
+        <?php if (is_page('fabricantes')) { ?>
         <div class="icone-fabricantes">
-            
+
         </div>
         <?php } ?>
 
-        <?php if(is_page('onde-comprar')) { ?>
+        <?php if (is_page('onde-comprar')) { ?>
         <div class="icone-onde-comprar">
 
         </div>
         <?php } ?>
         
-        <?php if(is_page('aplicacoes')) { ?>
+        <?php if (is_page('aplicacoes')) { ?>
         <div class="icone-aplicacoes">
 
         </div>
         <?php } ?>
         
-        <?php if(is_page('primonews')) { ?>
+        <?php if (is_page('primonews')) { ?>
         <div class="icone-primonews">
 
         </div>
         <?php } ?>
         
-        <?php if(is_page('amostras')) { ?>
+        <?php if (is_page('amostras')) { ?>
         <div class="icone-amostras">
 
         </div>
         <?php } ?>
 
-        <?php if(is_page('fale-conosco')) { ?>
+        <?php if (is_page('fale-conosco')) { ?>
         <div class="icone-fale-conosco">
-            
+
         </div>
         <?php } ?>
 
