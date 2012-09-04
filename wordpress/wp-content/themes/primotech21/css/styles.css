@@ -43,6 +43,7 @@ body{
             margin-left:230px;
             width:730px;
             height:180px;
+            overflow:hidden;
         }
 
             .banner img{
@@ -140,6 +141,7 @@ body{
                     .fabricantes ul li:hover,
                     .onde-comprar ul li:hover,
                     .amostras ul li:hover{
+                        border-right:2px solid rgb(0,153,153);
                         background:rgb(0,90,90);
                     }
 

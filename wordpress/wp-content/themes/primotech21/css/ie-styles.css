@@ -4,11 +4,14 @@
     position:absolute;
     width:470px;
     height:186px;
-    background:transparent;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
         src='./imagens/topo.png',
         sizingMethod='scale');
 }
+
+.banner{
+    height:175px;
+ }
 
         .menu-ie{
             position:relative;

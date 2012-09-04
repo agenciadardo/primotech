@@ -78,9 +78,3 @@ Cotacao = {
         return dolarParalelo;
     }
 };
-
-$(document).ready(function() {
-    $('.banner').cycle({
-        fx:'fade'
-    });
-});

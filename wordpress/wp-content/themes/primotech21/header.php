@@ -57,9 +57,11 @@
                 </div> <!-- / idiomas -->
 
                 <div class="banner">
-                    <img src="<?php bloginfo('template_url'); ?>/imagens/banner-rotate.jpg" alt="" />
-                    <img src="<?php bloginfo('template_url'); ?>/imagens/banner-rotate2.jpg" alt="" />
-                    <img src="<?php bloginfo('template_url'); ?>/imagens/banner-topo.jpg" alt="" />
+                    <?php 
+                        if (function_exists('meteor_slideshow')) { 
+                            meteor_slideshow('topo'); 
+                        }
+                    ?>
                 </div> <!-- / banner -->
 
             <!--[if lt IE 9]>
