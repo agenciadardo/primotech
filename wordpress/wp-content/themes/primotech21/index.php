@@ -73,28 +73,30 @@
                 
                     <img src="<?php echo get_post_meta($post->ID, 'Imagem', true) ?>" 
                          title="<?php the_title(); ?>" 
-                         alt="<?php the_title(); ?>" />
+                         alt="<?php the_title(); ?>"
+                         width="220"
+                         height="200" />
 
                 </div>
 
                 <div class="descricao">
                     <p>
-                        <?php echo get_the_title(); ?>
+                        <?php echo substr(get_the_title(), 0, 50); ?>
                     </p>
 
                     <p class="descricao-hide">
                         <a href="#">
-                            <?php echo substr(get_the_content(), 0, 80); ?>
+                            <?php echo substr(get_the_content(), 0, 70), " (...)"; ?>
                         </a>
                     </p>
                 </div>
-            
+
+            </div>
                 <?php endif; ?>
             <?php endwhile; else: ?>
             
             <?php endif; ?>
 
-            </div>
 
         </div> <!-- / boxes-central -->
 

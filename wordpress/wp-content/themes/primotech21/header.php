@@ -79,23 +79,27 @@
                             
                             <ul>
                                 <li>
-                                    <a href="#">Item 1</a>
+                                    <a href="#">Alps</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Item 2</a>
+                                    <a href="#">Nichicon</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Item 3</a>
+                                    <a href="#">Torex</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Item 4</a>
+                                    <a href="#">Astro</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Item 5</a>
+                                    <a href="#">Eiden</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Aven</a>
                                 </li>
                             </ul>
 
