@@ -80,60 +80,28 @@
                         
                         <li class="fabricantes">
                             <a href="<?php bloginfo('url'); ?>/fabricantes">Fabricantes</a>
+                            <?php 
+                            $idFabricantes = get_page_by_title('Fabricantes')->ID;
+                            $subpaginas = wp_list_pages('title_li=&child_of='.$idFabricantes.'&echo=0&sort_column=post_date');
                             
-                            <ul>
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/fabricantes/alps">Alps</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/fabricantes/nichicon">Nichicon</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/fabricantes/torex">Torex</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/fabricantes/astro">Astro</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/fabricantes/eiden">Eiden</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/fabricantes/aven">Aven</a>
-                                </li>
+                            if ($subpaginas) { ?>
+                            <ul>                                
+                                <?php echo $subpaginas; ?>
                             </ul>
-
+                            <?php } ?>
                         </li>
                         
                         <li class="onde-comprar">
                             <a href="<?php bloginfo('url'); ?>/onde-comprar">Onde comprar</a>
-
-                            <ul>
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/onde-comprar/">Item 1</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/onde-comprar/">Item 2</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/onde-comprar/">Item 3</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/onde-comprar/">Item 4</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/onde-comprar/">Item 5</a>
-                                </li>
+                            <?php 
+                            $idOndeComprar = get_page_by_title('Onde comprar')->ID;
+                            $subpaginas = wp_list_pages('title_li=&child_of='.$idOndeComprar.'&echo=0&sort_column=post_date');
+                            
+                            if ($subpaginas) { ?>
+                            <ul>                                
+                                <?php echo $subpaginas; ?>
                             </ul>
-
+                            <?php } ?>
                         </li>
                         
                         <li class="aplicacoes">
@@ -146,29 +114,15 @@
                         
                         <li class="amostras">
                             <a href="<?php bloginfo('url'); ?>/amostras">Amostras</a>
-
-                            <ul>
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/amostras/">Item 1</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/amostras/">Item 2</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/amostras/">Item 3</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/amostras/">Item 4</a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php bloginfo('url'); ?>/amostras/">Item 5</a>
-                                </li>
+                            <?php 
+                            $idAmostras = get_page_by_title('Amostras')->ID;
+                            $subpaginas = wp_list_pages('title_li=&child_of='.$idAmostras.'&echo=0&sort_column=post_date');
+                            
+                            if ($subpaginas) { ?>
+                            <ul>                                
+                                <?php echo $subpaginas; ?>
                             </ul>
-
+                            <?php } ?>
                         </li>
                         
                         <li class="fale-conosco" style="margin-right:0;">

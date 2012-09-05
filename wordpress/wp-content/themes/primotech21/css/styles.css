@@ -584,13 +584,30 @@ body{
             float:left;
         }
 
-        .icone-fabricantes,
-        .icone-onde-comprar,
-        .icone-aplicacoes,
-        .icone-primonews,
-        .icone-amostras,
-        .icone-fale-conosco{
-            background:url('../imagens/sprite-menu-paginas.png') no-repeat 0 8px;
+        .icone-fabricantes{
+            background:url('../imagens/sprite-menu-paginas.png') no-repeat -350px 10px;
+        }
 
+        .icone-onde-comprar{
+            background:url('../imagens/sprite-menu-paginas.png') no-repeat -742px 10px;
+        }
+
+        .icone-aplicacoes{
+            background:url('../imagens/sprite-menu-paginas.png') no-repeat -163px 11px;
+
+        }
+        
+        .icone-primonews{
+            background:url('../imagens/sprite-menu-paginas.png') no-repeat -955px 13px;
+
+        }
+        
+        .icone-amostras{
+            background:url('../imagens/sprite-menu-paginas.png') no-repeat 5px 12px;
+        
+        }
+        
+        .icone-fale-conosco{
+            background:url('../imagens/sprite-menu-paginas.png') no-repeat -530px 14px;
         }
 /* / Páginas */
