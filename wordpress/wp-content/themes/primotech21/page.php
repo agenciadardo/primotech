@@ -87,7 +87,7 @@
         <div class="conteudo-<?php echo preg_replace('[\s]', '-', strtolower(get_the_title())); ?>">
             <?php the_content();?>
             
-            <?php // Onde comprar ?>
+            <?php // Onde comprar; ?>
                 <?php if (is_page('onde-comprar')) { ?>
                     <?php 
                     $idOndeComprar = get_page_by_title('Onde comprar')->ID;
@@ -98,6 +98,89 @@
                         <?php echo $subpaginas; ?>
                     </ul>
                     <?php } ?>               
+                <?php } ?>
+                
+            <?php // Includes para as subpáginas; ?>
+                <?php 
+                global $post; 
+                $idFabricantes = get_page_by_title('Fabricantes')->ID;
+                $idOndeComprar = get_page_by_title('Onde comprar')->ID;
+                $idAmostras = get_page_by_title('Amostras')->ID;
+                ?>
+
+            <?php // Includes Fabricantes; ?>
+                <?php if (is_page('alps') && $post->post_parent == $idFabricantes) { ?>
+                    <?php include "fabricantes/alps.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('nichicon') && $post->post_parent == $idFabricantes) { ?>
+                    <?php include "fabricantes/nichicon.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('torex') && $post->post_parent == $idFabricantes) { ?>
+                    <?php include "fabricantes/torex.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('astro') && $post->post_parent == $idFabricantes) { ?>
+                    <?php include "fabricantes/astro.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('eiden') && $post->post_parent == $idFabricantes) { ?>
+                    <?php include "fabricantes/eiden.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('aven') && $post->post_parent == $idFabricantes) { ?>
+                    <?php include "fabricantes/aven.php"; ?>
+                <?php } ?>
+
+            <?php // Includes Onde comprar; ?>
+                <?php if (is_page('alps') && $post->post_parent == $idOndeComprar) { ?>
+                    <?php include "onde-comprar/alps.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('nichicon') && $post->post_parent == $idOndeComprar) { ?>
+                    <?php include "onde-comprar/nichicon.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('torex') && $post->post_parent == $idOndeComprar) { ?>
+                    <?php include "onde-comprar/torex.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('astro') && $post->post_parent == $idOndeComprar) { ?>
+                    <?php include "onde-comprar/astro.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('eiden') && $post->post_parent == $idOndeComprar) { ?>
+                    <?php include "onde-comprar/eiden.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('aven') && $post->post_parent == $idOndeComprar) { ?>
+                    <?php include "onde-comprar/aven.php"; ?>
+                <?php } ?>
+
+            <?php // Includes Amostras; ?>
+                <?php if (is_page('alps') && $post->post_parent == $idAmostras) { ?>
+                    <?php include "amostras/alps.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('nichicon') && $post->post_parent == $idAmostras) { ?>
+                    <?php include "amostras/nichicon.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('torex') && $post->post_parent == $idAmostras) { ?>
+                    <?php include "amostras/torex.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('astro') && $post->post_parent == $idAmostras) { ?>
+                    <?php include "amostras/astro.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('eiden') && $post->post_parent == $idAmostras) { ?>
+                    <?php include "amostras/eiden.php"; ?>
+                <?php } ?>
+
+                <?php if (is_page('aven') && $post->post_parent == $idAmostras) { ?>
+                    <?php include "amostras/aven.php"; ?>
                 <?php } ?>
         </div>
     </div>
