@@ -55,46 +55,51 @@
     <div class="header-paginas">
 
         <?php if (is_page('fabricantes')) { ?>
-        <div class="icone-fabricantes">
-
-        </div>
+        <div class="icone-fabricantes"></div>
         <?php } ?>
 
         <?php if (is_page('onde-comprar')) { ?>
-        <div class="icone-onde-comprar">
-
-        </div>
+        <div class="icone-onde-comprar"></div>
         <?php } ?>
         
         <?php if (is_page('aplicacoes')) { ?>
-        <div class="icone-aplicacoes">
-
-        </div>
+        <div class="icone-aplicacoes"></div>
         <?php } ?>
         
         <?php if (is_page('primonews')) { ?>
-        <div class="icone-primonews">
-
-        </div>
+        <div class="icone-primonews"></div>
         <?php } ?>
         
         <?php if (is_page('amostras')) { ?>
-        <div class="icone-amostras">
-
-        </div>
+        <div class="icone-amostras"></div>
         <?php } ?>
 
         <?php if (is_page('fale-conosco')) { ?>
-        <div class="icone-fale-conosco">
-
-        </div>
+        <div class="icone-fale-conosco"></div>
         <?php } ?>
 
         <h1><?php the_title(); ?></h1>
+
+
     </div>
 
     <div class="conteudo-pagina">
-        <?php the_content(); ?>
+        <div class="conteudo-<?php echo preg_replace('[\s]', '-', strtolower(get_the_title())); ?>">
+            <?php the_content();?>
+            
+            <?php // Onde comprar ?>
+                <?php if (is_page('onde-comprar')) { ?>
+                    <?php 
+                    $idOndeComprar = get_page_by_title('Onde comprar')->ID;
+                    $subpaginas = wp_list_pages('title_li=&child_of='.$idOndeComprar.'&echo=0&sort_column=post_date');
+                    
+                    if ($subpaginas) { ?>
+                    <ul>                                
+                        <?php echo $subpaginas; ?>
+                    </ul>
+                    <?php } ?>               
+                <?php } ?>
+        </div>
     </div>
 
 </div> <!-- / conteudo-central -->

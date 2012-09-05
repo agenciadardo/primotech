@@ -563,6 +563,7 @@ body{
 
 /* Páginas */
     .header-paginas{
+        margin-bottom:20px;
         border-bottom:3px solid rgb(0,153,153);
     }
 
@@ -610,4 +611,32 @@ body{
         .icone-fale-conosco{
             background:url('../imagens/sprite-menu-paginas.png') no-repeat -530px 14px;
         }
+
+        .conteudo-pagina{
+            font-size:20px;
+            color:rgb(100,100,100);
+        }
+
+            .conteudo-pagina p{
+                padding-right:20px;
+            }
+
+            .conteudo-onde-comprar ul{
+                margin-top:50px;
+            }
+
+                .conteudo-onde-comprar li{
+                    margin-bottom:15px;
+                }
+
+                .conteudo-onde-comprar a{
+                    text-decoration:none;
+                    color:rgb(100,100,100);
+                }
+
+                .conteudo-onde-comprar a:hover{
+                    border-bottom:1px solid rgb(220,220,220);
+                    color:rgb(220,220,220);
+                }
+                
 /* / Páginas */
