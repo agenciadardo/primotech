@@ -44,7 +44,7 @@
                     <div class="bandeiras">
                         
                         <div class="pt-br">
-                            <a href="<?php bloginfo('url'); ?>/pt-br">
+                            <a href="<?php bloginfo('url'); ?>">
                                 <img src="<?php bloginfo('template_url'); ?>/imagens/pt-br.jpg" alt="" />
                             </a>
                         </div>
