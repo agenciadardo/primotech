@@ -638,5 +638,90 @@ body{
                     border-bottom:1px solid rgb(220,220,220);
                     color:rgb(220,220,220);
                 }
+
+    .box-fabricante{
+        display:block;
+        width:235px;
+        float:left;
+    }
+
+
+    .logotipo-fabricantes{
+        margin-bottom:30px;
+        height:60px;
+        text-align:center;
+    }
+
+     .conteudo-alps .boxes-fabricantes{
+        width:600px;
+     }
+
+        .logotipo-fabricante{
+            line-height:55px;
+            margin-bottom:20px;
+            padding:5px;
+            border-radius:10px;
+            width:195px;
+            height:65px;
+            background:rgb(238,238,238);
+        }
+
+    .conteudo-alps .box-fabricante{
+        margin-right:65px;
+    }
+
+        .box-fabricante p{
+            padding:0;
+            font-size:13px;
+        }
+
+            .boxes-fabricantes span p{
+                margin-bottom:50px;
+            }
+
+        .box-faca-cotacao{
+            margin-top:130px;
+        }
+
+        .botao-cotacao{
+            margin:0 auto;
+            padding:5px;
+            width:240px;
+            height:80px;
+            background:url('../imagens/bg-faca-cotacao.jpg') repeat-x 0 -5px;
+        }
+
+            .box-faca-cotacao a{
+                text-decoration:none;
+            }
+
+            .box-faca-cotacao a:hover p{
+                color:rgb(255,255,255);
+            }
+
+            .botao-cotacao:hover{
+                box-shadow:0 0 10px rgb(200,200,200);
+            }
+
+
+            .botao-cotacao p{
+                font-family:"Century Gothic",sans-serif;
+                font-size:35px;
+                font-weight:900;
+                line-height:38px;
+                color:rgb(240,240,240);
+                margin:0;
+                padding:0;
+            }
+
+                p.linha-1-cotacao{
+                    margin-left:20px;
+                }
+
+                p.linha-2-cotacao{
+                    margin-right:20px;
+                    text-align:right;
+                } 
+
                 
 /* / Páginas */
