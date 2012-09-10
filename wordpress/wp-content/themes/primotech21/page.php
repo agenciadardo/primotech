@@ -78,9 +78,29 @@
         <div class="icone-fale-conosco"></div>
         <?php } ?>
 
-        <h1><?php the_title(); ?></h1>
+        <?php // Nomeia as páginas e subpáginas; ?>
 
+            <?php 
+            $idFabricantes = get_page_by_title('Fabricantes')->ID;
+            $idOndeComprar = get_page_by_title('Onde comprar')->ID;
+            $idAmostras = get_page_by_title('Amostras')->ID; 
+            ?> 
 
+            <?php if ($post->post_parent == $idFabricantes) { ?>
+                <div class="icone-fabricantes"></div>
+                <h1>Fabricantes</h1>
+            <?php }
+            elseif ($post->post_parent == $idOndeComprar) { ?>
+                <div class="icone-onde-comprar"></div>
+                <h1>Onde comprar</h1>
+            <?php }
+            elseif ($post->post_parent == $idAmostras) { ?>
+                <div class="icone-amostras"></div>
+                <h1>Amostras</h1>  
+            <?php }
+            else { ?>
+                <h1><?php the_title(); ?></h1>
+             <?php } ?>
     </div>
 
     <div class="conteudo-pagina">

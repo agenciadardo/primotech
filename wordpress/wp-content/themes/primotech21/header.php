@@ -3,7 +3,7 @@
     <head>
         <script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>
         <meta charset="UTF-8" />
-        <title><?php bloginfo('title'); ?> &#8212; Página inicial</title>
+        <title><?php bloginfo('title'); ?> &#8212; <?php if (is_home()){echo 'Página Inicial';}else{the_title();} ?></title>
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta name="author" content="Marcker: marckfree at gmail.com" />
@@ -44,7 +44,7 @@
                     <div class="bandeiras">
                         
                         <div class="pt-br">
-                            <a href="<?php bloginfo('url'); ?>">
+                            <a href="<?php bloginfo('url'); ?>">    
                                 <img src="<?php bloginfo('template_url'); ?>/imagens/pt-br.jpg" alt="" />
                             </a>
                         </div>

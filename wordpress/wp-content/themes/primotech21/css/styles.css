@@ -641,7 +641,8 @@ body{
 
     .box-fabricante{
         display:block;
-        width:235px;
+        width:233px;
+        height:330px;
         float:left;
     }
 
@@ -657,6 +658,7 @@ body{
      }
 
         .logotipo-fabricante{
+            text-align:center;
             line-height:55px;
             margin-bottom:20px;
             padding:5px;
@@ -666,7 +668,8 @@ body{
             background:rgb(238,238,238);
         }
 
-    .conteudo-alps .box-fabricante{
+    .conteudo-alps .box-fabricante,
+    .conteudo-torex .box-fabricante{
         margin-right:65px;
     }
 
@@ -680,7 +683,7 @@ body{
             }
 
         .box-faca-cotacao{
-            margin-top:130px;
+            margin:130px 0 50px 0;
         }
 
         .botao-cotacao{
