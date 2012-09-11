@@ -105,7 +105,7 @@
 
     <div class="conteudo-pagina">
         <div class="conteudo-<?php echo preg_replace('[\s]', '-', strtolower(get_the_title())); ?>">
-            <?php the_content();?>
+            <?php the_content(); ?>
             
             <?php // Onde comprar; ?>
                 <?php if (is_page('onde-comprar')) { ?>

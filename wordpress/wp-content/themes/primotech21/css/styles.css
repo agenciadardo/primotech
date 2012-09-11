@@ -724,7 +724,80 @@ body{
                 p.linha-2-cotacao{
                     margin-right:20px;
                     text-align:right;
-                } 
+                }
+
+    /* Formularios Amostras */
+    .formulario-amostras{
+        margin-top:60px;
+        width:560px;
+        text-align:right;
+    }
+
+        .formulario-amostras input[type="text"],
+        .formulario-amostras textarea{
+            margin-bottom:10px;
+            outline:0;
+            width:330px;
+            height:25px;
+            border-top:1px solid rgb(200,200,200);
+            border-right:1px solid rgb(200,200,200);
+            border-bottom:3px solid rgb(200,200,200);
+            border-left:1px solid rgb(200,200,200);
+            background:rgb(200,200,200);
+            font-family:Arial,sans-serif;
+            font-size:15px;
+        }
+
+        .formulario-amostras input[type="text"]:focus,
+        .formulario-amostras textarea:focus{
+            background:rgb(220,220,220);
+            border-top:1px solid rgb(100,100,100);
+            border-right:1px solid rgb(100,100,100);
+            border-bottom:3px solid rgb(100,100,100);
+            border-left:1px solid rgb(100,100,100);
+        }
+
+        .formulario-amostras textarea{
+            vertical-align:top;
+            width:325.5px;
+            height:170px;
+            resize:none;
+        }
+
+        #textbox-qtde-anual{
+            width:98px;
+        }
+
+        #textbox-sop{
+            width:170px;
+        }
+
+        #textbox-ddd{
+            width:48px;
+        }
+
+        #textbox-telefone{
+            width:274px;
+        }
+
+        .botao-enviar{
+            text-align:center;
+        }
+
+            .botao-enviar input[type="submit"]{
+                margin-left:80px;
+                width:100px;
+                height:30px;
+                font-size:20px;
+                background:rgb(248,194,8);
+                border:2px solid rgb(248,194,8);
+            }
+
+            .botao-enviar input[type="submit"]:hover{
+                border:2px solid rgb(228,174,0);
+            }
+    /* / Formulários Amostras */
+
 
                 
 /* / Páginas */
