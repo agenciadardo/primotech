@@ -18,7 +18,7 @@
         <?php wp_head(); ?>
         <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
         <script src="http://malsup.github.com/jquery.cycle.all.js"></script>
-        <script src="http://cotacao.republicavirtual.com.br/web_cotacao.php?formato=javascript"></script>
+        <?php if (is_home()) { ?><script src="http://cotacao.republicavirtual.com.br/web_cotacao.php?formato=javascript"></script> <?php } ?>
         <script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
     </head>
     <body>

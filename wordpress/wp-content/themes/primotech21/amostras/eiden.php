@@ -1,1 +1,1 @@
-<p>EIDEN</p>
+<?php include 'formulario-amostras.php'; ?>

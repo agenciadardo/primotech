@@ -1,1 +1,1 @@
-<p>ASTRO</p>
+<?php include 'formulario-amostras.php'; ?>

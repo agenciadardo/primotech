@@ -1,1 +1,1 @@
-<p>TOREX</p>
+<?php include 'formulario-amostras.php'; ?>

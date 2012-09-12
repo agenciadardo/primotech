@@ -1,1 +1,1 @@
-<p>ALPS</p>
+<?php include 'formulario-amostras.php'; ?>

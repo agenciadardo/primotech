@@ -1,1 +1,1 @@
-<p>AVEN</p>
+<?php include 'formulario-amostras.php'; ?>
