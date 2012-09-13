@@ -121,7 +121,6 @@
                     <div class="center banner-central banner-inferior">
                         <img src="<?php bloginfo('template_url'); ?>/imagens/banner-inferior.jpg" alt="">
                     </div>
-                    
                     <?php } ?>
                 <?php } ?>
 

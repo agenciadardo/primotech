@@ -34,12 +34,23 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
         </div>
     </div> <!-- / Box fabricante -->
 
-    <div class="box-faca-cotacao grid_9">
-        <a href="#">
-            <div class="botao-cotacao">
-                <p class="linha-1-cotacao">Faça uma</p>
-                <p class="linha-2-cotacao">Cotação</p>
-            </div>
-        </a>
-    </div>
+    <div class="botoes">
+        <div class="box-faca-cotacao grid_5">
+            <a href="#">
+                <div class="botao-cotacao">
+                    <p class="linha-1-cotacao">Agende sua</p>
+                    <p class="linha-2-cotacao">demonstração</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="box-faca-cotacao grid_3">
+            <a href="#">
+                <div class="botao-cotacao">
+                    <p class="linha-1-cotacao">Faça uma</p>
+                    <p class="linha-2-cotacao">Cotação</p>
+                </div>
+            </a>
+        </div>
+    </div> <!-- / Botões -->
 </div>
