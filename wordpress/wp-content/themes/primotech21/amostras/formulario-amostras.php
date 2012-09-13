@@ -21,7 +21,7 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
     <?php if (empty($_GET['enviado'])) { ?>
 
         <form method="post" 
-              action="<?php bloginfo('template_url') ?>/amostras/solicitar-amostras-<?php echo $theTitlePagina; ?>.php"
+              action="<?php bloginfo('template_url') ?>/amostras/solicitar-amostras.php"
               id="formulario-amostras">
 
             <p class="validar-cliente"></p>
@@ -66,7 +66,7 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
 
             <p class="validar-mensagem"></p>
             <label for="textarea-mensagem">Mensagem: </label>
-            <textarea id="textarea-mensagem"></textarea>
+            <textarea name="textarea-mensagem" id="textarea-mensagem"></textarea>
 
             <br />
 
@@ -81,7 +81,9 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
         else { ?>
         
             <h3 id="obrigado" style="text-align:center;">
-                Mensagem enviada com sucesso.<br />
+                Requisição de amostra 
+                <span style="font-style:italic;"><?php echo ucwords($theTitlePagina); ?></span> foi
+                enviada com sucesso.<br />
                 Obrigado!
             <h3>
         </p> 

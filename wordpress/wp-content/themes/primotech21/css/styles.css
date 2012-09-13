@@ -812,6 +812,76 @@ body{
             }
     /* / Formulários Amostras */
 
+    .header-esquerda,
+    .logotipos-esquerda{
+        width:450px;
+        float:left;
+        display:block;
+    }
 
-                
+    .header-esquerda,
+    .header-direita{
+        margin-bottom:60px;
+    }
+
+    .logotipo-amostras{
+        padding:0 0 50px 20px;
+    }
+
+    .logotipo-amostras img{
+        padding-bottom:5px;
+        border-bottom:2px solid rgb(255,255,255);
+    }
+
+    .logotipo-amostras img:hover{
+        border-bottom:2px solid rgb(0,153,153);
+    }
+
+
+    /* Botão Deixar a sua opinião... */
+    .box-deixar-opiniao{
+        margin:80px 0 50px 0;
+    }
+
+    .botao-opiniao{
+        margin:0 auto;
+        padding:5px;
+        width:540px;
+        height:80px;
+        background:url('../imagens/bg-faca-cotacao.jpg') repeat-x 0 -5px;
+    }
+
+        .box-deixar-opiniao a{
+            font-style:italic;
+            text-decoration:none;
+        }
+
+        .box-deixar-opiniao a:hover p{
+            color:rgb(255,255,255);
+        }
+
+        .botao-opiniao:hover{
+            box-shadow:0 0 10px rgb(200,200,200);
+        }
+
+
+        .botao-opiniao p{
+            font-family:"Century Gothic",sans-serif;
+            font-size:35px;
+            font-weight:900;
+            line-height:38px;
+            color:rgb(240,240,240);
+            margin:0;
+            padding:0;
+        }
+
+            p.linha-1-opiniao{
+                margin-left:20px;
+            }
+
+            p.linha-2-opiniao{
+                margin-right:20px;
+                text-align:right;
+            }
+
 /* / Páginas */

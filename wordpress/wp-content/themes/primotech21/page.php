@@ -107,7 +107,7 @@
         <div class="conteudo-<?php echo preg_replace('[\s]', '-', strtolower(get_the_title())); ?>">
             <?php the_content(); ?>
             
-            <?php // Onde comprar; ?>
+            <?php // Página Onde comprar; ?>
                 <?php if (is_page('onde-comprar')) { ?>
                     <?php 
                     $idOndeComprar = get_page_by_title('Onde comprar')->ID;
@@ -118,6 +118,74 @@
                         <?php echo $subpaginas; ?>
                     </ul>
                     <?php } ?>               
+                <?php } ?>
+
+            <?php // Página Amostras; ?>
+                <?php if (is_page('amostras')) { ?>
+
+                    <div class="header-amostras">
+                        <div class="header-esquerda">
+                            <p>Solicite uma amostra.</p>
+                        </div>
+
+                        <div class="header-direita">
+                            <p>Agende uma solitação.</p>
+                        </div>
+
+                        <div class="amostras-logotipos">
+
+                            <div class="logotipos-esquerda">
+                                <div class="logotipo-amostras">
+                                    <a href="<?php bloginfo('url'); ?>/amostras/alps">    
+                                        <img src="<?php bloginfo('template_url');?>/imagens/logotipo-alps.jpg" alt="" />
+                                    </a>
+                                </div>
+
+                                <div class="logotipo-amostras">
+                                    <a href="<?php bloginfo('url'); ?>/amostras/nichicon">    
+                                        <img src="<?php bloginfo('template_url');?>/imagens/logotipo-nichicon.jpg" alt="" />
+                                    </a>
+                                </div>
+
+                                <div class="logotipo-amostras">
+                                    <a href="<?php bloginfo('url'); ?>/amostras/torex">    
+                                        <img src="<?php bloginfo('template_url');?>/imagens/logotipo-torex.jpg" alt="" />
+                                    </a>
+                                </div>
+                            </div> <!-- / Logotipos Esquerda -->
+
+                            <div class="logotipos-direita">
+                                <div class="logotipo-amostras">
+                                    <a href="<?php bloginfo('url'); ?>/amostras/astro">    
+                                        <img src="<?php bloginfo('template_url');?>/imagens/logotipo-astro.jpg" alt="" />
+                                    </a>
+                                </div>
+
+                                <div class="logotipo-amostras">
+                                    <a href="<?php bloginfo('url'); ?>/amostras/eiden">    
+                                        <img src="<?php bloginfo('template_url');?>/imagens/logotipo-eiden.jpg" alt="" />
+                                    </a>
+                                </div>
+
+                                <div class="logotipo-amostras">
+                                    <a href="<?php bloginfo('url'); ?>/amostras/aven">    
+                                        <img src="<?php bloginfo('template_url');?>/imagens/logotipo-aven.jpg" alt="" />
+                                    </a>
+                                </div>
+                            </div> <!-- / Logotipos Direita -->
+                        </div> <!-- / Logotipos das Amostras -->
+
+                        <div class="box-deixar-opiniao grid_9">
+                            <a href="#">
+                                <div class="botao-opiniao">
+                                    <p class="linha-1-opiniao">Deixe sua opinião. Entre</p>
+                                    <p class="linha-2-opiniao">em contato com a P21.</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
                 <?php } ?>
                 
             <?php // Includes para as subpáginas; ?>
