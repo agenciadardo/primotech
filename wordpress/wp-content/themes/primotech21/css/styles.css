@@ -1,3 +1,7 @@
+.center{
+    text-align:center;
+}
+
 body{
     background:url('../imagens/bg-body.png');
 }
@@ -619,6 +623,10 @@ body{
 
             .conteudo-pagina p{
                 padding-right:20px;
+            }
+
+            .conteudo-onde-comprar p{
+                line-height:35px;
             }
 
             .conteudo-onde-comprar ul{
