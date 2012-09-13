@@ -687,6 +687,7 @@ body{
         }
 
             .boxes-fabricantes span p{
+                color:rgb(0,0,0);
                 margin-bottom:50px;
             }
 
