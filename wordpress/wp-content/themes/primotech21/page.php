@@ -86,7 +86,11 @@
             $idAmostras = get_page_by_title('Amostras')->ID; 
             ?> 
 
-            <?php if ($post->post_parent == $idFabricantes) { ?>
+            <?php if (is_page('cadastrar-aplicacoes')) { ?>
+                <div class="icone-aplicacoes"></div>
+                <h1>Aplicações</h1>
+            <?php }
+            elseif ($post->post_parent == $idFabricantes) { ?>
                 <div class="icone-fabricantes"></div>
                 <h1>Fabricantes</h1>
             <?php }
@@ -288,7 +292,7 @@
 
                         <div class="coluna-categorias-esquerda">
 
-                            <a href="#">
+                            <a href="<?php bloginfo('url') ?>/cadastrar-aplicacoes">
                                 <div class="botao-categoria">
                                     <div class="categoria-icone">
                                         <img src="<?php bloginfo('template_url') ?>/imagens/categoria-automotivo.jpg" alt="" />
@@ -299,7 +303,7 @@
                                 </div> <!-- Botão categoria -->
                             </a>
 
-                            <a href="#">
+                            <a href="<?php bloginfo('url') ?>/cadastrar-aplicacoes">
                                 <div class="botao-categoria">
                                     <div class="categoria-icone">
                                         <img src="<?php bloginfo('template_url') ?>/imagens/categoria-industria.jpg" alt="" />
@@ -310,7 +314,7 @@
                                 </div> <!-- Botão categoria -->
                             </a>
 
-                            <a href="#">
+                            <a href="<?php bloginfo('url') ?>/cadastrar-aplicacoes">
                                 <div class="botao-categoria">
                                     <div class="categoria-icone">
                                         <img src="<?php bloginfo('template_url') ?>/imagens/categoria-broadcasting.jpg" alt="" />
@@ -325,7 +329,7 @@
 
                         <div class="coluna-categorias-direita">
 
-                            <a href="#">
+                            <a href="<?php bloginfo('url') ?>/cadastrar-aplicacoes">
                                 <div class="botao-categoria">
                                     <div class="categoria-icone">
                                         <img src="<?php bloginfo('template_url') ?>/imagens/categoria-linha-branca.jpg" alt="" />
@@ -336,7 +340,7 @@
                                 </div> <!-- Botão categoria -->
                             </a>
 
-                            <a href="#">
+                            <a href="<?php bloginfo('url') ?>/cadastrar-aplicacoes">
                                 <div class="botao-categoria">
                                     <div class="categoria-icone">
                                         <img src="<?php bloginfo('template_url') ?>/imagens/categoria-telefonia.jpg" alt="" />
@@ -347,10 +351,10 @@
                                 </div> <!-- Botão categoria -->
                             </a>
 
-                            <a href="#">                            
+                            <a href="<?php bloginfo('url') ?>/cadastrar-aplicacoes">                            
                                 <div class="botao-categoria">
                                     <div class="categoria-icone">
-                                        <img src="<?php bloginfo('template_url') ?>/imagens/categoria-automotivo.jpg" alt="" />
+                                        <img src="<?php bloginfo('template_url') ?>/imagens/categoria-outros.jpg" alt="" />
                                     </div>
                                     <div class="categoria-texto">
                                         <span>Outros</span>
@@ -360,6 +364,69 @@
 
                         </div> <!-- / Coluna direita -->
                     </div>
+
+            <?php } ?>
+
+            <?php // Página Cadastro de Aplicações; ?>
+                <?php if (is_page('cadastrar-aplicacoes')) { ?>
+
+                    <div class="header-aplicacoes">
+                        <p>Pronto. Agora insira seus dados. Nossa equipe irá
+                            enviar informações personalizadas para você! É rápido
+                            e fácil!
+                        </p>
+                    </div>
+
+                    <div class="formulario-aplicacoes">
+                        <?php if (empty($_GET['enviado'])) { ?>
+
+                            <form method="post" 
+                                  action="<?php bloginfo('template_url') ?>/cadastrar-aplicacoes.php"
+                                  id="formulario-fale-conosco">
+
+
+                                <p class="validar-empresa"></p>
+                                <label for="textbox-empresa">Empresa: </label>
+                                <input type="text" value="" name="textbox-empresa" id="textbox-empresa" />
+
+                                <br />
+
+                                <p class="validar-email"></p>
+                                <label for="textbox-email">E-mail: </label>
+                                <input type="text" value="" name="textbox-email" id="textbox-email" />
+
+                                <br />
+
+                                <p class="validar-nome"></p>
+                                <label for="textbox-nome">Nome: </label>
+                                <input type="text" value="" name="textbox-nome" id="textbox-nome" />
+
+                                <br />
+
+                                <p class="validar-telefone"></p>
+                                <label for="textbox-ddd">Telefone: </label>
+                                <input type="text" value="" name="textbox-ddd" id="textbox-ddd" />
+                                <input type="text" value="" name="textbox-telefone" id="textbox-telefone" />
+
+                                <br />
+
+                                <div class="botao-enviar grid_9">
+                                    <input type="submit" name="botao-enviar" value="Enviar" />
+                                </div>
+
+                            </form>
+
+                            <?php 
+                            }
+                            else { ?>
+                            
+                                <h3 id="obrigado" style="text-align:center;">
+                                    Mensagem enviada com sucesso.<br />
+                                    Obrigado!
+                                <h3>
+                            </p> 
+                            <?php } ?>
+                    </div> <!-- / Formulário Aplicações -->
 
             <?php } ?>
                 
