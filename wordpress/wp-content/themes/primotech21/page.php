@@ -269,6 +269,99 @@
                     </div> <!-- / Formulário Fale Conosco -->
 
             <?php } ?>
+
+            <?php // Página Aplicações; ?>
+                <?php if (is_page('aplicacoes')) { ?>
+
+                    <div class="header-aplicacoes">
+                        <p>Você pode consultar o melhor item de acordo com
+                            a aplicação da sua empresa. Conheça as melhores 
+                            opções para cada aplicação.
+                        </p>
+                    </div>
+
+                    <div class="header-categorias">
+                        <h1>Categorias</h1>
+                    </div>
+
+                    <div class="colunas-categorias">
+
+                        <div class="coluna-categorias-esquerda">
+
+                            <a href="#">
+                                <div class="botao-categoria">
+                                    <div class="categoria-icone">
+                                        <img src="<?php bloginfo('template_url') ?>/imagens/categoria-automotivo.jpg" alt="" />
+                                    </div>
+                                    <div class="categoria-texto">
+                                        <span>Automotivo</span>
+                                    </div>
+                                </div> <!-- Botão categoria -->
+                            </a>
+
+                            <a href="#">
+                                <div class="botao-categoria">
+                                    <div class="categoria-icone">
+                                        <img src="<?php bloginfo('template_url') ?>/imagens/categoria-industria.jpg" alt="" />
+                                    </div>
+                                    <div class="categoria-texto">
+                                        <span>Indústria de eletroeletrônicos</span>
+                                    </div>
+                                </div> <!-- Botão categoria -->
+                            </a>
+
+                            <a href="#">
+                                <div class="botao-categoria">
+                                    <div class="categoria-icone">
+                                        <img src="<?php bloginfo('template_url') ?>/imagens/categoria-broadcasting.jpg" alt="" />
+                                    </div>
+                                    <div class="categoria-texto">
+                                        <span>Broadcasting</span>
+                                    </div>
+                                </div> <!-- Botão categoria -->
+                            </a>
+
+                        </div> <!-- / Coluna esquerda -->
+
+                        <div class="coluna-categorias-direita">
+
+                            <a href="#">
+                                <div class="botao-categoria">
+                                    <div class="categoria-icone">
+                                        <img src="<?php bloginfo('template_url') ?>/imagens/categoria-linha-branca.jpg" alt="" />
+                                    </div>
+                                    <div class="categoria-texto">
+                                        <span>Linha Branca</span>
+                                    </div>
+                                </div> <!-- Botão categoria -->
+                            </a>
+
+                            <a href="#">
+                                <div class="botao-categoria">
+                                    <div class="categoria-icone">
+                                        <img src="<?php bloginfo('template_url') ?>/imagens/categoria-telefonia.jpg" alt="" />
+                                    </div>
+                                    <div class="categoria-texto">
+                                        <span>Telefonia Móvel</span>
+                                    </div>
+                                </div> <!-- Botão categoria -->
+                            </a>
+
+                            <a href="#">                            
+                                <div class="botao-categoria">
+                                    <div class="categoria-icone">
+                                        <img src="<?php bloginfo('template_url') ?>/imagens/categoria-automotivo.jpg" alt="" />
+                                    </div>
+                                    <div class="categoria-texto">
+                                        <span>Outros</span>
+                                    </div>
+                                </div> <!-- Botão categoria -->
+                            </a>
+
+                        </div> <!-- / Coluna direita -->
+                    </div>
+
+            <?php } ?>
                 
             <?php // Includes para as subpáginas; ?>
                 <?php 

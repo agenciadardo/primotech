@@ -988,3 +988,74 @@ body{
 .contato-fabricante{
     margin-top:-20px;
 }
+
+/* Aplicações - Categorias */
+    .header-aplicacoes p{
+        font-size:19px;
+        color:rgb(0,0,0);
+    }
+
+    .header-categorias{
+        margin-top:40px;
+        margin-bottom:60px;
+        border-bottom:2px solid rgb(200,200,200);
+    }
+        .header-categorias h1{
+            font-weight:300;
+            margin:0;
+        }
+
+
+.coluna-categorias-esquerda,
+.coluna-categorias-direita{
+    display:block;
+    float:left;
+    width:320px;
+}
+
+    .coluna-categorias-esquerda .botao-categoria{
+        display:block;
+        width:260px;
+        height:81px;
+        margin-left:60px;
+        margin-bottom:60px;
+        background:url('../imagens/bg-faca-cotacao.jpg') repeat-x 0 -23px;
+    }
+
+    .coluna-categorias-direita .botao-categoria{
+        display:block;
+        width:260px;
+        height:81px;
+        margin-left:20px;
+        margin-bottom:60px;
+        background:url('../imagens/bg-faca-cotacao.jpg') repeat-x 0 -23px;
+    }
+
+    .categoria-icone{
+        display:block;
+        float:left;
+        width:50px;
+    }
+
+    .categoria-texto{
+        line-height:25px;
+        text-align:center;
+        width:205px;
+        margin-top:15px;
+        display:block;
+        float:left;
+    }
+
+    .categoria-texto span{
+        letter-spacing:2px;
+        color:rgb(255,255,255);
+    }
+
+.botao-categoria:hover .categoria-texto span{
+    color:rgb(200,200,200);
+}
+
+.botao-categoria:hover {
+    cursor:pointer;
+    box-shadow:0 0 10px rgb(200,200,200);
+}
