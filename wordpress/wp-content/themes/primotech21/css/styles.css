@@ -740,7 +740,7 @@ body{
                     text-align:right;
                 }
 
-    /* Formularios Amostras */
+    /* Formulários Amostras */
     .formulario-amostras{
         margin-top:60px;
         width:560px;
@@ -825,6 +825,91 @@ body{
                 margin:0;
             }
     /* / Formulários Amostras */
+
+    /* Formulário Fale conosco */
+    .formulario-fale-conosco{
+        margin-top:60px;
+        width:560px;
+        text-align:right;
+    }
+
+        .formulario-fale-conosco input[type="text"],
+        .formulario-fale-conosco textarea{
+            font-weight: 900;
+            font-style: italic;
+            margin-bottom:10px;
+            outline:0;
+            width:420px;
+            height:25px;
+            border-top:1px solid rgb(200,200,200);
+            border-right:1px solid rgb(200,200,200);
+            border-bottom:3px solid rgb(200,200,200);
+            border-left:1px solid rgb(200,200,200);
+            background:rgb(200,200,200);
+            font-family:Arial,sans-serif;
+            font-size:15px;
+        }
+
+        .formulario-fale-conosco input[type="text"]:focus,
+        .formulario-fale-conosco textarea:focus{
+            background:rgb(220,220,220);
+            border-top:1px solid rgb(100,100,100);
+            border-right:1px solid rgb(100,100,100);
+            border-bottom:3px solid rgb(100,100,100);
+            border-left:1px solid rgb(100,100,100);
+        }
+
+        .formulario-fale-conosco textarea{
+            vertical-align:top;
+            width:415.5px;
+            height:170px;
+            resize:none;
+        }
+
+        .formulario-fale-conosco #textbox-endereco{
+            width:225px;
+        }
+
+        .formulario-fale-conosco #textbox-cep{
+            width:135px;
+        }
+
+        .formulario-fale-conosco #textbox-cidade{
+            width:278px;
+        }
+
+        .formulario-fale-conosco #textbox-estado{
+            width:60px;
+        }
+
+        .formulario-fale-conosco #textbox-ddd{
+            width:48px;
+        }
+
+        .formulario-fale-conosco #textbox-telefone{
+            width:364px;
+        }
+
+            .formulario-fale-conosco .botao-enviar input[type="submit"]{
+                color:rgb(255,255,255);
+                margin-left:-20px;
+                width:100px;
+                height:30px;
+                font-size:20px;
+                background:rgb(8,100,97);
+                border:2px solid rgb(8,100,97);
+            }
+
+            #formulario-fale-conosco p{
+                padding-left:221px;
+                text-align:left;
+                font-size:15px;
+                font-weight:900;
+                font-style:italic;
+                color:rgb(255,0,0);
+                margin:0;
+            }
+    /* / Formulário Fale conosco */
 
     .header-esquerda,
     .logotipos-esquerda{

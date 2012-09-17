@@ -135,64 +135,140 @@
                         <div class="header-direita">
                             <p>Agende uma solitação.</p>
                         </div>
-
-                        <div class="amostras-logotipos">
-
-                            <div class="logotipos-esquerda">
-                                <div class="logotipo-amostras">
-                                    <a href="<?php bloginfo('url'); ?>/amostras/alps">    
-                                        <img src="<?php bloginfo('template_url');?>/imagens/logotipo-alps.jpg" alt="" />
-                                    </a>
-                                </div>
-
-                                <div class="logotipo-amostras">
-                                    <a href="<?php bloginfo('url'); ?>/amostras/nichicon">    
-                                        <img src="<?php bloginfo('template_url');?>/imagens/logotipo-nichicon.jpg" alt="" />
-                                    </a>
-                                </div>
-
-                                <div class="logotipo-amostras">
-                                    <a href="<?php bloginfo('url'); ?>/amostras/torex">    
-                                        <img src="<?php bloginfo('template_url');?>/imagens/logotipo-torex.jpg" alt="" />
-                                    </a>
-                                </div>
-                            </div> <!-- / Logotipos Esquerda -->
-
-                            <div class="logotipos-direita">
-                                <div class="logotipo-amostras">
-                                    <a href="<?php bloginfo('url'); ?>/amostras/astro">    
-                                        <img src="<?php bloginfo('template_url');?>/imagens/logotipo-astro.jpg" alt="" />
-                                    </a>
-                                </div>
-
-                                <div class="logotipo-amostras">
-                                    <a href="<?php bloginfo('url'); ?>/amostras/eiden">    
-                                        <img src="<?php bloginfo('template_url');?>/imagens/logotipo-eiden.jpg" alt="" />
-                                    </a>
-                                </div>
-
-                                <div class="logotipo-amostras">
-                                    <a href="<?php bloginfo('url'); ?>/amostras/aven">    
-                                        <img src="<?php bloginfo('template_url');?>/imagens/logotipo-aven.jpg" alt="" />
-                                    </a>
-                                </div>
-                            </div> <!-- / Logotipos Direita -->
-                        </div> <!-- / Logotipos das Amostras -->
-
-                        <div class="box-deixar-opiniao grid_9">
-                            <a href="#">
-                                <div class="botao-opiniao">
-                                    <p class="linha-1-opiniao">Deixe sua opinião. Entre</p>
-                                    <p class="linha-2-opiniao">em contato com a P21.</p>
-                                </div>
-                            </a>
-                        </div>
-
-
-
                     </div>
 
-                <?php } ?>
+                    <div class="amostras-logotipos">
+
+                        <div class="logotipos-esquerda">
+                            <div class="logotipo-amostras">
+                                <a href="<?php bloginfo('url'); ?>/amostras/alps">    
+                                    <img src="<?php bloginfo('template_url');?>/imagens/logotipo-alps.jpg" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="logotipo-amostras">
+                                <a href="<?php bloginfo('url'); ?>/amostras/nichicon">    
+                                    <img src="<?php bloginfo('template_url');?>/imagens/logotipo-nichicon.jpg" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="logotipo-amostras">
+                                <a href="<?php bloginfo('url'); ?>/amostras/torex">    
+                                    <img src="<?php bloginfo('template_url');?>/imagens/logotipo-torex.jpg" alt="" />
+                                </a>
+                            </div>
+                        </div> <!-- / Logotipos Esquerda -->
+
+                        <div class="logotipos-direita">
+                            <div class="logotipo-amostras">
+                                <a href="<?php bloginfo('url'); ?>/amostras/astro">    
+                                    <img src="<?php bloginfo('template_url');?>/imagens/logotipo-astro.jpg" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="logotipo-amostras">
+                                <a href="<?php bloginfo('url'); ?>/amostras/eiden">    
+                                    <img src="<?php bloginfo('template_url');?>/imagens/logotipo-eiden.jpg" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="logotipo-amostras">
+                                <a href="<?php bloginfo('url'); ?>/amostras/aven">    
+                                    <img src="<?php bloginfo('template_url');?>/imagens/logotipo-aven.jpg" alt="" />
+                                </a>
+                            </div>
+                        </div> <!-- / Logotipos Direita -->
+                    </div> <!-- / Logotipos das Amostras -->
+
+                    <div class="box-deixar-opiniao grid_9">
+                        <a href="#">
+                            <div class="botao-opiniao">
+                                <p class="linha-1-opiniao">Deixe sua opinião. Entre</p>
+                                <p class="linha-2-opiniao">em contato com a P21.</p>
+                            </div>
+                        </a>
+                    </div>
+            <?php } ?>
+
+            <?php // Página Fale conosco; ?>
+                <?php if (is_page('fale-conosco')) { ?>
+
+                    <div class="header-fale-conosco">
+                        <p>Sua opinião é muito importante para a P21.</p>
+                    </div>
+
+                    <div class="formulario-fale-conosco">
+                        <?php if (empty($_GET['enviado'])) { ?>
+
+                            <form method="post" 
+                                  action="<?php bloginfo('template_url') ?>/enviar-mensagem.php"
+                                  id="formulario-fale-conosco">
+
+                                <p class="validar-nome"></p>
+                                <label for="textbox-nome">Nome: </label>
+                                <input type="text" value="" name="textbox-nome" id="textbox-nome" />
+
+                                <br />
+
+                                <p class="validar-email"></p>
+                                <label for="textbox-email">E-mail: </label>
+                                <input type="text" value="" name="textbox-email" id="textbox-email" />
+
+                                <br />
+
+                                <p class="validar-telefone"></p>
+                                <label for="textbox-ddd">Telefone: </label>
+                                <input type="text" value="" name="textbox-ddd" id="textbox-ddd" />
+                                <input type="text" value="" name="textbox-telefone" id="textbox-telefone" />
+
+                                <br />
+
+                                <p class="validar-empresa"></p>
+                                <label for="textbox-empresa">Empresa: </label>
+                                <input type="text" value="" name="textbox-empresa" id="textbox-empresa" />
+
+                                <br />
+
+                                <p class="validar-endereco"></p>
+                                <label for="textbox-endereco">Endereço: </label>
+                                <input type="text" value="" name="textbox-endereco" id="textbox-endereco" />
+                                <label for="textbox-cep">CEP: </label>
+                                <input type="text" value="" name="textbox-cep" id="textbox-cep" />
+
+                                <br />
+
+                                <label for="textbox-cidade">Cidade: </label>
+                                <input type="text" value="" name="textbox-cidade" id="textbox-cidade" />
+                                <label for="textbox-estado">Estado: </label>
+                                <input type="text" value="" name="textbox-estado" id="textbox-estado" />
+
+                                <br />
+
+                                <p class="validar-mensagem"></p>
+                                <label for="textarea-mensagem">Mensagem: </label>
+                                <textarea name="textarea-mensagem" id="textarea-mensagem"></textarea>
+
+                                <br />
+
+                                <div class="botao-enviar grid_9">
+                                    <input type="submit" name="botao-enviar" value="Enviar" />
+                                </div>
+
+                            </form>
+
+                            <?php 
+                            }
+                            else { ?>
+                            
+                                <h3 id="obrigado" style="text-align:center;">
+                                    Mensagem enviada com sucesso.<br />
+                                    Obrigado!
+                                <h3>
+                            </p> 
+                            <?php } ?>
+                    </div> <!-- / Formulário Fale Conosco -->
+
+            <?php } ?>
                 
             <?php // Includes para as subpáginas; ?>
                 <?php 
