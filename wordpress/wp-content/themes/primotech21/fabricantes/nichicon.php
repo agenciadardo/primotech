@@ -24,20 +24,19 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
 
 <div class="lista-categorias">
     <?php 
-        $linksFabricantes = array(
-            linkUm => "http://www.nichicon.co.jp/english/products/alm_chip/pict_f.htm",
-            linkDois => "http://www.nichicon.co.jp/english/products/alm_mini/pict_f.htm",
-            linkTres => "http://www.nichicon.co.jp/english/products/alm_larg/pict_f.htm",
-            linkQuatro => "http://www.nichicon.co.jp/english/products/solid/pict_f.htm",
-            linkCinco => "http://www.nichicon.co.jp/english/products/evercap/pict_f.htm",
-            linkSeis => "http://www.nichicon.co.jp/english/products/tantal/pict_f.htm",
-            linkSete => "http://www.nichicon.co.jp/english/products/film/pict_f.htm",
-            linkOito => "http://www.nichicon.co.jp/english/products/posi/pict_f.htm",
-            linkNove => "http://www.nichicon.co.jp/english/products/module/pict_f.htm"
+        $linksCategorias = array(
+            link1 => "http://www.nichicon.co.jp/english/products/alm_chip/pict_f.htm",
+            link2 => "http://www.nichicon.co.jp/english/products/alm_mini/pict_f.htm",
+            link3 => "http://www.nichicon.co.jp/english/products/alm_larg/pict_f.htm",
+            link4 => "http://www.nichicon.co.jp/english/products/solid/pict_f.htm",
+            link5 => "http://www.nichicon.co.jp/english/products/evercap/pict_f.htm",
+            link6 => "http://www.nichicon.co.jp/english/products/tantal/pict_f.htm",
+            link7 => "http://www.nichicon.co.jp/english/products/film/pict_f.htm",
+            link8 => "http://www.nichicon.co.jp/english/products/posi/pict_f.htm",
+            link9 => "http://www.nichicon.co.jp/english/products/module/pict_f.htm"
         );
-
      ?>
-    <a href="<?php echo $linksFabricantes[linkUm]; ?>">
+    <a href="<?php echo $linksCategorias[link1]; ?>">
         <div class="botao-categoria">
             <div class="categoria-texto">
                 <span>Chip Type Aluminum Electrolytic Capacitors</span>
@@ -45,7 +44,7 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
         </div> <!-- Botão categoria -->
     </a>
 
-    <a href="<?php echo $linksFabricantes[linkDois]; ?>">
+    <a href="<?php echo $linksCategorias[link2]; ?>">
         <div class="botao-categoria">
             <div class="categoria-texto">
                 <span>Miniature Type Aluminium Electrolytic Capacitors</span>
@@ -53,7 +52,7 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
         </div> <!-- Botão categoria -->
     </a>
 
-    <a href="<?php echo $linksFabricantes[linkTres]; ?>">
+    <a href="<?php echo $linksCategorias[link3]; ?>">
         <div class="botao-categoria">
             <div class="categoria-texto">
                 <span>Large Can Type Aluminum Electrolytic Capacitors</span>
@@ -61,7 +60,7 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
         </div> <!-- Botão categoria -->
     </a>
 
-    <a href="<?php echo $linksFabricantes[linkQuatro]; ?>">
+    <a href="<?php echo $linksCategorias[link4]; ?>">
         <div class="botao-categoria">
             <div class="categoria-texto">
                 <span>Electric Double Layer Capacitors</span>
@@ -69,7 +68,7 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
         </div> <!-- Botão categoria -->
     </a>
 
-    <a href="<?php echo $linksFabricantes[linkCinco]; ?>">
+    <a href="<?php echo $linksCategorias[link5]; ?>">
         <div class="botao-categoria">
             <div class="categoria-texto">
                 <span class="texto-maior">Conductive Polymer Aluminum Solid Electrolytic Capacitors</span>
@@ -77,7 +76,7 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
         </div> <!-- Botão categoria -->
     </a>
 
-    <a href="<?php echo $linksFabricantes[linkSeis]; ?>">
+    <a href="<?php echo $linksCategorias[link6]; ?>">
         <div class="botao-categoria">
             <div class="categoria-texto">
                 <span>Tantalum Electrolytic Capacitors</span>
@@ -85,7 +84,7 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
         </div> <!-- Botão categoria -->
     </a>
 
-    <a href="<?php echo $linksFabricantes[linkSete]; ?>">
+    <a href="<?php echo $linksCategorias[link7]; ?>">
         <div class="botao-categoria">
             <div class="categoria-texto">
                 <span class="uma-linha">Plastic Film Capacitors</span>
@@ -93,7 +92,7 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
         </div> <!-- Botão categoria -->
     </a>
 
-    <a href="<?php echo $linksFabricantes[linkOito]; ?>">
+    <a href="<?php echo $linksCategorias[link8]; ?>">
         <div class="botao-categoria">
             <div class="categoria-texto">
                 <span class="uma-linha">Positive Thermistors</span>
@@ -101,7 +100,7 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
         </div> <!-- Botão categoria -->
     </a>
 
-    <a href="<?php echo $linksFabricantes[linkNove]; ?>">
+    <a href="<?php echo $linksCategorias[link9]; ?>">
         <div class="botao-categoria">
             <div class="categoria-texto">
                 <span class="uma-linha">Function Modules</span>

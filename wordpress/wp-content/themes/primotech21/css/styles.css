@@ -10,6 +10,10 @@
     line-height:40px;
 }
 
+.marginTop{
+    margin-top:8px !important;
+}
+
 body{
     background:url('../imagens/bg-body.png');
 }
@@ -1163,3 +1167,30 @@ body{
         letter-spacing:0;
         color:rgb(200,200,200);
     }
+
+    /* Botões Fabricantes (subpáginas modelo com 4 botões) */
+    .conteudo-torex .lista-categorias{
+        margin-left:10px;
+    }
+        .conteudo-torex .botao-categoria{
+            display:block;
+            float:left;
+            width:150px;
+            height:55px;
+            margin-left:15px;
+            margin-bottom:15px;
+            background:url('../imagens/bg-faca-cotacao.jpg') repeat-x 0 -23px;
+        }
+
+        .conteudo-torex .categoria-texto{
+            line-height:16px;
+            width:150px;
+            margin-top:18px;
+        }
+
+        .conteudo-torex span{
+            font-weight:bold;
+            font-size:14px;
+            letter-spacing:0;
+            color:rgb(200,200,200);
+        }
