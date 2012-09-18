@@ -2,6 +2,14 @@
     text-align:center;
 }
 
+.texto-maior{
+    font-size:12px !important;
+}
+
+.uma-linha{
+    line-height:40px;
+}
+
 body{
     background:url('../imagens/bg-body.png');
 }
@@ -1117,14 +1125,41 @@ body{
 
     .categoria-texto span{
         letter-spacing:2px;
-        color:rgb(255,255,255);
+        color:rgb(200,200,200);
     }
 
 .botao-categoria:hover .categoria-texto span{
-    color:rgb(200,200,200);
+    color:rgb(255,255,255);
 }
 
 .botao-categoria:hover {
     cursor:pointer;
     box-shadow:0 0 10px rgb(200,200,200);
 }
+
+/* Botões Fabricantes (subpáginas) */
+.lista-categorias{
+    margin-left:30px;
+}
+    .conteudo-nichicon .botao-categoria{
+        display:block;
+        float:left;
+        width:185px;
+        height:60px;
+        margin-left:15px;
+        margin-bottom:15px;
+        background:url('../imagens/bg-faca-cotacao.jpg') repeat-x 0 -23px;
+    }
+
+    .conteudo-nichicon .categoria-texto{
+        line-height:16px;
+        width:185px;
+        margin-top:9px;
+    }
+
+    .conteudo-nichicon span{
+        font-weight:bold;
+        font-size:14px;
+        letter-spacing:0;
+        color:rgb(200,200,200);
+    }
