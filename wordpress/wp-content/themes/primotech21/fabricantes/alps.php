@@ -24,7 +24,144 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
 </div>
 
 <div class="lista-categorias">
+    <?php 
+        $linksCategorias = array(
+            link1 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/Sensor/Sensor_list1.html",
+            link2 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/Switch/Switch_list1.html",
+            link3 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/Tact/Tact_list1.html",
+            link4 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/Encoder/Encoder_list1.html",
+            link5 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/Potentiometer/Potentiometer_list1.html",
+            link6 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/MultiControl/MultiControl_list1.html",
+            link7 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/Contactsheet/Contactsheet/Contactsheet_list1.html",
+            link8 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/InputDevice/",
+            link9 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/Connector/Connector_list1.html",
+            link10 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/Liqualloy/Liqualloy_list1.html",
+            link11 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/PowerInductor/PowerInductor_list1.html",
+            link12 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/Tuner/Tuner_list1.html",
+            link13 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/Communication/Communication_list1.html",
+            link14 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/Optical/Optical/Optical_list1.html",
+            link15 => "http://www.alps.com/WebObjects/catalog.woa/E/HTML/Printer/"
+        );
+     ?>
+    <a href="<?php echo $linksCategorias[link1]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span>Sensor</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
 
+    <a href="<?php echo $linksCategorias[link2]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span>Switch</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
+
+    <a href="<?php echo $linksCategorias[link3]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span>TACT Switch</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
+
+    <a href="<?php echo $linksCategorias[link4]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span>Encoder</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
+
+    <a href="<?php echo $linksCategorias[link5]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span>Potentiometer</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
+
+    <a href="<?php echo $linksCategorias[link6]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span>Multi Control Device</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
+
+    <a href="<?php echo $linksCategorias[link7]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span>Contactsheet</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
+
+    <a href="<?php echo $linksCategorias[link8]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span>Touch Input Devices</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
+
+    <a href="<?php echo $linksCategorias[link9]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span>Connectors</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
+
+    <a href="<?php echo $linksCategorias[link10]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span class="texto-maior">Magnetic Sheets Liqualloy</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
+
+    <a href="<?php echo $linksCategorias[link11]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span>Power Inductor</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
+
+    <a href="<?php echo $linksCategorias[link12]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span>Tuner</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
+
+    <a href="<?php echo $linksCategorias[link13]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span class="texto-maior">Communication Module</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
+
+    <a href="<?php echo $linksCategorias[link14]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span class="texto-maior">Aspherical Glass Lens</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
+
+    <a href="<?php echo $linksCategorias[link15]; ?>">
+        <div class="botao-categoria">
+            <div class="categoria-texto">
+                <span>Actuators &amp; Printers</span>
+            </div>
+        </div> <!-- Botão categoria -->
+    </a>
 </div>
 
 <div class="botoes">

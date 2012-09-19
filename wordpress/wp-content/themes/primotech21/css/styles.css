@@ -1168,11 +1168,13 @@ body{
         color:rgb(200,200,200);
     }
 
-    /* Botões Fabricantes (subpáginas modelo com 4 botões) */
-    .conteudo-torex .lista-categorias{
+    /* Botões Fabricantes (subpáginas modelo com 4 botões por linha) */
+    .conteudo-torex .lista-categorias,
+    .conteudo-alps .lista-categorias{
         margin-left:10px;
     }
-        .conteudo-torex .botao-categoria{
+        .conteudo-torex .botao-categoria,
+        .conteudo-alps .botao-categoria{
             display:block;
             float:left;
             width:150px;
@@ -1182,13 +1184,15 @@ body{
             background:url('../imagens/bg-faca-cotacao.jpg') repeat-x 0 -23px;
         }
 
-        .conteudo-torex .categoria-texto{
+        .conteudo-torex .categoria-texto,
+        .conteudo-alps .categoria-texto{
             line-height:16px;
             width:150px;
             margin-top:18px;
         }
 
-        .conteudo-torex span{
+        .conteudo-torex span,
+        .conteudo-alps span{
             font-weight:bold;
             font-size:14px;
             letter-spacing:0;
