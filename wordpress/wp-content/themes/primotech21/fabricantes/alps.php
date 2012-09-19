@@ -166,7 +166,7 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
 
 <div class="botoes">
     <div class="box-faca-cotacao grid_5">
-        <a href="#">
+        <a href="<?php bloginfo('url'); ?>/onde-comprar/alps">
             <div class="botao-cotacao">
                 <p class="linha-1-cotacao">Saiba onde</p>
                 <p class="linha-2-cotacao">Comprar</p>

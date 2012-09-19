@@ -1,22 +1,14 @@
-.center{
-    text-align:center;
+.center{text-align:center;}
+.texto-maior{font-size:12px !important;}
+.uma-linha{line-height:40px;}
+.marginTop{margin-top:8px !important;}
+span p{
+    font-weight:300;
+    font-size:20px;
+    color:rgb(100,100,100) !important;
 }
 
-.texto-maior{
-    font-size:12px !important;
-}
-
-.uma-linha{
-    line-height:40px;
-}
-
-.marginTop{
-    margin-top:8px !important;
-}
-
-body{
-    background:url('../imagens/bg-body.png');
-}
+body{background:url('../imagens/bg-body.png');}
 
     #container{
         border-left:1px solid rgb(255,255,255);
@@ -1198,3 +1190,77 @@ body{
             letter-spacing:0;
             color:rgb(200,200,200);
         }
+
+/* Boxes Categorias (Fabricantes) */
+.boxes-categorias{
+    margin:70px 0 0 45px;
+}
+
+    .box-categoria{
+        margin-right:85px;
+        display:block;
+        float:left;
+        width:240px;
+    }
+
+        .header-box-categoria{
+            background:url('../imagens/bg-header-categoria.jpg') repeat-x;
+            height:60px;
+        }
+
+            .header-box-categoria p{
+                width:240px;
+                font-size:22px;
+                padding-top:13px;
+                text-align:center;
+                color:white;
+                font-weight:900;
+            }
+
+        .imagem-box-categoria{
+            display:block;
+            position:relative;
+            border:1px solid rgb(200,200,200);
+            border-bottom:1px solid rgb(255,255,255);
+            padding:7px 0 0 7px;
+            width:231px;
+            height:95px;
+        }
+
+            .imagem-box-categoria img{
+                border:1px solid rgb(200,200,200);
+                width:221px;
+                height:85px;
+            }
+
+        .lista-itens-box-categoria{
+            border:1px solid rgb(200,200,200);
+            border-bottom:1px solid rgb(255,255,255);
+        }
+
+            .lista-itens-box-categoria ul{
+                margin:0;
+                list-style-type:none;
+                display:list-item;
+                text-align:center;
+            }
+
+                .lista-itens-box-categoria ul li{
+                    padding:0;
+                    margin-left:0;
+                    border-bottom:1px solid rgb(200,200,200);
+                }
+
+                .lista-itens-box-categoria ul li:hover{
+                    background:rgb(230,230,230);
+                }                
+
+                .lista-itens-box-categoria a{
+                    text-decoration:none;
+                    color:rgb(0,0,0);
+                    font-size:15px;
+                }
+
+                .lista-itens-box-categoria ul li:hover a{
+                    color:rgb(50,50,50);
+                }
