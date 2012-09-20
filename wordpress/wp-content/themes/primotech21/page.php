@@ -209,6 +209,13 @@
                     </div>
             <?php } ?>
 
+            <?php // Página Primonews; ?>
+                <?php 
+                    if (is_page('primonews')) {
+                        include 'primonews.php'; 
+                    } 
+                ?>
+
             <?php // Página Fale conosco; ?>
                 <?php if (is_page('fale-conosco')) { ?>
 

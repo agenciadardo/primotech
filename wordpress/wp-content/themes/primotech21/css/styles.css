@@ -402,6 +402,142 @@ body{background:url('../imagens/bg-body.png');}
                         text-decoration:underline;
                     }
 
+/* Notícias | Primonews (Boxes) */
+    .boxes-em-destaque{
+        height:400px;
+        margin-top:10px;
+    }
+
+    .box-central-primonews-grande{
+        float:left;
+        width:380px;
+        height:200px;
+    }
+
+        .box-central-primonews-grande img{
+            width:380px;
+            height:200px;
+        }
+
+        .descricao-primonews-grande{
+            width:380px;
+            height:60px;
+            margin-top:-60px;
+            position:absolute;
+            background:rgb(0,100,100);
+            background:rgba(0,100,100,0.9);
+            opacity:0.9;
+            filter:alpha(opacity=90);
+            overflow:hidden;
+        }
+
+            .descricao-primonews-grande p,
+            .descricao-primonews-grande a{
+                cursor:pointer;
+                font-weight:300;
+                padding:5px;
+                line-height:16px;
+                font-size:18px;
+                text-align:center;
+                color:rgb(255,255,255);
+            }
+
+            .descricao-primonews-grande p:hover{
+                text-decoration:underline;
+            }
+
+    /* Pequenos */
+        .box-central-primonews-peq{
+            float:left;
+            width:310px;
+            height:200px;
+        }
+
+            .box-central-primonews-peq img{
+                width:310px;
+                height:200px;
+            }
+
+            .descricao-primonews-peq{
+                width:310px;
+                height:60px;
+                margin-top:-60px;
+                position:absolute;
+                background:rgb(0,100,100);
+                background:rgba(0,100,100,0.9);
+                opacity:0.9;
+                filter:alpha(opacity=90);
+                overflow:hidden;
+            }
+
+                .descricao-primonews-peq p,
+                .descricao-primonews-peq a{
+                    cursor:pointer;
+                    font-weight:300;
+                    padding:5px;
+                    line-height:16px;
+                    font-size:18px;
+                    text-align:center;
+                    color:rgb(255,255,255);
+                }
+
+                .descricao-primonews-peq p:hover{
+                    text-decoration:underline;
+                }
+
+                .resumo-primonews-grande{
+                    height:115px;
+                    padding:30px 0 5px 0;
+                } 
+
+                    .resumo-primonews-grande p{
+                        font-size:14px;
+                        color:rgb(0,0,0);
+                    }
+
+                .resumo-primonews-peq{
+                    height:115px;
+                    padding:30px 0 5px 0;
+                }
+
+                    .resumo-primonews-peq p{
+                        font-size:14px;
+                        color:rgb(0,0,0);
+                    }
+
+        .botao-leia-mais{
+            cursor:pointer;
+            background:url('../imagens/bg-leia-mais.jpg') repeat-x 10px 2px;
+            float:right;
+            border-radius:10px;
+            height:25px;
+            width:100px;
+            border:1px solid rgb(230,230,230);
+        }
+
+        .botao-leia-mais:hover{
+            border:1px solid rgb(200,200,200);
+        }
+
+            .botao-leia-mais p,
+            .botao-leia-mais a{
+                text-decoration:none;
+                line-height:24px;
+                text-align:center;
+                width:100px;
+                padding:0;
+                color:rgb(0,0,0);
+                font-size:14px;
+            }
+
+                .botao-leia-mais p span,
+                .botao-leia-mais a span{
+                    font-weight:900;
+                    color:rgb(0,153,153);
+                }
+
+/* / Primonews */
+
         #comunicacao-lateral{
             margin-bottom:20px;
         }
