@@ -1,5 +1,6 @@
 .center{text-align:center;}
 .texto-maior{font-size:12px !important;}
+.titulo-maior{font-size:15px !important;}
 .uma-linha{line-height:40px;}
 .marginTop{margin-top:8px !important;}
 span p{
@@ -633,20 +634,24 @@ body{background:url('../imagens/bg-body.png');}
                 line-height:35px;
             }
 
-            .conteudo-onde-comprar ul{
+            .conteudo-onde-comprar ul,
+            .conteudo-fabricantes ul{
                 margin-top:50px;
             }
 
-                .conteudo-onde-comprar li{
+                .conteudo-onde-comprar li,
+                .conteudo-fabricantes li{
                     margin-bottom:15px;
                 }
 
-                .conteudo-onde-comprar a{
+                .conteudo-onde-comprar a,
+                .conteudo-fabricantes a{
                     text-decoration:none;
                     color:rgb(100,100,100);
                 }
 
-                .conteudo-onde-comprar a:hover{
+                .conteudo-onde-comprar a:hover,
+                .conteudo-fabricantes a:hover{
                     border-bottom:1px solid rgb(220,220,220);
                     color:rgb(220,220,220);
                 }

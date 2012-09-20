@@ -36,9 +36,9 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
 
     <div class="botoes">
         <div class="box-faca-cotacao grid_5">
-            <a href="#">
+            <a href="<?php bloginfo('url') ?>/amostras/eiden">
                 <div class="botao-cotacao">
-                    <p class="linha-1-cotacao">Agende sua</p>
+                    <p class="linha-1-cotacao">Solicite sua</p>
                     <p class="linha-2-cotacao">demonstração</p>
                 </div>
             </a>

@@ -128,6 +128,21 @@
                     <?php } ?>
                 <?php } ?>
 
+
+            <?php // Página Fabricantes; ?>
+                <?php if (is_page('fabricantes')) { ?>
+                    <?php 
+                    $idFabricantes = get_page_by_title('Fabricantes')->ID;
+                    $subpaginas = wp_list_pages('title_li=&child_of='.$idFabricantes.'&echo=0&sort_column=post_date');
+                    
+                    if ($subpaginas) { ?>
+                    <ul>                                
+                        <?php echo $subpaginas; ?>
+                    </ul>
+                    <?php } ?>
+                <?php } ?>
+
+
             <?php // Página Amostras; ?>
                 <?php if (is_page('amostras')) { ?>
 

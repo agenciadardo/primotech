@@ -85,7 +85,7 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
         </div>
     </div> <!-- / Box Categoria -->
 
-</div>
+</div> <!-- / Boxes Categorias -->
 
 <div class="botoes">
     <div class="box-faca-cotacao grid_5">
