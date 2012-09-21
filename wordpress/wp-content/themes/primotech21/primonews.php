@@ -86,7 +86,7 @@
     </div> <!-- / Notícia Menor -->
 </div>
 
-    <div class="ultimas-noticias grid_5">
+    <div class="ultimas-noticias alpha grid_5 omega">
 
         <div class="header-coluna">
             <h1>ÚLTIMAS NOTÍCIAS</h1>
@@ -123,7 +123,114 @@
         </div> <!-- / box-noticias -->
         
         <script type="text/javascript">
-            Noticias.scroll(175, 175    , '.box-noticias-primonews');
+            Noticias.scroll(175, 175, '.box-noticias-primonews');
         </script>
 
     </div> <!-- / ultimas-noticias -->
+
+    <div class="box-cinza-primonews grid_4 omega">
+        <div class="box-cotacao-primonews">
+            <div class="header-coluna-cinza">
+                <h1>COTAÇÃO</h1>
+            </div>
+
+            <div class="box-cotacao">
+                <div class="header-box-cotacao">
+                    <h1>Dólar</h1>
+                </div>
+
+                <div class="cotacoes-dolar">
+                    
+                    <div class="dolar-comercial">
+                        <p>Comercial</p>
+                        <p class="dolar-venda">Venda:
+                            <span class="dolar-comercial-venda-preco">
+                                <script type="text/javascript">
+                                    document.write('R$ ' + Cotacao.obterDolarComercial()["venda"]);
+                                </script>
+                            </span>
+                        </p>
+
+                        <p class="dolar-compra">Compra:
+                            <span class="dolar-comercial-compra-preco">
+                                <script type="text/javascript">
+                                    document.write('R$ ' + Cotacao.obterDolarComercial()["compra"]);
+                                </script>
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="dolar-paralelo">
+                        <p>Paralelo</p>
+                        <p class="dolar-venda">Venda:
+                            <span class="dolar-paralelo-venda-preco">
+                                <script type="text/javascript">
+                                    document.write('R$ ' + Cotacao.obterDolarParalelo()["venda"]);
+                                </script>
+                            </span>
+                        </p>
+
+                        <p class="dolar-compra">Compra:
+                            <span class="dolar-paralelo-compra-preco">
+                                <script type="text/javascript">
+                                    document.write('R$ ' + Cotacao.obterDolarParalelo()["compra"]);
+                                </script>
+                            </span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div> <!-- / box-cotacao -->
+
+        <div class="box-redes-sociais-primonews">
+            <div class="redes-sociais">
+
+                <div class="header-coluna-cinza">
+                    <h1>REDES SOCIAIS</h1>
+                </div>
+
+                <div class="lista-icones">
+                    <div class="icone-social">
+                        <a href="#">
+                            <img class="icone-facebook" src="<?php bloginfo('template_url'); ?>/imagens/sprite-social.png" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="icone-social">
+                        <a href="#">
+                            <img class="icone-twitter" src="<?php bloginfo('template_url'); ?>/imagens/sprite-social.png" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="icone-social">
+                        <a href="#">
+                            <img class="icone-linkedin" src="<?php bloginfo('template_url'); ?>/imagens/sprite-social.png" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="icone-social">
+                        <a href="#">
+                            <img class="icone-email" src="<?php bloginfo('template_url'); ?>/imagens/sprite-social.png" alt="" />
+                        </a>
+                    </div>
+
+                </div> <!-- / lista-icones -->
+
+                <div class="box-facebook">
+                    <div class="fb-like-box" style="background:white;" 
+                         data-href="http://www.facebook.com/facebook" 
+                         data-width="270" 
+                         data-height="260" 
+                         data-show-faces="true" 
+                         data-stream="false"
+                         data-border-color="rgb(0,153,153)" 
+                         data-header="false">
+                    </div>
+                </div> <!-- / box-facebook -->
+
+            </div> <!-- / redes-sociais -->
+        </div>
+
+
+    </div>

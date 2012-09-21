@@ -320,6 +320,24 @@ body{background:url('../imagens/bg-body.png');}
                     border-bottom:1px dotted rgb(255,255,255);
                 }
 
+            .header-coluna-cinza{
+                padding:0 0 5px 20px;
+                background:rgb(0,153,153) url('../imagens/bg-header-coluna-cinza.jpg') no-repeat right bottom;
+            }
+            
+            .header-coluna-cinza:hover h1{
+                color:rgb(222,222,220);
+            }
+
+                .header-coluna-cinza h1{
+                    padding-bottom:3px;
+                    letter-spacing:1px;
+                    display:inline;
+                    font-size:18px;
+                    color:rgb(255,255,255);
+                    border-bottom:1px dotted rgb(255,255,255);
+                }
+
             .banner-central{
                 margin-bottom:55px;
             }
@@ -538,6 +556,27 @@ body{background:url('../imagens/bg-body.png');}
 
 /* / Primonews */
 
+    /* Box Cinza | Primonews */
+
+        .box-cinza-primonews{
+            padding:5px;
+            background:rgb(240,240,240);
+        }
+
+    /* box-redes-sociais-primonews */
+        .fb-like-box{
+            background:rgb(255,255,255);
+            margin-left:16px;
+        }
+
+        .box-redes-sociais-primonews{
+            margin-top:20px;
+        }
+        
+            .box-redes-sociais-primonews .lista-icones{
+                margin-left:74px;
+            }
+
         #comunicacao-lateral{
             margin-bottom:20px;
         }
@@ -584,6 +623,7 @@ body{background:url('../imagens/bg-body.png');}
             width:380px;
             height:500px;
             overflow:hidden;
+            border-bottom:5px solid rgb(0,153,153);
         }
 
             .header-noticia-primonews{
