@@ -32,7 +32,7 @@
                     </div> <!-- / box-noticias -->
                     
                     <script type="text/javascript">
-                            Noticias.scroll();
+                            Noticias.scroll(135, 135, '.box-noticias');
                     </script>
 
 

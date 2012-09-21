@@ -86,8 +86,44 @@
     </div> <!-- / Notícia Menor -->
 </div>
 
-<div class="ultimas-noticias grid_5">
-    <div class="header-coluna">
-        <h1>Últimas notícias</h1>
-    </div>
-</div>
+    <div class="ultimas-noticias grid_5">
+
+        <div class="header-coluna">
+            <h1>ÚLTIMAS NOTÍCIAS</h1>
+        </div>
+
+        <div class="box-noticias-primonews">
+            
+            <?php query_posts('posts_per_page=4&category_name=Noticias'); ?>
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+            <div class="noticia-primonews">
+
+                <div class="header-noticia-primonews">
+                    <h1>
+                        <?php echo substr(get_the_title(), 0, 35), "..."; ?>
+                    </h1>
+                </div>
+                
+                <div class="resumo-noticia">
+                    <p>
+                        <?php echo substr(get_the_content(), 0, 180), "..."; ?>
+                    </p>
+                </div>
+
+                <div class="botao-leia-mais">
+                    <p><a href="<?php the_permalink(); ?>"><span>+</span> Leia mais</a></p>
+                </div>
+            </div>
+            <?php endwhile; else: ?>
+                <div>
+                    <p><?php _e('Desculpe, não existem notícias publicadas ainda.'); ?></p>
+                </div>
+            <?php endif; ?>
+
+        </div> <!-- / box-noticias -->
+        
+        <script type="text/javascript">
+            Noticias.scroll(175, 175    , '.box-noticias-primonews');
+        </script>
+
+    </div> <!-- / ultimas-noticias -->

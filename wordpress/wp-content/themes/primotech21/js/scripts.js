@@ -1,32 +1,32 @@
-
 var Noticias = Noticias || {};
 Noticias = {
     alturaMinimaBox: 0,
-    alturaMaximaBox: 135,
+
     box: function(seletor) {
         return document.querySelector(seletor);
     },
-    scroll: function() {
+    
+    scroll: function(altura, alturaMaxima, selector) {
         var scroll, box;
         scroll = this.alturaMinimaBox;
-        box = this.box('.box-noticias');
+        box = this.box(selector);
 
         function controlarScroll() {
             var intervalo;
 
             intervalo = setInterval(function(){
-                if (Noticias.alturaMinimaBox === 135) {
-                    box.scrollTop = Noticias.alturaMaximaBox <= 0 ? 
-                                    Noticias.alturaMaximaBox = 0 : 
-                                    Noticias.alturaMaximaBox -= 1;
+                if (Noticias.alturaMinimaBox === altura) {
+                    box.scrollTop = alturaMaxima <= 0 ? 
+                                    alturaMaxima = 0 : 
+                                    alturaMaxima -= 1;
                 }
-                else if (Noticias.alturaMaximaBox === 135) {
+                else if (alturaMaxima === altura) {
                     box.scrollTop = Noticias.alturaMinimaBox += 1;
                 }
 
-                if ( (Noticias.alturaMaximaBox === 0) && (Noticias.alturaMinimaBox === 135) ) {
+                if ( (alturaMaxima === 0) && (Noticias.alturaMinimaBox === altura) ) {
                     pararScroll(intervalo);
-                    Noticias.alturaMaximaBox = 135;
+                    alturaMaxima = altura;
                     Noticias.alturaMinimaBox = 0;
                     executarScroll();
                 }
@@ -52,6 +52,8 @@ Noticias = {
         executarScroll();
     }
 };
+
+
 
 var Cotacao = Cotacao || {};
 Cotacao = {
