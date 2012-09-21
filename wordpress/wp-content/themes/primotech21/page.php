@@ -200,7 +200,7 @@
                     </div> <!-- / Logotipos das Amostras -->
 
                     <div class="box-deixar-opiniao grid_9">
-                        <a href="#">
+                        <a href="<?php bloginfo('url'); ?>/fale-conosco">
                             <div class="botao-opiniao">
                                 <p class="linha-1-opiniao">Deixe sua opinião. Entre</p>
                                 <p class="linha-2-opiniao">em contato com a P21.</p>
