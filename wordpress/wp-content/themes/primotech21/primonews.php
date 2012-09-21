@@ -218,7 +218,7 @@
                 </div> <!-- / lista-icones -->
 
                 <div class="box-facebook">
-                    <div class="fb-like-box" style="background:white;" 
+                    <div class="fb-like-box facebook-primonews" 
                          data-href="http://www.facebook.com/facebook" 
                          data-width="270" 
                          data-height="260" 

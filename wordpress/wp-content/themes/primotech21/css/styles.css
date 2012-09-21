@@ -564,11 +564,10 @@ body{background:url('../imagens/bg-body.png');}
         }
 
     /* box-redes-sociais-primonews */
-        .fb-like-box{
+        .facebook-primonews{
             background:rgb(255,255,255);
             margin-left:16px;
         }
-
         .box-redes-sociais-primonews{
             margin-top:20px;
         }
