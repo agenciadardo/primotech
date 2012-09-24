@@ -12,7 +12,7 @@
             $quebraLinha = "\n";
         }
                  
-        $destinatario = "email@email.com.br";
+        $destinatario = "marcos.garcia@agenciadardo.com.br";
         $paginaOrigem = $_SERVER["HTTP_REFERER"];
 
         $empresa = $_POST["textbox-empresa"];
@@ -30,7 +30,7 @@
         $assunto = "[Aplicações] Cadastro";
         $headers .= "MIME-Version: 1.1" . $quebraLinha;
         $headers .= "Content-type: text/html; charset=utf-8" . $quebraLinha;
-        $headers .= "From: " . $destinatario . $quebraLinha;
+        $headers .= "From: " . $email . $quebraLinha;
 
         if(!mail($destinatario, $assunto, $conteudo, $headers , "-r" . $destinatario)) {
             mail($destinatario, $assunto, $conteudo, $headers);

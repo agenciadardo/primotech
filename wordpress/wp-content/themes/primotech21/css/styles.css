@@ -460,10 +460,6 @@ body{background:url('../imagens/bg-body.png');}
                 color:rgb(255,255,255);
             }
 
-            .descricao-primonews-grande p:hover{
-                text-decoration:underline;
-            }
-
     /* Pequenos */
         .box-central-primonews-peq{
             float:left;
@@ -497,10 +493,6 @@ body{background:url('../imagens/bg-body.png');}
                     font-size:18px;
                     text-align:center;
                     color:rgb(255,255,255);
-                }
-
-                .descricao-primonews-peq p:hover{
-                    text-decoration:underline;
                 }
 
                 .resumo-primonews-grande{
@@ -1291,6 +1283,7 @@ body{background:url('../imagens/bg-body.png');}
 
 /* Aplicações - Categorias */
     .header-aplicacoes p{
+        text-align:justify;
         font-size:19px;
         color:rgb(0,0,0);
     }

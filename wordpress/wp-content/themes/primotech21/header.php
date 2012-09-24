@@ -49,8 +49,11 @@
                         </div>
 
                         <div class="en-us">
-                            <?php $url = 'http://www.primotech21.com.br'; ?>
-                            <a href="http://www.google.com/translate?u=<?php echo $url; ?>&hl=pt-br&ie=UTF8&langpair=pt-br%7Cen&langpair.x=13&langpair.y=13&langpair=pt-br%7Cen">
+                            <?php 
+                                $url = 'http://www.primotech21.com.br';
+                                $urlTeste = 'http://www.agenciadardo.com.br/primotech/'
+                            ?>
+                            <a href="http://www.google.com/translate?u=<?php echo $urlTeste; ?>&hl=pt-br&ie=UTF8&langpair=pt-br%7Cen&langpair.x=13&langpair.y=13&langpair=pt-br%7Cen">
                                 <img src="<?php bloginfo('template_url'); ?>/imagens/en-us.jpg" alt="" />
                             </a>
                         </div>

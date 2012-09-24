@@ -17,7 +17,7 @@
             $quebraLinha = "\n";
         }
                  
-        $destinatario = "email@email.com.br";
+        $destinatario = "marcos.garcia@agenciadardo.com.br";
         $paginaOrigem = $_SERVER["HTTP_REFERER"];
         $cliente = $_POST["textbox-cliente"];
         $projeto = $_POST["textbox-projeto"];
@@ -42,7 +42,7 @@
         $assunto = "[" . fabricante() . "] Requisição de amostra";
         $headers .= "MIME-Version: 1.1" . $quebraLinha;
         $headers .= "Content-type: text/html; charset=utf-8" . $quebraLinha;
-        $headers .= "From: " . $destinatario . $quebraLinha;
+        $headers .= "From: " . $email . $quebraLinha;
 
         if(!mail($destinatario, $assunto, $conteudo, $headers , "-r" . $destinatario)) {
             mail($destinatario, $assunto, $conteudo, $headers);
