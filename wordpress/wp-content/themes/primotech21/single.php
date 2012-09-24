@@ -83,10 +83,6 @@
 	            
 	            <?php endif; ?><!-- endOf Listar os posts -->
 
-	            <div class="comentarios">
-	            	<?php comments_template( '', true); ?>
-	            </div>
-
 </div> <!-- / conteudo-central -->
 
 <?php get_footer(); ?>

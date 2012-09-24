@@ -1492,7 +1492,7 @@ body{background:url('../imagens/bg-body.png');}
                     color:rgb(50,50,50);
                 }
 
-    /* POST */
+    /* Posts */
     .texto_post_conteudo{
         margin-top:20px;
         font-size:15px;
@@ -1500,4 +1500,24 @@ body{background:url('../imagens/bg-body.png');}
 
     .comentarios textarea{
         vertical-align:top;
+    }
+
+    /* 404 */
+    .mensagem-404{
+        margin-top:20px;
+        font-family:Georgia,serif;
+        font-size:20px;
+    }
+
+        .mensagem-404 p img{
+            margin:5px 10px 10px 0;
+        }
+
+        .mensagem-404 p span{
+            font-style:italic;
+            color:rgb(0,153,153);
+        }
+
+    .link-retorno a{
+        color:rgb(0,153,153);
     }
