@@ -1491,3 +1491,13 @@ body{background:url('../imagens/bg-body.png');}
                 .lista-itens-box-categoria ul li:hover a{
                     color:rgb(50,50,50);
                 }
+
+    /* POST */
+    .texto_post_conteudo{
+        margin-top:20px;
+        font-size:15px;
+    }
+
+    .comentarios textarea{
+        vertical-align:top;
+    }
