@@ -53,7 +53,7 @@
                                 $url = 'http://www.primotech21.com.br';
                                 $urlTeste = 'http://www.agenciadardo.com.br/primotech/'
                             ?>
-                            <a href="http://www.google.com/translate?u=<?php echo $urlTeste; ?>&hl=pt-br&ie=UTF8&langpair=pt-br%7Cen&langpair.x=13&langpair.y=13&langpair=pt-br%7Cen">
+                            <a href="http://www.google.com/translate?u=<?php echo $urlTeste; ?>&amp;hl=pt-br&amp;ie=UTF8&amp;langpair=pt-br%7Cen&amp;langpair.x=13&amp;langpair.y=13&amp;langpair=pt-br%7Cen">
                                 <img src="<?php bloginfo('template_url'); ?>/imagens/en-us.jpg" alt="" />
                             </a>
                         </div>

@@ -77,6 +77,11 @@
         <?php if (is_page('fale-conosco')) { ?>
         <div class="icone-fale-conosco"></div>
         <?php } ?>
+        <?php if (is_page('cotacao')) { ?>
+        <div class="icone-onde-comprar"></div>
+        <?php } ?>
+
+
 
         <?php // Nomeia as páginas e subpáginas; ?>
 
@@ -103,7 +108,13 @@
                 <h1>Amostras</h1>  
             <?php }
             else { ?>
-                <h1><?php the_title(); ?></h1>
+            <?php // Página Cotação - Título ?>
+                <?php if (is_page('cotacao')) { ?>
+                    <h1>Faça sua <?php echo strtolower(get_the_title()); ?></h1>    
+                <?php }
+                else { ?>
+                    <h1><?php the_title(); ?></h1>
+                <?php } ?>
              <?php } ?>
     </div>
 
@@ -215,6 +226,12 @@
                         include 'primonews.php'; 
                     } 
                 ?>
+            <?php // Página Cotacao; ?>
+                <?php 
+                    if (is_page('cotacao')) {
+                        include 'cotacao.php'; 
+                    } 
+                ?>
 
             <?php // Página Fale conosco; ?>
                 <?php if (is_page('fale-conosco')) { ?>
@@ -232,41 +249,41 @@
 
                                 <p class="validar-nome"></p>
                                 <label for="textbox-nome">Nome: </label>
-                                <input type="text" value="" name="textbox-nome" id="textbox-nome" />
+                                <input type="text" value="&nbsp;" name="textbox-nome" id="textbox-nome" />
 
                                 <br />
 
                                 <p class="validar-email"></p>
                                 <label for="textbox-email">E-mail: </label>
-                                <input type="text" value="" name="textbox-email" id="textbox-email" />
+                                <input type="text" value="&nbsp;" name="textbox-email" id="textbox-email" />
 
                                 <br />
 
                                 <p class="validar-telefone"></p>
                                 <label for="textbox-ddd">Telefone: </label>
-                                <input type="text" value="" name="textbox-ddd" id="textbox-ddd" />
-                                <input type="text" value="" name="textbox-telefone" id="textbox-telefone" />
+                                <input type="text" value="&nbsp;" name="textbox-ddd" id="textbox-ddd" />
+                                <input type="text" value="&nbsp;" name="textbox-telefone" id="textbox-telefone" />
 
                                 <br />
 
                                 <p class="validar-empresa"></p>
                                 <label for="textbox-empresa">Empresa: </label>
-                                <input type="text" value="" name="textbox-empresa" id="textbox-empresa" />
+                                <input type="text" value="&nbsp;" name="textbox-empresa" id="textbox-empresa" />
 
                                 <br />
 
                                 <p class="validar-endereco"></p>
                                 <label for="textbox-endereco">Endereço: </label>
-                                <input type="text" value="" name="textbox-endereco" id="textbox-endereco" />
+                                <input type="text" value="&nbsp;" name="textbox-endereco" id="textbox-endereco" />
                                 <label for="textbox-cep">CEP: </label>
-                                <input type="text" value="" name="textbox-cep" id="textbox-cep" />
+                                <input type="text" value="&nbsp;" name="textbox-cep" id="textbox-cep" />
 
                                 <br />
 
                                 <label for="textbox-cidade">Cidade: </label>
-                                <input type="text" value="" name="textbox-cidade" id="textbox-cidade" />
+                                <input type="text" value="&nbsp;" name="textbox-cidade" id="textbox-cidade" />
                                 <label for="textbox-estado">Estado: </label>
-                                <input type="text" value="" name="textbox-estado" id="textbox-estado" />
+                                <input type="text" value="&nbsp;" name="textbox-estado" id="textbox-estado" />
 
                                 <br />
 
@@ -289,8 +306,7 @@
                                 <h3 id="obrigado" style="text-align:center;">
                                     Mensagem enviada com sucesso.<br />
                                     Obrigado!
-                                <h3>
-                            </p> 
+                                </h3> 
                             <?php } ?>
                     </div> <!-- / Formulário Fale Conosco -->
 
@@ -409,26 +425,26 @@
 
                                 <p class="validar-empresa"></p>
                                 <label for="textbox-empresa">Empresa: </label>
-                                <input type="text" value="" name="textbox-empresa" id="textbox-empresa" />
+                                <input type="text" value="&nbsp;" name="textbox-empresa" id="textbox-empresa" />
 
                                 <br />
 
                                 <p class="validar-email"></p>
                                 <label for="textbox-email">E-mail: </label>
-                                <input type="text" value="" name="textbox-email" id="textbox-email" />
+                                <input type="text" value="&nbsp;" name="textbox-email" id="textbox-email" />
 
                                 <br />
 
                                 <p class="validar-nome"></p>
                                 <label for="textbox-nome">Nome: </label>
-                                <input type="text" value="" name="textbox-nome" id="textbox-nome" />
+                                <input type="text" value="&nbsp;" name="textbox-nome" id="textbox-nome" />
 
                                 <br />
 
                                 <p class="validar-telefone"></p>
                                 <label for="textbox-ddd">Telefone: </label>
-                                <input type="text" value="" name="textbox-ddd" id="textbox-ddd" />
-                                <input type="text" value="" name="textbox-telefone" id="textbox-telefone" />
+                                <input type="text" value="&nbsp;" name="textbox-ddd" id="textbox-ddd" />
+                                <input type="text" value="&nbsp;" name="textbox-telefone" id="textbox-telefone" />
 
                                 <br />
 
