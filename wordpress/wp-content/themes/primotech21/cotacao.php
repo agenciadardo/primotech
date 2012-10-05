@@ -7,7 +7,7 @@ function fabricante() {
 <?php if (empty($_GET['enviado'])) { ?>
     <div class="logotipo-fabricantes grid_9">
         <div class="logotipo-<?php echo strtolower(fabricante()); ?>">
-            <img src="<?php bloginfo('template_url'); ?>/imagens/logotipo-<?php echo fabricante(), ".jpg"; ?>">
+            <img src="<?php bloginfo('template_url'); ?>/imagens/logotipo-<?php echo strtolower(fabricante()), ".jpg"; ?>">
         </div>
     </div>
 

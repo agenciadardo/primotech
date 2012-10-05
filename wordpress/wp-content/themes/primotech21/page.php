@@ -50,8 +50,6 @@
 
 <div id="conteudo-central" class="grid_9">
 
-
-
     <div class="header-paginas">
 
         <?php if (is_page('fabricantes')) { ?>
@@ -81,11 +79,10 @@
         <div class="icone-onde-comprar"></div>
         <?php } ?>
 
-
-
         <?php // Nomeia as páginas e subpáginas; ?>
 
-            <?php 
+            <?php
+            $idPrimotech21 = get_page_by_title('Primotech 21')->ID;
             $idFabricantes = get_page_by_title('Fabricantes')->ID;
             $idOndeComprar = get_page_by_title('Onde comprar')->ID;
             $idAmostras = get_page_by_title('Amostras')->ID; 
@@ -94,6 +91,25 @@
             <?php if (is_page('cadastrar-aplicacoes')) { ?>
                 <div class="icone-aplicacoes"></div>
                 <h1>Aplicações</h1>
+            <?php }
+            elseif ($post->post_parent == $idPrimotech21) { ?>
+                
+                <div class="icone-primotech21"></div>
+
+            <?php // Personalização dos títulos das subpáginas da Primotech21 ?>
+
+                <?php if (is_page('suporte-tecnico-no-desenvolvimento')) { ?>
+                    <h1>Suporte Técnico no Desenvolvimento</h1>
+                <?php }
+                if (is_page('suporte-logistico-nas-operacoes')) { ?>
+                    <h1>Suporte Logístico nas Operações</h1>
+                <?php } 
+                if ( (is_page('a-empresa')) || (is_page('visao-e-missao')) || (is_page('suporte-pos-vendas')) ) { ?>
+                    <h1><?php the_title(); ?></h1>
+                <?php } ?>
+
+            <?php // / Personalização dos títulos ?>
+
             <?php }
             elseif ($post->post_parent == $idFabricantes) { ?>
                 <div class="icone-fabricantes"></div>

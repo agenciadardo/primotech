@@ -129,6 +129,7 @@
             /* / sprite*/
 
 
+            .primotech-21 ul,
             .fabricantes ul,
             .onde-comprar ul, 
             .amostras ul{
@@ -136,12 +137,14 @@
                 margin-top:5px;
             }
 
+            .primotech-21 ul li a,
             .fabricantes ul li a,
             .onde-comprar ul li a,
             .amostras ul li a{
                 background:none;
             }            
 
+            .primotech-21 ul li a:hover,
             .fabricantes ul li a:hover,
             .onde-comprar ul li a:hover,
             .amostras ul li a:hover{

@@ -107,50 +107,23 @@
                     </div>
 
                     <div class="box-cotacao">
-                        <div class="header-box-cotacao">
-                            <h1>Dólar</h1>
+                        <div class="data-cotacao">
+                            <p><span><?php echo date('d/m/Y') ?></span></p>
                         </div>
 
-                        <div class="cotacoes-dolar">
-                            
-                            <div class="dolar-comercial">
-                                <p>Comercial</p>
-                                <p class="dolar-venda">Venda:
-                                    <span class="dolar-comercial-venda-preco">
-                                        <script type="text/javascript">
-                                            document.write('R$ ' + Cotacao.obterDolarComercial()["venda"]);
-                                        </script>
-                                    </span>
-                                </p>
+                        <div class="header-em-reais">
+                            <p><span>em R$</span></p>
+                        </div>
 
-                                <p class="dolar-compra">Compra:
-                                    <span class="dolar-comercial-compra-preco">
-                                        <script type="text/javascript">
-                                            document.write('R$ ' + Cotacao.obterDolarComercial()["compra"]);
-                                        </script>
-                                    </span>
-                                </p>
-                            </div>
+                        <div class="display-cotacao">
+                            <?php
+                                include 'obterCotacaoDolar.php';
+                                $tiposCotacao = Array("Compra", "Venda");
 
-                            <div class="dolar-paralelo">
-                                <p>Paralelo</p>
-                                <p class="dolar-venda">Venda:
-                                    <span class="dolar-paralelo-venda-preco">
-                                        <script type="text/javascript">
-                                            document.write('R$ ' + Cotacao.obterDolarParalelo()["venda"]);
-                                        </script>
-                                    </span>
-                                </p>
-
-                                <p class="dolar-compra">Compra:
-                                    <span class="dolar-paralelo-compra-preco">
-                                        <script type="text/javascript">
-                                            document.write('R$ ' + Cotacao.obterDolarParalelo()["compra"]);
-                                        </script>
-                                    </span>
-                                </p>
-                            </div>
-
+                                for ($i = 0; $i < count(obterCotacaoDolar()); $i += 1) {
+                                    echo '<p class="' . strtolower($tiposCotacao[$i]) . '"><span>' . $tiposCotacao[$i] . ': </span>' . obterCotacaoDolar()[$i] . '</p>';
+                                }
+                            ?>
                         </div>
                     </div> <!-- / box-cotacao -->
 

@@ -79,6 +79,15 @@
                     <ul>
                         <li class="primotech-21">
                             <a href="<?php bloginfo('url'); ?>">Primotech 21</a>
+                            <?php 
+                            $idPrimotech21 = get_page_by_title('Primotech 21')->ID;
+                            $subpaginas = wp_list_pages('title_li=&child_of='.$idPrimotech21.'&echo=0&sort_column=post_date');
+                            
+                            if ($subpaginas) { ?>
+                            <ul>                                
+                                <?php echo $subpaginas; ?>
+                            </ul>
+                            <?php } ?>
                         </li>
                         
                         <li class="fabricantes">

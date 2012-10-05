@@ -53,35 +53,6 @@ Noticias = {
     }
 };
 
-
-
-var Cotacao = Cotacao || {};
-Cotacao = {
-    obterDadosWS: (function() {
-        return resultadoCEP;
-    })(),
-
-    obterDolarComercial: function() {
-        var dolarComercial;
-        dolarComercial = [];
-
-        dolarComercial.venda = this.obterDadosWS.dolar_comercial_venda;
-        dolarComercial.compra = this.obterDadosWS.dolar_comercial_compra;
-        
-        return dolarComercial;
-    },
-
-    obterDolarParalelo: function() {
-        var dolarParalelo;
-        dolarParalelo = [];
-
-        dolarParalelo.venda = this.obterDadosWS.dolar_paralelo_venda;
-        dolarParalelo.compra = this.obterDadosWS.dolar_paralelo_compra;
-        
-        return dolarParalelo;
-    }
-};
-
 $(document).ready(function() {
 
     // function validar_campo(formulario, campo, tipo_campo) {
