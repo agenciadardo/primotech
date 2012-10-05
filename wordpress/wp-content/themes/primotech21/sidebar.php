@@ -103,7 +103,7 @@
                 <div class="cotacao">
                     
                     <div class="header-coluna">
-                        <h1>Cotação</h1>
+                        <h1>Cotação do dólar</h1>
                     </div>
 
                     <div class="box-cotacao">
