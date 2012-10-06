@@ -467,7 +467,7 @@ body{background:url('../imagens/bg-body.png');}
                 padding:5px;
                 line-height:16px;
                 font-size:18px;
-                text-align:center;
+                text-align:center !important;
                 color:rgb(255,255,255);
             }
 
@@ -502,7 +502,7 @@ body{background:url('../imagens/bg-body.png');}
                     padding:5px;
                     line-height:16px;
                     font-size:18px;
-                    text-align:center;
+                    text-align:center !important;
                     color:rgb(255,255,255);
                 }
 
@@ -544,7 +544,7 @@ body{background:url('../imagens/bg-body.png');}
             .botao-leia-mais a{
                 text-decoration:none;
                 line-height:24px;
-                text-align:center;
+                text-align:center !important;
                 width:100px;
                 padding:0;
                 color:rgb(0,0,0);

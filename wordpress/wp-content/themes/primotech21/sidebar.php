@@ -25,7 +25,7 @@
                         </div>
                         <?php endwhile; else: ?>
                             <div>
-                                <p><?php _e('Desculpe, não existem notícias publicadas ainda.'); ?></p>
+                                <p>Desculpe, não existem notícias publicadas ainda.</p>
                             </div>
                         <?php endif; ?>
 
@@ -108,7 +108,7 @@
 
                     <div class="box-cotacao">
                         <div class="data-cotacao">
-                            <p><span><?php echo date('d/m/Y') ?></span></p>
+                            <p><span><?php echo date('d/m/Y'); ?></span></p>
                         </div>
 
                         <div class="header-em-reais">
@@ -117,16 +117,17 @@
 
                         <div class="display-cotacao">
                             <?php
-                                include 'obterCotacaoDolar.php';
+                                include "obterCotacaoDolar.php";
+                                
+                                $cotacao = obterCotacaoDolar();
                                 $tiposCotacao = Array("Compra", "Venda");
-
-                                for ($i = 0; $i < count(obterCotacaoDolar()); $i += 1) {
-                                    echo '<p class="' . strtolower($tiposCotacao[$i]) . '"><span>' . $tiposCotacao[$i] . ': </span>' . obterCotacaoDolar()[$i] . '</p>';
+                                
+                                for ($i = 0; $i < count($cotacao); $i += 1) {
+                                    echo '<p class="' . strtolower($tiposCotacao[$i]) . '"><span>' . $tiposCotacao[$i] . ': </span>' . $cotacao[$i] . '</p>';
                                 }
                             ?>
                         </div>
                     </div> <!-- / box-cotacao -->
-
                 </div> <!-- / cotacao -->
 
             </div> <!-- / comunicacao-lateral -->

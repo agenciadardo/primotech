@@ -150,7 +150,9 @@
                     </ul>
 
                     <div class="center banner-central banner-inferior">
-                        <img src="<?php bloginfo('template_url'); ?>/imagens/banner-inferior.jpg" alt="">
+                        <a target="_blank" href="<?php bloginfo('template_url'); ?>/recursos/linecard-primotech21-2012.pdf">
+                            <img src="<?php bloginfo('template_url'); ?>/imagens/banner-inferior.jpg" alt="" />
+                        </a>
                     </div>
                     <?php } ?>
                 <?php } ?>
