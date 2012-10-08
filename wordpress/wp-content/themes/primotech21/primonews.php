@@ -42,8 +42,8 @@
                     <?php endwhile; else: ?>
                     
                     <?php endif; ?>
-
     </div>
+
 
     <div class="box-em-destaque-menor alpha grid_4">
         <?php query_posts('posts_per_page=1&category_name=destaques&offset=1'); ?>
@@ -125,7 +125,6 @@
         <script type="text/javascript">
             Noticias.scroll(175, 175, '.box-noticias-primonews');
         </script>
-
     </div> <!-- / ultimas-noticias -->
 
     <div class="box-cinza-primonews grid_4 omega">
@@ -169,7 +168,7 @@
 
                 <div class="lista-icones">
                     <div class="icone-social">
-                        <a href="#">
+                        <a href="http://pt-br.facebook.com/people/Primotech-Brasil/100004511493884">
                             <img class="icone-facebook" src="<?php bloginfo('template_url'); ?>/imagens/sprite-social.png" alt="" />
                         </a>
                     </div>
@@ -196,7 +195,7 @@
 
                 <div class="box-facebook">
                     <div class="fb-like-box facebook-primonews" 
-                         data-href="http://www.facebook.com/facebook" 
+                         data-href="http://facebook.com/facebook" 
                          data-width="270" 
                          data-height="260" 
                          data-show-faces="true" 
@@ -208,6 +207,4 @@
 
             </div> <!-- / redes-sociais -->
         </div>
-
-
     </div>

@@ -61,7 +61,7 @@
 
                     <div class="lista-icones">
                         <div class="icone-social">
-                            <a href="#">
+                            <a href="http://pt-br.facebook.com/people/Primotech-Brasil/100004511493884">
                                 <img class="icone-facebook" src="<?php bloginfo('template_url'); ?>/imagens/sprite-social.png" alt="" />
                             </a>
                         </div>
