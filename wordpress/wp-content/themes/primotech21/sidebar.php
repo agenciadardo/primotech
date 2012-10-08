@@ -88,7 +88,7 @@
 
                     <div class="box-facebook">
                         <div class="fb-like-box" 
-                             data-href="http://www.facebook.com/facebook" 
+                             data-href="http://www.facebook.com/pages/Primotech21/152803554863951?fref=ts" 
                              data-width="220" 
                              data-height="260" 
                              data-show-faces="true" 

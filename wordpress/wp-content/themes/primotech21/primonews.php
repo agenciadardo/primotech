@@ -195,7 +195,7 @@
 
                 <div class="box-facebook">
                     <div class="fb-like-box facebook-primonews" 
-                         data-href="http://facebook.com/facebook" 
+                         data-href="http://www.facebook.com/pages/Primotech21/152803554863951?fref=ts" 
                          data-width="270" 
                          data-height="260" 
                          data-show-faces="true" 
