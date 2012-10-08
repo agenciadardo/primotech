@@ -131,57 +131,34 @@
     <div class="box-cinza-primonews grid_4 omega">
         <div class="box-cotacao-primonews">
             <div class="header-coluna-cinza">
-                <h1>COTAÇÃO</h1>
+                <h1>COTAÇÃO DO DÓLAR</h1>
             </div>
 
-            <div class="box-cotacao">
-                <div class="header-box-cotacao">
-                    <h1>Dólar</h1>
-                </div>
-
-                <div class="cotacoes-dolar">
+                <div class="box-cotacao-300px">
                     
-                    <div class="dolar-comercial">
-                        <p>Comercial</p>
-                        <p class="dolar-venda">Venda:
-                            <span class="dolar-comercial-venda-preco">
-                                <script type="text/javascript">
-                                    document.write('R$ ' + Cotacao.obterDolarComercial()["venda"]);
-                                </script>
-                            </span>
-                        </p>
-
-                        <p class="dolar-compra">Compra:
-                            <span class="dolar-comercial-compra-preco">
-                                <script type="text/javascript">
-                                    document.write('R$ ' + Cotacao.obterDolarComercial()["compra"]);
-                                </script>
-                            </span>
-                        </p>
+                    <div class="data-cotacao">
+                        <p><span><?php echo date('d/m/Y'); ?></span></p>
                     </div>
 
-                    <div class="dolar-paralelo">
-                        <p>Paralelo</p>
-                        <p class="dolar-venda">Venda:
-                            <span class="dolar-paralelo-venda-preco">
-                                <script type="text/javascript">
-                                    document.write('R$ ' + Cotacao.obterDolarParalelo()["venda"]);
-                                </script>
-                            </span>
-                        </p>
-
-                        <p class="dolar-compra">Compra:
-                            <span class="dolar-paralelo-compra-preco">
-                                <script type="text/javascript">
-                                    document.write('R$ ' + Cotacao.obterDolarParalelo()["compra"]);
-                                </script>
-                            </span>
-                        </p>
+                    <div class="header-em-reais">
+                        <p><span>em R$</span></p>
                     </div>
 
-                </div>
+                    <div class="display-cotacao">
+                        <?php
+                            include "obterCotacaoDolar.php";
+                            
+                            $cotacao = obterCotacaoDolar();
+                            $tiposCotacao = Array("Compra", "Venda");
+                            
+                            for ($i = 0; $i < count($cotacao); $i += 1) {
+                                echo '<p class="' . strtolower($tiposCotacao[$i]) . '"><span>' . $tiposCotacao[$i] . ': </span>' . $cotacao[$i] . '</p>';
+                            }
+                        ?>
+                    </div>
+
+                </div> <!-- / box-cotacao -->
             </div>
-        </div> <!-- / box-cotacao -->
 
         <div class="box-redes-sociais-primonews">
             <div class="redes-sociais">

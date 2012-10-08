@@ -572,7 +572,7 @@ body{background:url('../imagens/bg-body.png');}
             margin-left:16px;
         }
         .box-redes-sociais-primonews{
-            margin-top:20px;
+            margin-top:5px;
         }
         
             .box-redes-sociais-primonews .lista-icones{
@@ -748,6 +748,55 @@ body{background:url('../imagens/bg-body.png');}
                     .header-em-reais p span{
                         font-size:16px;
                     }
+
+            /* Primonews */
+            .box-cotacao-300px{
+                padding:12px 0 0 23px;
+                margin-top:10px;
+                background:url('../imagens/bg-cotacao-300px.png') no-repeat;
+                display:block;
+                width:300px;
+                height:210px;
+            }
+
+            .box-cotacao-300px p{
+                margin:0;
+                text-shadow:1px 0 2px rgb(0,0,0);
+                font-family:"Score Board",sans-serif;
+                font-size:32px;
+                color:rgb(211,255,154);
+            }
+
+                .box-cotacao-300px p span{
+                    color:rgb(0,0,0);
+                }
+
+                .box-cotacao-300px .data-cotacao{
+                    margin-top:-12px;
+                }
+
+                    .box-cotacao-300px .data-cotacao p span,
+                    .box-cotacao-300px .display-cotacao p span{
+                        font-size:16px;
+                    }
+
+                    .box-cotacao-300px .display-cotacao{
+                        margin:-20px 0 0 40px;
+                    }
+
+                    .box-cotacao-300px p.compra{
+                        margin:0 0 -10px -8px;
+                    }
+
+                .box-cotacao-300px .header-em-reais{
+                    margin: 0 0 10px 97px;
+
+                }
+
+                    .box-cotacao-300px .header-em-reais p span{
+                        font-size:16px;
+                    }
+
             /* / Widget Cotação */
 
             #rodape{
