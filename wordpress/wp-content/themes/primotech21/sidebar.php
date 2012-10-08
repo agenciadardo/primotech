@@ -37,13 +37,12 @@
 
 
                 </div> <!-- / ultimas-noticias -->
-
                 <div class="videos">
                     <object width="220" height="220">
-                        <param name="movie" value="https://www.youtube.com/v/videoseries?listType=playlist&list=ALYL4kY05133ohSYUqR_phVX8cJdxXbe5_&autoplay=1&modestbranding=1&version=3"></param>
+                        <param name="movie" value="https://www.youtube.com/v/videoseries?listType=playlist&list=PLne3FP-lG075EZqan23WRKWOJpNVnCTmf&autoplay=0&modestbranding=1&version=3"></param>
                         <param name="allowFullScreen" value="true"></param>
                         <param name="allowScriptAccess" value="always"></param>
-                        <embed src="https://www.youtube.com/v/videoseries?listType=playlist&list=ALYL4kY05133ohSYUqR_phVX8cJdxXbe5_&autoplay=1&modestbranding=1&version=3" 
+                        <embed src="https://www.youtube.com/v/videoseries?listType=playlist&list=PLne3FP-lG075EZqan23WRKWOJpNVnCTmf&autoplay=0&modestbranding=1&version=3" 
                                type="application/x-shockwave-flash" 
                                allowfullscreen="true" 
                                allowScriptAccess="always" 
