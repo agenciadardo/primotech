@@ -12,15 +12,9 @@
                         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                         <div class="noticia">
                             <p>
-                                
-                                <?php echo substr(get_the_content(), 0, 75), "..."; ?>
-
-                                <span>
-                                    <a href="<?php echo get_permalink(); ?>">
-                                        Leia mais
-                                    </a>
-                                </span>
-
+                                <a href="<?php echo get_permalink(); ?>">
+                                    <?php echo substr(get_the_title(), 0, 90); ?>
+                                </a>
                             </p>
                         </div>
                         <?php endwhile; else: ?>

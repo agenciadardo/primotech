@@ -11,10 +11,14 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
     </div>
 
     <p>
-        Desde 1950 a Nichicon está presente como um dos mais conhecidos
-        fabricantes de capacitores do mundo. Reconhecido por sua alta 
-        confiabilidade e performance diferenciada, sua linha de produtos é
-        a mais completa do mercado.
+        Nichicon é conhecida como como um dos maiores
+        fabricantes de capacitores do mundo. Reconhecido
+        por sua alta confiabilidade e performance
+        diferenciada, sua linha de produtos é a mais
+        completa do mercado e inclui capacitores
+        eletrolíticos, capacitores de tântalo, capacitores
+        poliméricos e outros.
+
     </p>
 </div>
 

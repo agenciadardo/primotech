@@ -11,14 +11,13 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
     </div>
 
     <p>
-        Também sediada no Japão, a Torex se destaca como um dos principais
-        fornecedores de Reguladores de Tensão CMOS, detectores de tensão e
-        Conversores DC/AC. A Torex é especializada em circuitos integrados
-        para o gerenciamento de energia. Seus produtos são ideias para
-        dispositivos portáteis operados por baterias assim como para
-        diversas aplicações com uso de rede elétrica (T/T2), gravadores e
-        reprodutores digitais de sinais de RF, amplificadores de RF para 
-        linhas de produção de aparelhos de TV entre outros.
+        Torex se destaca como um dos principais
+        fornecedores de Reguladores de Tensão CMOS,
+        detectores de tensão e Conversores DC/DC. Seus
+        produtos são ideais para dispositivos portáteis
+        operados por baterias assim como para diversas
+        aplicações com uso de rede elétrica.
+
     </p>
 </div>
 

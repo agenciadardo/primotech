@@ -11,11 +11,14 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
     </div>
 
     <p>
-        A Astro Design se destaca como um dos principais fornecedores de equipamentos
-        de teste para indústria de áudio e vídeo. Sua linha de produtos inclui monitores
-        de forma de onda e vetor, monitores de áudio <i>embedded</i> e geradoras de sinais
-        HD-SDI e 3G-SDI, geradores de sinais digitais e analisadores HDMI para a linha de
-        produção de aparelhos de TV, DVD, BD e <i>receiver</i> HI-FI.
+        A Astro Design é um dos principais fornecedores
+        de equipamentos de teste para indústria de áudio,
+        vídeo e broadcasting. Sua linha de produtos inclui
+        monitores de forma de onda e vetor, monitores de
+        áudio embedded e geradoras de sinais HD-SDI e
+        3G-SDI, geradores de sinais digitais e analisadores
+        HDMI para a linha de produção de aparelhos de
+        TV, DVD, BD e receiver AV.
     </p>
 </div>
 

@@ -11,14 +11,14 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
     </div>
 
     <p>
-        Empresa norte americana fundada em 1983, a Aven fornece soluções 
-        de inspeção óptica e suprimentos para a indústria eletroeletrônica.
-        A Aven se destaca no segmento de ferramentas de precisão de alta
-        performance para microscopia, inspeção e montagem de circuitos
-        eletrônicos.
-        Sua linha de produtos é composto por microscópios digitais portáteis,
-        sistema de inspeção de vídeo, microscópio biológico, microscópio estéril
-        e com zoom, acessórios, iluminação etc.
+        A Aven fornece soluções de inspeção óptica e
+        suprimentos para a indústria eletroeletrônica,
+        destaca-se no segmento de ferramentas de
+        precisão de alta performance para microscopia,
+        inspeção e montagem de circuitos eletrônicos. Sua
+        linha de produtos é composto por microscópios
+        digitais portáteis, sistema de inspeção de vídeo,
+        microscópio biológico, microscópio stereo, etc;
     </p>
 </div>
 

@@ -11,10 +11,12 @@ $theTitlePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
     </div>
 
     <p>
-        Com sua sede no Japão a Alps Electric é um dos maiores fabricantes
-        de componentes eletrônicos do mundo. Seu portfólio é composto por
-        switch, tact switch, potenciômetros, conectores, sensores, sintonizadores
-        módulos de comunicação, mecanismo de impressão, módulos automotivos
+        Com sua sede no Japão a Alps Electric é um dos
+        maiores fabricantes de componentes eletrônicos
+        do mundo. Seu portfólio é composto por switch,
+        tact switch, potenciômetros, conectores, sensores,
+        sintonizadores módulos de comunicação,
+        mecanismo de impressão, módulos automotivos
         entre outros.
     </p>
 </div>
