@@ -7,29 +7,30 @@
                     </div>
 
                     <div class="box-noticias">
-                        
                         <?php query_posts('posts_per_page=4&category_name=noticias'); ?>
                         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                        <div class="noticia">
-                            <p>
-                                <a href="<?php echo get_permalink(); ?>">
-                                    <?php echo substr(get_the_title(), 0, 90); ?>
-                                </a>
-                            </p>
-                        </div>
+                        
+                            <div class="noticia">
+                                <p>
+                                    <a href="<?php echo get_permalink(); ?>">
+                                        <?php 
+                                            if ( strlen(get_the_title()) <= 30 ) {
+                                                echo '&raquo; ', get_the_title();
+                                            }
+                                            else {
+                                                echo '&raquo; ',substr(get_the_title(), 0, 26), ' (...)';
+                                            }
+                                        ?>
+                                    </a>
+                                </p>
+                            </div>
+                        
                         <?php endwhile; else: ?>
                             <div>
                                 <p>Desculpe, não existem notícias publicadas ainda.</p>
                             </div>
                         <?php endif; ?>
-
                     </div> <!-- / box-noticias -->
-                    
-                    <script type="text/javascript">
-                            Noticias.scroll(135, 135, '.box-noticias');
-                    </script>
-
-
                 </div> <!-- / ultimas-noticias -->
                 <div class="videos">
                     <object width="220" height="220">
@@ -81,9 +82,9 @@
 
                     <div class="box-facebook">
                         <div class="fb-like-box" 
-                             data-href="http://www.facebook.com/pages/Primotech21/152803554863951?fref=ts" 
+                             data-href="http://www.facebook.com/facebook" 
                              data-width="220" 
-                             data-height="260" 
+                             data-height="183" 
                              data-show-faces="true" 
                              data-stream="false"
                              data-border-color="rgb(0,153,153)" 

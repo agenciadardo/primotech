@@ -17,6 +17,7 @@
         <?php wp_head(); ?>
         <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
         <script src="http://malsup.github.com/jquery.cycle.all.js"></script>
+        <script src="<?php bloginfo('template_url'); ?>/js/infinitScroll.js"></script>
         <script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
     </head>
     <body>

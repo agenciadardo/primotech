@@ -34,7 +34,7 @@ body{background:url('../imagens/bg-body.png');}
         }
 
         .idiomas{
-            margin:130px 0 0 120px;
+            margin:130px 0 0 75px;
             position:relative;
             z-index:99999;
             width:106px;
@@ -48,8 +48,8 @@ body{background:url('../imagens/bg-body.png');}
 
             .pt-br img,
             .en-us img {
-                width:40px;
-                height:30px;
+                width:30px;
+                height:25px;
             }
 
         .banner{
@@ -111,7 +111,7 @@ body{background:url('../imagens/bg-body.png');}
             .menu a{
                 letter-spacing:1px;
                 line-height:101px;
-                color:rgb(133,133,131);
+                color:rgb(222,222,220);
                 -webkit-transition: color .2s linear;
                 -moz-transition: color .2s linear;
                 -o-transition: color .2s linear;
@@ -585,36 +585,37 @@ body{background:url('../imagens/bg-body.png');}
 
         .box-noticias{
             width:220px;
-            height:220px;
+            height:160px;
             overflow:hidden;
+            position:absolute;
             cursor:pointer;
             border-bottom:5px solid rgb(0,153,153);
         }
-            .noticia{
-                border-bottom:2px dotted rgb(0,153,153);
-            }
 
-            .noticia:hover{
-                background:rgb(250,250,250);
+            .noticia{
+                height:34px;
+                width:220px;
+                position:absolute;
+                border-bottom:2px dotted rgb(0,153,153);
             }
 
                 .noticia p,
                 .noticia a{
-                    line-height:20px;
+                    margin:0;
                     font-weight:900;
                     font-size:14px;
                     color:rgb(133,133,131);
                     margin:0;
-                    padding:5px 5px 20px 5px;
                     text-decoration:none;
                 }
 
-                .noticia p:hover{
-                    color:rgb(100,100,100);
-                }
-
                     .noticia a:hover{
+                        color:rgb(100,100,100);
                         text-decoration:underline;
+                    }
+
+                    .videos{
+                        padding-top:165px;
                     }
 
         /* Notícias Primonews */
