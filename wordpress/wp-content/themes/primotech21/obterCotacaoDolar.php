@@ -11,4 +11,17 @@ function obterCotacaoDolar() {
     curl_close($curlHandler);
     return $cotacao[0];
 }
+
+function obterCotacaoDolarDia() {
+    $cotacao = Array();
+    $url = "http://www.yahii.com.br/dolar.html";
+    $expRegular = "/[0-9],[0-9]{4}|[0-9],[0-9]{3}/";
+    $curlHandler = curl_init($url);
+    curl_setopt($curlHandler, CURLOPT_HEADER, 0);
+    curl_setopt($curlHandler, CURLOPT_RETURNTRANSFER, 1);    
+    $resultado = curl_exec($curlHandler);
+    preg_match_all($expRegular, $resultado, $cotacao);
+    curl_close($curlHandler);
+    return end($cotacao[0]);
+}
 ?>

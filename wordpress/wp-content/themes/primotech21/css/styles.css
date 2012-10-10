@@ -701,100 +701,72 @@ body{background:url('../imagens/bg-body.png');}
 
             /* Widget Cotação */
             .box-cotacao{
-                padding:5px 0 0 15px;
-                margin-top:10px;
-                background:url('../imagens/bg-cotacao.png') no-repeat;
-                display:block;
-                width:220px;
-                height:154px;
+                background:rgb(235,235,235);
+                padding:10px;
             }
 
-            .box-cotacao p{
-                margin:0;
-                text-shadow:1px 0 2px rgb(0,0,0);
-                font-family:"Score Board",sans-serif;
-                font-size:24px;
-                color:rgb(211,255,154);
+            .header-em-reais{
+                background:url('../imagens/bg-em-reais.jpg') repeat-x;
             }
 
-                .box-cotacao p span{
-                    color:rgb(0,0,0);
+                .header-em-reais p{
+                    text-align:center;
+                    font-size:18px;
+                    color:rgb(255,255,255);
                 }
 
-                .data-cotacao{
-                    margin-top:-4px;
+                .display-cotacao p{
+                    padding:2px;
+                    background:rgb(0,153,153); 
+                    margin:0;
+                    font-size:20px;
+                    color:rgb(255,255,255);
+                    border-right:2px solid rgb(235,235,235);
                 }
 
-                    .data-cotacao p span,
-                    .display-cotacao p span{
-                        font-size:16px;
-                    }
-
-                    .display-cotacao{
-                        margin:-20px 0 0 20px;
-                    }
-
-                    p.compra{
-                        margin:0 0 -10px -8px;
-                    }
-
-                .header-em-reais{
-                    margin: 0 0 10px 75px;
-
+                .display-cotacao span{
+                    line-height:35px;
+                    padding:5px 10px 5px 5px;
+                    background:rgb(0,153,153); 
+                    margin:0;
+                    font-size:20px;
+                    font-weight:900;
+                    color:rgb(255,255,255);
                 }
 
-                    .header-em-reais p span{
-                        font-size:16px;
+                #compra,
+                #venda{
+                    height:50px;
+                }
+
+                    #compra p,
+                    #venda p{
+                        float:left;
+                        width:85px;
                     }
 
-            /* Primonews */
-            .box-cotacao-300px{
-                padding:12px 0 0 23px;
-                margin-top:10px;
-                background:url('../imagens/bg-cotacao-300px.png') no-repeat;
-                display:block;
-                width:300px;
-                height:210px;
+                span.marcador-up{
+                    color:rgb(21,242,58);
+                }
+
+                span.marcador-down{
+                    color:rgb(255,0,0);
+                }
+
+            .data-cotacao{
+                margin-left:44px;
+                padding:5px;
+                width:145px;
+                background:rgb(188,188,188);
             }
-
-            .box-cotacao-300px p{
-                margin:0;
-                text-shadow:1px 0 2px rgb(0,0,0);
-                font-family:"Score Board",sans-serif;
-                font-size:32px;
-                color:rgb(211,255,154);
-            }
-
-                .box-cotacao-300px p span{
-                    color:rgb(0,0,0);
+                .data-cotacao p{
+                    letter-spacing:1px;
+                    padding:2px;
+                    margin:0;
+                    font-size:10px;
+                    font-weight:900;
+                    color:rgb(255,255,255);
                 }
-
-                .box-cotacao-300px .data-cotacao{
-                    margin-top:-12px;
-                }
-
-                    .box-cotacao-300px .data-cotacao p span,
-                    .box-cotacao-300px .display-cotacao p span{
-                        font-size:16px;
-                    }
-
-                    .box-cotacao-300px .display-cotacao{
-                        margin:-20px 0 0 40px;
-                    }
-
-                    .box-cotacao-300px p.compra{
-                        margin:0 0 -10px -8px;
-                    }
-
-                .box-cotacao-300px .header-em-reais{
-                    margin: 0 0 10px 97px;
-
-                }
-
-                    .box-cotacao-300px .header-em-reais p span{
-                        font-size:16px;
-                    }
-
             /* / Widget Cotação */
 
             #rodape{

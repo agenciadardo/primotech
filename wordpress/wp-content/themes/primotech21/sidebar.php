@@ -101,10 +101,6 @@
                     </div>
 
                     <div class="box-cotacao">
-                        <div class="data-cotacao">
-                            <p><span><?php echo date('d/m/Y'); ?></span></p>
-                        </div>
-
                         <div class="header-em-reais">
                             <p><span>em R$</span></p>
                         </div>
@@ -112,15 +108,21 @@
                         <div class="display-cotacao">
                             <?php
                                 include "obterCotacaoDolar.php";
-                                
+
                                 $cotacao = obterCotacaoDolar();
+                                $cotacaoDia = floatval(str_replace(',', '.', obterCotacaoDolarDia()));
                                 $tiposCotacao = Array("Compra", "Venda");
-                                
+                                                                
                                 for ($i = 0; $i < count($cotacao); $i += 1) {
-                                    echo '<p class="' . strtolower($tiposCotacao[$i]) . '"><span>' . $tiposCotacao[$i] . ': </span>' . $cotacao[$i] . '</p>';
+                                    echo '<div id="' . strtolower($tiposCotacao[$i]) . '"><p>' . $tiposCotacao[$i] . '</p> <span>' . $cotacao[$i] . ' </span>' . (floatval(str_replace(',', '.', $cotacao[$i])) > $cotacaoDia ? '<span class="marcador-up">&uarr;' : '<span class="marcador-down">&darr;') . '</span></div>';
                                 }
                             ?>
                         </div>
+
+                        <div class="data-cotacao">
+                            <p>Atualizado: <span><?php echo date('d.m.Y'); ?></span></p>
+                        </div>
+
                     </div> <!-- / box-cotacao -->
                 </div> <!-- / cotacao -->
 
