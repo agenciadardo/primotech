@@ -620,7 +620,8 @@ body{background:url('../imagens/bg-body.png');}
 
         /* Notícias Primonews */
         .box-noticias-primonews{
-            width:380px;
+            position:absolute;
+            width:390px;
             height:500px;
             overflow:hidden;
             border-bottom:5px solid rgb(0,153,153);
@@ -639,6 +640,9 @@ body{background:url('../imagens/bg-body.png');}
                 }
 
             .noticia-primonews{
+                width:380px;
+                height:165px;
+                position:absolute;
                 margin-bottom:10px;
                 display:block;
                 padding:5px;
@@ -767,6 +771,21 @@ body{background:url('../imagens/bg-body.png');}
                     font-weight:900;
                     color:rgb(255,255,255);
                 }
+
+            .box-cinza-primonews #compra p,
+            .box-cinza-primonews #venda p{
+                padding-right:84px;
+            }
+            
+            .box-cinza-primonews .header-em-reais p{
+                text-align:center;
+            }
+
+            .box-cinza-primonews .data-cotacao{
+                margin-left:114px;
+                width:155px;
+            }
+
             /* / Widget Cotação */
 
             #rodape{

@@ -1,6 +1,6 @@
 // var $ = jQuery.noConflict();
 $(document).ready(function() {
-    var i;
+    var i, j;
     i = 0;
     
     $(".noticia").each(function() {
@@ -11,6 +11,18 @@ $(document).ready(function() {
           i += 50;
           moverScroll(box);
     });
+
+    j = 0;
+
+    $(".noticia-primonews").each(function() {
+          var boxPrimonews;
+          boxPrimonews = $(this);
+          
+          boxPrimonews.css("top", j);
+          j += 165;
+          moverScrollPrimonews(boxPrimonews);
+    });
+
 });
 
 function moverScroll($ele) {
@@ -29,6 +41,26 @@ function moverScroll($ele) {
         'linear',
         function() {
             moverScroll($(this));
+        }
+    );
+}
+
+function moverScrollPrimonews($ele) {
+    var topoPrimonews;
+    topoPrimonews = parseInt($ele.css("top"), 10);
+    
+    if (topoPrimonews < -140) {
+        topoPrimonews = 505;
+        $ele.css("top", topoPrimonews);
+    }
+
+    $ele.animate({ 
+        top: parseInt((topoPrimonews)-175, 10) 
+    },
+        6000, //velocidade 
+        'linear',
+        function() {
+            moverScrollPrimonews($(this));
         }
     );
 }

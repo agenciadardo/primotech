@@ -63,9 +63,9 @@
         <div class="boxes-central">
             
 
-            <?php query_posts('posts_per_page=4&category_name=destaques'); ?>
+            <?php query_posts('posts_per_page=4&category_name=produtos'); ?>
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                <?php if ( get_post_meta($post->ID, 'Imagem', true) ) : ?>
+                <?php if ( (get_post_meta($post->ID, 'Imagem', true)) && (get_post_meta($post->ID, 'Link', true)) ) : ?>
 
             <div class="box-central">
                 
@@ -85,8 +85,8 @@
                     </p>
 
                     <p class="descricao-hide">
-                        <a href="<?php the_permalink(); ?>">
-                            <?php echo substr(get_the_content(), 0, 70), " (...)"; ?>
+                        <a href="<?php echo get_post_meta($post->ID, 'Link', true) ?>">
+                            <?php echo substr(get_the_content(), 0, 70); ?>
                         </a>
                     </p>
                 </div>

@@ -121,10 +121,6 @@
             <?php endif; ?>
 
         </div> <!-- / box-noticias -->
-        
-        <script type="text/javascript">
-            Noticias.scroll(175, 175, '.box-noticias-primonews');
-        </script>
     </div> <!-- / ultimas-noticias -->
 
     <div class="box-cinza-primonews grid_4 omega">
@@ -133,12 +129,7 @@
                 <h1>COTAÇÃO DO DÓLAR</h1>
             </div>
 
-                <div class="box-cotacao-300px">
-                    
-                    <div class="data-cotacao">
-                        <p><span><?php echo date('d/m/Y'); ?></span></p>
-                    </div>
-
+                <div class="box-cotacao">
                     <div class="header-em-reais">
                         <p><span>em R$</span></p>
                     </div>
@@ -146,14 +137,19 @@
                     <div class="display-cotacao">
                         <?php
                             include "obterCotacaoDolar.php";
-                            
+
                             $cotacao = obterCotacaoDolar();
+                            $cotacaoDia = floatval(str_replace(',', '.', obterCotacaoDolarDia()));
                             $tiposCotacao = Array("Compra", "Venda");
-                            
+                                                            
                             for ($i = 0; $i < count($cotacao); $i += 1) {
-                                echo '<p class="' . strtolower($tiposCotacao[$i]) . '"><span>' . $tiposCotacao[$i] . ': </span>' . $cotacao[$i] . '</p>';
+                                echo '<div id="' . strtolower($tiposCotacao[$i]) . '"><p>' . $tiposCotacao[$i] . '</p> <span>' . $cotacao[$i] . ' </span>' . (floatval(str_replace(',', '.', $cotacao[$i])) > $cotacaoDia ? '<span class="marcador-up">&uarr;' : '<span class="marcador-down">&darr;') . '</span></div>';
                             }
                         ?>
+                    </div>
+
+                    <div class="data-cotacao">
+                        <p>Atualizado: <span><?php echo date('d.m.Y'); ?></span></p>
                     </div>
 
                 </div> <!-- / box-cotacao -->
@@ -195,7 +191,7 @@
 
                 <div class="box-facebook">
                     <div class="fb-like-box facebook-primonews" 
-                         data-href="http://www.facebook.com/pages/Primotech21/152803554863951?fref=ts" 
+                         data-href="http://www.facebook.com/facebook" 
                          data-width="270" 
                          data-height="260" 
                          data-show-faces="true" 

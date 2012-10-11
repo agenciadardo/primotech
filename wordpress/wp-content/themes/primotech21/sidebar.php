@@ -14,11 +14,11 @@
                                 <p>
                                     <a href="<?php echo get_permalink(); ?>">
                                         <?php 
-                                            if ( strlen(get_the_title()) <= 30 ) {
+                                            if ( strlen(get_the_title()) <= 27 ) {
                                                 echo '&raquo; ', get_the_title();
                                             }
                                             else {
-                                                echo '&raquo; ',substr(get_the_title(), 0, 26), ' (...)';
+                                                echo '&raquo; ',substr(get_the_title(), 0, 23), ' (...)';
                                             }
                                         ?>
                                     </a>
