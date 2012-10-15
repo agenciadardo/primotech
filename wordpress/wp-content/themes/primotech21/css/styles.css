@@ -111,7 +111,7 @@ body{background:url('../imagens/bg-body.png');}
             .menu a{
                 letter-spacing:1px;
                 line-height:101px;
-                color:rgb(222,222,220);
+                color:rgb(150,150,150);
                 -webkit-transition: color .2s linear;
                 -moz-transition: color .2s linear;
                 -o-transition: color .2s linear;
