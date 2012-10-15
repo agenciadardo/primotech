@@ -129,6 +129,7 @@ body{background:url('../imagens/bg-body.png');}
                 .fabricantes ul,
                 .onde-comprar ul,
                 .amostras ul{
+                    z-index:9999;
                     margin:-36px 0 0 -5px;
                     position:absolute;
                     background:rgb(20,109,113);
@@ -755,6 +756,10 @@ body{background:url('../imagens/bg-body.png');}
 
                 span.marcador-down{
                     color:rgb(255,0,0);
+                }
+
+                object {
+                    margin-bottom:-5px;
                 }
 
             .data-cotacao{
