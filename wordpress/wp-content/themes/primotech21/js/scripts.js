@@ -8,7 +8,7 @@ $(document).ready(function() {
           box = $(this);
           
           box.css("top", i);
-          i += 50;
+          i += 126;
           moverScroll(box);
     });
 
@@ -29,15 +29,15 @@ function moverScroll($ele) {
     var topo;
     topo = parseInt($ele.css("top"), 10);
     
-    if (topo < -40) {
-        topo = 150;
+    if (topo < -90) {
+        topo = 156; // altura total
         $ele.css("top", topo);
     }
 
     $ele.animate({ 
-        top: parseInt((topo)-50, 10) 
+        top: parseInt((topo)-156, 10) 
     },
-        4000, //velocidade 
+        9000, //velocidade 
         'linear',
         function() {
             moverScroll($(this));

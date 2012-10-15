@@ -594,7 +594,7 @@ body{background:url('../imagens/bg-body.png');}
         }
 
             .noticia{
-                height:34px;
+                height:126px;
                 width:220px;
                 position:absolute;
                 border-bottom:2px dotted rgb(0,153,153);
@@ -605,14 +605,22 @@ body{background:url('../imagens/bg-body.png');}
                     margin:0;
                     font-weight:900;
                     font-size:14px;
-                    color:rgb(133,133,131);
+                    color:rgb(0,153,153);
                     margin:0;
                     text-decoration:none;
                 }
 
                     .noticia a:hover{
-                        color:rgb(100,100,100);
+                        color:rgb(0,100,100);
                         text-decoration:underline;
+                    }
+
+                    .noticia p span{
+                        color:rgb(153,153,153);
+                        cursor:text;
+                        text-align:justify;
+                        font-size:12px;
+                        font-weight:300;
                     }
 
                     .videos{

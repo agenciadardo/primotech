@@ -13,15 +13,14 @@
                             <div class="noticia">
                                 <p>
                                     <a href="<?php echo get_permalink(); ?>">
-                                        <?php 
-                                            if ( strlen(get_the_title()) <= 27 ) {
-                                                echo '&raquo; ', get_the_title();
-                                            }
-                                            else {
-                                                echo '&raquo; ',substr(get_the_title(), 0, 23), ' (...)';
-                                            }
-                                        ?>
+                                        <?php echo "&raquo; ", the_title(); ?>
                                     </a>
+
+                                    <br />
+
+                                    <span>
+                                        <?php echo substr(get_the_content(), 0, 100), ' (...)'; ?>
+                                    </span>
                                 </p>
                             </div>
                         
