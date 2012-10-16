@@ -244,6 +244,20 @@
                         include 'primonews.php'; 
                     } 
                 ?>
+
+            <?php // Página Primonews; ?>
+                <?php 
+                    if ( (is_page('suporte-pos-vendas')) ||
+                        (is_page('suporte-logistico-nas-operacoes')) ||
+                        (is_page('suporte-tecnico-no-desenvolvimento')) ||
+                        (is_page('a-empresa')) ||
+                        (is_page('visao-e-missao')) ) { ?>
+                        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                            <?php the_content(); ?>        
+                        <?php endwhile; else: ?>   
+                        <?php endif; ?>
+                <?php } ?>
+
             <?php // Página Cotacao; ?>
                 <?php 
                     if (is_page('cotacao')) {

@@ -7,6 +7,12 @@
                     </div>
 
                     <div class="box-noticias">
+                        <marquee behavior="scroll"
+                                 scrollamount="1"
+                                 direction="up" 
+                                 height="220" 
+                                 width="220">
+
                         <?php query_posts('posts_per_page=4&category_name=noticias'); ?>
                         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                         
@@ -29,6 +35,7 @@
                                 <p>Desculpe, não existem notícias publicadas ainda.</p>
                             </div>
                         <?php endif; ?>
+                        </marquee>
                     </div> <!-- / box-noticias -->
                 </div> <!-- / ultimas-noticias -->
 
@@ -69,7 +76,7 @@
                         <div class="fb-like-box" 
                              data-href="http://www.facebook.com/facebook" 
                              data-width="220" 
-                             data-height="350" 
+                             data-height="260" 
                              data-show-faces="true" 
                              data-stream="false"
                              data-border-color="rgb(0,153,153)" 

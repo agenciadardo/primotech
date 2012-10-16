@@ -366,7 +366,7 @@ body{background:url('../imagens/bg-body.png');}
 
             #fabricantes-lateral .header-coluna,
             .destaques .header-coluna{
-                margin-bottom:30px;    
+                margin-bottom:5px;    
             }
 
             .box-central{
@@ -590,16 +590,17 @@ body{background:url('../imagens/bg-body.png');}
 
         .box-noticias{
             width:220px;
-            height:160px;
+            height:220px;
             overflow:hidden;
             cursor:pointer;
             border-bottom:5px solid rgb(0,153,153);
         }
 
             .noticia{
+                white-space:normal;
                 margin-top:15px; 
-                height:126px;
                 width:220px;
+                height:auto;
             }
 
                 .noticia p,

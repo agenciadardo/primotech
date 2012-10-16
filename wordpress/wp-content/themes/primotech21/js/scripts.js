@@ -1,10 +1,6 @@
 $(document).ready(function() {
     // Home
-    $('.box-noticias').cycle({
-        fx      : 'scrollUp',
-        timeout : 1000,
-        speed   : 1000
-    });
+    $('marquee').marquee();
 
     // Primonews
     var j = 0;
