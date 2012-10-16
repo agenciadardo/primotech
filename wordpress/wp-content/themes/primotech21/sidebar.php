@@ -31,20 +31,6 @@
                         <?php endif; ?>
                     </div> <!-- / box-noticias -->
                 </div> <!-- / ultimas-noticias -->
-                <div class="videos">
-                    <object width="220" height="220">
-                        <param name="movie" value="https://www.youtube.com/v/videoseries?listType=playlist&list=PLne3FP-lG075EZqan23WRKWOJpNVnCTmf&autoplay=0&modestbranding=1&version=3"></param>
-                        <param name="allowFullScreen" value="true"></param>
-                        <param name="allowScriptAccess" value="always"></param>
-                        <embed src="https://www.youtube.com/v/videoseries?listType=playlist&list=PLne3FP-lG075EZqan23WRKWOJpNVnCTmf&autoplay=0&modestbranding=1&version=3" 
-                               type="application/x-shockwave-flash" 
-                               allowfullscreen="true" 
-                               allowScriptAccess="always" 
-                               width="220" 
-                               height="220">
-                        </embed>
-                    </object>    
-                </div>
 
                 <div class="redes-sociais">
 
@@ -83,7 +69,7 @@
                         <div class="fb-like-box" 
                              data-href="http://www.facebook.com/facebook" 
                              data-width="220" 
-                             data-height="183" 
+                             data-height="350" 
                              data-show-faces="true" 
                              data-stream="false"
                              data-border-color="rgb(0,153,153)" 

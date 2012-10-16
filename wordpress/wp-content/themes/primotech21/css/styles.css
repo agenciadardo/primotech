@@ -286,7 +286,7 @@ body{background:url('../imagens/bg-body.png');}
             .box-marca-7{
                 height:95px;
                 width:220px;
-                margin-bottom:15px;
+                margin-bottom:5px;
                 overflow:hidden;
             }
             
@@ -361,7 +361,7 @@ body{background:url('../imagens/bg-body.png');}
             }
 
             .banner-inferior img{
-                margin-top:20px;
+                margin-top:32px;
             }
 
             #fabricantes-lateral .header-coluna,
@@ -584,20 +584,22 @@ body{background:url('../imagens/bg-body.png');}
             margin-bottom:20px;
         }
 
+            .redes-sociais{
+                margin-top:10px;
+            }
+
         .box-noticias{
             width:220px;
             height:160px;
             overflow:hidden;
-            position:absolute;
             cursor:pointer;
             border-bottom:5px solid rgb(0,153,153);
         }
 
             .noticia{
+                margin-top:15px; 
                 height:126px;
                 width:220px;
-                position:absolute;
-                border-bottom:2px dotted rgb(0,153,153);
             }
 
                 .noticia p,
@@ -624,7 +626,7 @@ body{background:url('../imagens/bg-body.png');}
                     }
 
                     .videos{
-                        padding-top:165px;
+                        /*padding-top:165px;*/
                     }
 
         /* Notícias Primonews */
@@ -732,23 +734,24 @@ body{background:url('../imagens/bg-body.png');}
                     padding:2px;
                     background:rgb(0,153,153); 
                     margin:0;
-                    font-size:20px;
+                    font-size:16px;
                     color:rgb(255,255,255);
                     border-right:2px solid rgb(235,235,235);
                 }
 
                 .display-cotacao span{
-                    line-height:35px;
+                    line-height:28px;
                     padding:5px 10px 5px 5px;
                     background:rgb(0,153,153); 
                     margin:0;
-                    font-size:20px;
+                    font-size:15px;
                     font-weight:900;
                     color:rgb(255,255,255);
                 }
 
                 #compra,
                 #venda{
+                    margin-left:12px;
                     height:50px;
                 }
 
@@ -787,6 +790,7 @@ body{background:url('../imagens/bg-body.png');}
 
             .box-cinza-primonews #compra p,
             .box-cinza-primonews #venda p{
+                margin-top:3px;
                 padding-right:84px;
             }
             

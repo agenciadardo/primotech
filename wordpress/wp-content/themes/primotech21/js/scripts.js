@@ -1,19 +1,13 @@
-// var $ = jQuery.noConflict();
 $(document).ready(function() {
-    var i, j;
-    i = 0;
-    
-    $(".noticia").each(function() {
-          var box;
-          box = $(this);
-          
-          box.css("top", i);
-          i += 126;
-          moverScroll(box);
+    // Home
+    $('.box-noticias').cycle({
+        fx      : 'scrollUp',
+        timeout : 1000,
+        speed   : 1000
     });
 
-    j = 0;
-
+    // Primonews
+    var j = 0;
     $(".noticia-primonews").each(function() {
           var boxPrimonews;
           boxPrimonews = $(this);
@@ -25,25 +19,6 @@ $(document).ready(function() {
 
 });
 
-function moverScroll($ele) {
-    var topo;
-    topo = parseInt($ele.css("top"), 10);
-    
-    if (topo < -90) {
-        topo = 156; // altura total
-        $ele.css("top", topo);
-    }
-
-    $ele.animate({ 
-        top: parseInt((topo)-156, 10) 
-    },
-        9000, //velocidade 
-        'linear',
-        function() {
-            moverScroll($(this));
-        }
-    );
-}
 
 function moverScrollPrimonews($ele) {
     var topoPrimonews;
