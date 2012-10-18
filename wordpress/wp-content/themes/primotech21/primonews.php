@@ -124,37 +124,6 @@
     </div> <!-- / ultimas-noticias -->
 
     <div class="box-cinza-primonews grid_4 omega">
-        <div class="box-cotacao-primonews">
-            <div class="header-coluna-cinza">
-                <h1>COTAÇÃO DO DÓLAR</h1>
-            </div>
-
-                <div class="box-cotacao">
-                    <div class="header-em-reais">
-                        <p><span>em R$</span></p>
-                    </div>
-
-                    <div class="display-cotacao">
-                        <?php
-                            include "obterCotacaoDolar.php";
-
-                            $cotacao = obterCotacaoDolar();
-                            $cotacaoDia = floatval(str_replace(',', '.', obterCotacaoDolarDia()));
-                            $tiposCotacao = Array("Compra", "Venda");
-                                                            
-                            for ($i = 0; $i < count($cotacao); $i += 1) {
-                                echo '<div id="' . strtolower($tiposCotacao[$i]) . '"><p>' . $tiposCotacao[$i] . '</p> <span>' . $cotacao[$i] . ' </span>' . (floatval(str_replace(',', '.', $cotacao[$i])) > $cotacaoDia ? '<span class="marcador-up">&uarr;' : '<span class="marcador-down">&darr;') . '</span></div>';
-                            }
-                        ?>
-                    </div>
-
-                    <div class="data-cotacao">
-                        <p>Atualizado: <span><?php echo date('d.m.Y'); ?></span></p>
-                    </div>
-
-                </div> <!-- / box-cotacao -->
-            </div>
-
         <div class="box-redes-sociais-primonews">
             <div class="redes-sociais">
 
@@ -202,5 +171,36 @@
                 </div> <!-- / box-facebook -->
 
             </div> <!-- / redes-sociais -->
+
+                    <div class="box-cotacao-primonews">
+            <div class="header-coluna-cinza">
+                <h1>COTAÇÃO DO DÓLAR</h1>
+            </div>
+
+                <div class="box-cotacao">
+                    <div class="header-em-reais">
+                        <p><span>em R$</span></p>
+                    </div>
+
+                    <div class="display-cotacao">
+                        <?php
+                            include "obterCotacaoDolar.php";
+
+                            $cotacao = obterCotacaoDolar();
+                            $cotacaoDia = floatval(str_replace(',', '.', obterCotacaoDolarDia()));
+                            $tiposCotacao = Array("Compra", "Venda");
+                                                            
+                            for ($i = 0; $i < count($cotacao); $i += 1) {
+                                echo '<div id="' . strtolower($tiposCotacao[$i]) . '"><p>' . $tiposCotacao[$i] . '</p> <span>' . (strlen($cotacao[$i]) < 6 ? $cotacao[$i] . $cotacao[$i][4] : $cotacao[$i]) . ' </span>' . (floatval(str_replace(',', '.', $cotacao[$i])) > $cotacaoDia ? '<span class="marcador-up">&uarr;' : '<span class="marcador-down">&darr;') . '</span></div>';
+                            }
+                        ?>
+                    </div>
+
+                    <div class="data-cotacao">
+                        <p>Atualizado: <span><?php echo date('d.m.Y'); ?></span></p>
+                    </div>
+
+                </div> <!-- / box-cotacao -->
+            </div>
         </div>
     </div>

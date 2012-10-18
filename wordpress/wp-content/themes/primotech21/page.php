@@ -140,23 +140,63 @@
             
             <?php // Página Onde comprar; ?>
                 <?php if (is_page('onde-comprar')) { ?>
-                    <?php 
-                    $idOndeComprar = get_page_by_title('Onde comprar')->ID;
-                    $subpaginas = wp_list_pages('title_li=&child_of='.$idOndeComprar.'&echo=0&sort_column=post_date');
-                    
-                    if ($subpaginas) { ?>
-                    <ul>                                
-                        <?php echo $subpaginas; ?>
-                    </ul>
+                    <div class="lista-categorias">
+                        <a href="<?php bloginfo('url'); ?>/onde-comprar/alps">
+                            <div class="botao-categoria">
+                                <div class="categoria-texto">
+                                    <span>Alps</span>
+                                </div>
+                            </div> <!-- Botão categoria -->
+                        </a>
+
+                        <a href="<?php bloginfo('url'); ?>/onde-comprar/nichicon">
+                            <div class="botao-categoria">
+                                <div class="categoria-texto">
+                                    <span>Nichicon</span>
+                                </div>
+                            </div> <!-- Botão categoria -->
+                        </a>
+
+                        <a href="<?php bloginfo('url'); ?>/onde-comprar/torex">
+                            <div class="botao-categoria">
+                                <div class="categoria-texto">
+                                    <span>Torex</span>
+                                </div>
+                            </div> <!-- Botão categoria -->
+                        </a>
+
+                        <a href="<?php bloginfo('url'); ?>/onde-comprar/astro">
+                            <div class="botao-categoria">
+                                <div class="categoria-texto">
+                                    <span>Astro</span>
+                                </div>
+                            </div> <!-- Botão categoria -->
+                        </a>
+
+                        <a href="<?php bloginfo('url'); ?>/onde-comprar/eiden">
+                            <div class="botao-categoria">
+                                <div class="categoria-texto">
+                                    <span>Eiden</span>
+                                </div>
+                            </div> <!-- Botão categoria -->
+                        </a>
+
+                        <a href="<?php bloginfo('url'); ?>/onde-comprar/aven">
+                            <div class="botao-categoria">
+                                <div class="categoria-texto">
+                                    <span>Aven</span>
+                                </div>
+                            </div> <!-- Botão categoria -->
+                        </a>
+
+                    </div>
 
                     <div class="center banner-central banner-inferior">
                         <a target="_blank" href="<?php bloginfo('template_url'); ?>/recursos/linecard-primotech21-2012.pdf">
                             <img src="<?php bloginfo('template_url'); ?>/imagens/banner-inferior.jpg" alt="" />
                         </a>
                     </div>
-                    <?php } ?>
                 <?php } ?>
-
 
             <?php // Página Fabricantes; ?>
                 <?php if (is_page('fabricantes')) { ?>
@@ -181,50 +221,62 @@
                         </div>
 
                         <div class="header-direita">
-                            <p>Agende uma solitação.</p>
+                            <p>Agende uma solicitação.</p>
                         </div>
                     </div>
 
                     <div class="amostras-logotipos">
 
                         <div class="logotipos-esquerda">
-                            <div class="logotipo-amostras">
-                                <a href="<?php bloginfo('url'); ?>/amostras/alps">    
-                                    <img src="<?php bloginfo('template_url');?>/imagens/logotipo-alps.jpg" alt="" />
-                                </a>
-                            </div>
+                             <a href="<?php bloginfo('url'); ?>/amostras/alps">
+                            <div class="botao-categoria">
+                                <div class="categoria-texto">
+                                    <span>Alps</span>
+                                </div>
+                            </div> <!-- Botão categoria -->
+                        </a>
 
-                            <div class="logotipo-amostras">
-                                <a href="<?php bloginfo('url'); ?>/amostras/nichicon">    
-                                    <img src="<?php bloginfo('template_url');?>/imagens/logotipo-nichicon.jpg" alt="" />
-                                </a>
-                            </div>
+                        <a href="<?php bloginfo('url'); ?>/amostras/nichicon">
+                            <div class="botao-categoria">
+                                <div class="categoria-texto">
+                                    <span>Nichicon</span>
+                                </div>
+                            </div> <!-- Botão categoria -->
+                        </a>
 
-                            <div class="logotipo-amostras">
-                                <a href="<?php bloginfo('url'); ?>/amostras/torex">    
-                                    <img src="<?php bloginfo('template_url');?>/imagens/logotipo-torex.jpg" alt="" />
-                                </a>
-                            </div>
+                        <a href="<?php bloginfo('url'); ?>/amostras/torex">
+                            <div class="botao-categoria">
+                                <div class="categoria-texto">
+                                    <span>Torex</span>
+                                </div>
+                            </div> <!-- Botão categoria -->
+                        </a>
                         </div> <!-- / Logotipos Esquerda -->
 
                         <div class="logotipos-direita">
-                            <div class="logotipo-amostras">
-                                <a href="<?php bloginfo('url'); ?>/amostras/astro">    
-                                    <img src="<?php bloginfo('template_url');?>/imagens/logotipo-astro.jpg" alt="" />
-                                </a>
-                            </div>
+                            <a href="<?php bloginfo('url'); ?>/amostras/astro">
+                            <div class="botao-categoria">
+                                <div class="categoria-texto">
+                                    <span>Astro</span>
+                                </div>
+                            </div> <!-- Botão categoria -->
+                        </a>
 
-                            <div class="logotipo-amostras">
-                                <a href="<?php bloginfo('url'); ?>/amostras/eiden">    
-                                    <img src="<?php bloginfo('template_url');?>/imagens/logotipo-eiden.jpg" alt="" />
-                                </a>
-                            </div>
+                        <a href="<?php bloginfo('url'); ?>/amostras/eiden">
+                            <div class="botao-categoria">
+                                <div class="categoria-texto">
+                                    <span>Eiden</span>
+                                </div>
+                            </div> <!-- Botão categoria -->
+                        </a>
 
-                            <div class="logotipo-amostras">
-                                <a href="<?php bloginfo('url'); ?>/amostras/aven">    
-                                    <img src="<?php bloginfo('template_url');?>/imagens/logotipo-aven.jpg" alt="" />
-                                </a>
-                            </div>
+                        <a href="<?php bloginfo('url'); ?>/amostras/aven">
+                            <div class="botao-categoria">
+                                <div class="categoria-texto">
+                                    <span>Aven</span>
+                                </div>
+                            </div> <!-- Botão categoria -->
+                        </a>
                         </div> <!-- / Logotipos Direita -->
                     </div> <!-- / Logotipos das Amostras -->
 

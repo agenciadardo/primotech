@@ -10,7 +10,7 @@
                         <marquee behavior="scroll"
                                  scrollamount="1"
                                  direction="up" 
-                                 height="220" 
+                                 height="412" 
                                  width="220">
 
                         <?php query_posts('posts_per_page=4&category_name=noticias'); ?>
@@ -76,7 +76,7 @@
                         <div class="fb-like-box" 
                              data-href="http://www.facebook.com/facebook" 
                              data-width="220" 
-                             data-height="260" 
+                             data-height="180" 
                              data-show-faces="true" 
                              data-stream="false"
                              data-border-color="rgb(0,153,153)" 
@@ -106,7 +106,7 @@
                                 $tiposCotacao = Array("Compra", "Venda");
                                                                 
                                 for ($i = 0; $i < count($cotacao); $i += 1) {
-                                    echo '<div id="' . strtolower($tiposCotacao[$i]) . '"><p>' . $tiposCotacao[$i] . '</p> <span>' . $cotacao[$i] . ' </span>' . (floatval(str_replace(',', '.', $cotacao[$i])) > $cotacaoDia ? '<span class="marcador-up">&uarr;' : '<span class="marcador-down">&darr;') . '</span></div>';
+                                    echo '<div id="' . strtolower($tiposCotacao[$i]) . '"><p>' . $tiposCotacao[$i] . '</p> <span>' . (strlen($cotacao[$i]) < 6 ? $cotacao[$i] . $cotacao[$i][4] : $cotacao[$i]) . ' </span>' . (floatval(str_replace(',', '.', $cotacao[$i])) > $cotacaoDia ? '<span class="marcador-up">&uarr;' : '<span class="marcador-down">&darr;') . '</span></div>';
                                 }
                             ?>
                         </div>

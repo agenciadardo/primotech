@@ -66,7 +66,9 @@
 <div id="conteudo-central" class="grid_6">
 
     <div class="banner-central">
-        <img src="<?php bloginfo('template_url'); ?>/imagens/banner-topo.jpg" alt="" />
+        <a href="<?php bloginfo('url'); ?>/fabricantes/alps">
+            <img src="<?php bloginfo('template_url'); ?>/imagens/banner-topo.jpg" alt="" />
+        </a>
     </div> <!-- / banner-topo-central -->
 
     <div class="destaques">

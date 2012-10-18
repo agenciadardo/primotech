@@ -1,0 +1,22 @@
+*.TTF
+*.ttf
+*.db
+*.sql
+*.jpg
+*.gif
+*.png
+*.psd
+*.cdr
+jquery*
+960.css
+text.css
+reset.css
+
+# Wordpress GIT-IGNORE
+
+wordpress/*
+!.gitignore
+!wp-content/
+wp-content/themes/*
+!wp-content/themes/primotech/*
+wordpress/wp-content/plugins

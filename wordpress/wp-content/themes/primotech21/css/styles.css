@@ -286,7 +286,7 @@ body{background:url('../imagens/bg-body.png');}
             .box-marca-7{
                 height:95px;
                 width:220px;
-                margin-bottom:5px;
+                margin-bottom:10px;
                 overflow:hidden;
             }
             
@@ -361,7 +361,7 @@ body{background:url('../imagens/bg-body.png');}
             }
 
             .banner-inferior img{
-                margin-top:32px;
+                margin-top:61px;
             }
 
             #fabricantes-lateral .header-coluna,
@@ -590,7 +590,7 @@ body{background:url('../imagens/bg-body.png');}
 
         .box-noticias{
             width:220px;
-            height:220px;
+            height:412px;
             overflow:hidden;
             cursor:pointer;
             border-bottom:5px solid rgb(0,153,153);
@@ -661,10 +661,6 @@ body{background:url('../imagens/bg-body.png');}
                 float:left;
             }
 
-            .noticia-primonews:hover{
-                background:rgb(250,250,250);
-            }
-
                 .resumo-noticia p{
                     line-height:20px;
                     font-size:16px;
@@ -726,8 +722,9 @@ body{background:url('../imagens/bg-body.png');}
             }
 
                 .header-em-reais p{
+                    margin:0 0 10px 0;
                     text-align:center;
-                    font-size:18px;
+                    font-size:15px;
                     color:rgb(255,255,255);
                 }
 
@@ -735,17 +732,17 @@ body{background:url('../imagens/bg-body.png');}
                     padding:2px;
                     background:rgb(0,153,153); 
                     margin:0;
-                    font-size:16px;
+                    font-size:12px;
                     color:rgb(255,255,255);
                     border-right:2px solid rgb(235,235,235);
                 }
 
                 .display-cotacao span{
-                    line-height:28px;
-                    padding:5px 10px 5px 5px;
+                    line-height:22px;
+                    padding:3px 10px 4px 5px;
                     background:rgb(0,153,153); 
                     margin:0;
-                    font-size:15px;
+                    font-size:12px;
                     font-weight:900;
                     color:rgb(255,255,255);
                 }
@@ -753,7 +750,12 @@ body{background:url('../imagens/bg-body.png');}
                 #compra,
                 #venda{
                     margin-left:12px;
-                    height:50px;
+                    height:25px;
+                }
+
+                .box-cotacao-primonews #compra,
+                .box-cotacao-primonews #venda{
+                    margin-left:12px;
                 }
 
                     #compra p,
@@ -775,8 +777,7 @@ body{background:url('../imagens/bg-body.png');}
                 }
 
             .data-cotacao{
-                margin-left:44px;
-                padding:5px;
+                margin-left:12px;
                 width:145px;
                 background:rgb(188,188,188);
             }
@@ -795,12 +796,17 @@ body{background:url('../imagens/bg-body.png');}
                 padding-right:84px;
             }
             
+            .box-cinza-primonews #compra p{
+                margin-top:7px;
+            }
+
             .box-cinza-primonews .header-em-reais p{
+                margin-bottom:3px;
                 text-align:center;
             }
 
             .box-cinza-primonews .data-cotacao{
-                margin-left:114px;
+                margin-top:7px;
                 width:155px;
             }
 
@@ -1101,6 +1107,7 @@ body{background:url('../imagens/bg-body.png');}
             .botao-enviar input[type="submit"]{
                 color:rgb(255,255,255);
                 margin-left:80px;
+                margin-bottom:20px;
                 width:100px;
                 height:30px;
                 font-size:20px;
@@ -1285,15 +1292,22 @@ body{background:url('../imagens/bg-body.png');}
 
     .header-esquerda,
     .logotipos-esquerda{
-        width:450px;
+        width:395px;
         float:left;
         display:block;
     }
 
     .header-esquerda,
     .header-direita{
-        margin-bottom:60px;
+        margin-bottom:30px;
     }
+
+    .header-direita{
+        width:700px;
+    }
+        .header-direita p{
+            text-align:right;
+        }
 
     .logotipo-amostras{
         padding:0 0 50px 20px;
@@ -1306,6 +1320,12 @@ body{background:url('../imagens/bg-body.png');}
 
     .logotipo-amostras img:hover{
         border-bottom:2px solid rgb(0,153,153);
+    }
+
+    .logotipos-direita{
+        float:left;
+        display:block;
+        width:300px;
     }
 
 
@@ -1404,6 +1424,10 @@ body{background:url('../imagens/bg-body.png');}
         background:url('../imagens/bg-faca-cotacao.jpg') repeat-x 0 -23px;
     }
 
+    .logotipos-direita div.botao-categoria {
+        margin-left:70px;
+    }
+
     .categoria-icone{
         display:block;
         float:left;
@@ -1437,7 +1461,23 @@ body{background:url('../imagens/bg-body.png');}
 .lista-categorias{
     margin-left:30px;
 }
-    .conteudo-nichicon .botao-categoria{
+
+.conteudo-onde-comprar .lista-categorias{
+    margin-top:75px;
+}
+
+    .conteudo-nichicon .botao-categoria,
+    .conteudo-onde-comprar .botao-categoria{
+        display:block;
+        float:left;
+        width:185px;
+        height:60px;
+        margin-left:15px;
+        margin-bottom:15px;
+        background:url('../imagens/bg-faca-cotacao.jpg') repeat-x 0 -23px;
+    }
+
+    .conteudo-amostras .botao-categoria{
         display:block;
         float:left;
         width:185px;
@@ -1453,9 +1493,24 @@ body{background:url('../imagens/bg-body.png');}
         margin-top:9px;
     }
 
+    .conteudo-onde-comprar .categoria-texto,
+    .conteudo-amostras .categoria-texto{
+        line-height:35px;
+        width:185px;
+        margin-top:10px;   
+    }
+
     .conteudo-nichicon span{
         font-weight:bold;
         font-size:14px;
+        letter-spacing:0;
+        color:rgb(200,200,200);
+    }
+
+    .conteudo-onde-comprar span,
+    .conteudo-amostras span{
+        font-weight:bold;
+        font-size:24px;
         letter-spacing:0;
         color:rgb(200,200,200);
     }
